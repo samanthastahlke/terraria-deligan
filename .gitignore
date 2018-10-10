@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Raw data
+Sprites/
+
 # Distribution / packaging
 .Python
 build/
