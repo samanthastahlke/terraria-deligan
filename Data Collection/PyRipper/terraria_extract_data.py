@@ -14,7 +14,7 @@ if not os.path.exists(spritepath):
 print('Extracting sprites from ' + datapath + '...')
 data = pandas.read_csv(datapath, dtype=str)
 
-for i in range(3990, len(data)):
+for i in range(0, len(data)):
 
     if i % 100 == 0:
         print('Downloaded ' + str(i) + ' images...')

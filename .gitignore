@@ -8,6 +8,7 @@ __pycache__/
 
 # Raw data
 Sprites/
+Dataset/
 
 # Distribution / packaging
 .Python

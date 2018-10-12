@@ -530,7 +530,7 @@
 529,Red Pressure Plate,4,40,Item,World Piece
 530,Wire,4,40,Item,World Piece
 531,Spell Tome,4,41,Item,Material
-532,Star Cloak,1,21,Implement,Armor
+532,Star Cloak,2,21,Gear,Armor
 533,Megashark,1,12,Implement,Ranged
 534,Shotgun,1,12,Implement,Ranged
 535,Philosopher's Stone,2,23,Gear,Accessory
@@ -1263,7 +1263,7 @@
 1262,Chlorophyte Jackhammer,1,10,Implement,Tool
 1263,Teleporter,4,40,Item,World Piece
 1264,Flower of Frost,2,23,Gear,Accessory
-1265,Uzi,2,12,Gear,Ranged
+1265,Uzi,1,12,Implement,Ranged
 1266,Magnet Sphere,1,13,Implement,Magic
 1267,Purple Stained Glass,4,40,Item,World Piece
 1268,Yellow Stained Glass,4,40,Item,World Piece
@@ -1316,7 +1316,7 @@
 1316,Turtle Helmet,2,20,Gear,Headgear
 1317,Turtle Scale Mail,2,21,Gear,Armor
 1318,Turtle Leggings,2,22,Gear,Footwear
-1319,Snowball Cannon,2,12,Gear,Ranged
+1319,Snowball Cannon,1,12,Implement,Ranged
 1320,Bone Pickaxe,1,10,Implement,Tool
 1321,Magic Quiver,2,23,Gear,Accessory
 1322,Magma Stone,2,23,Gear,Accessory

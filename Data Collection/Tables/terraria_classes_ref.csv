@@ -1,6 +1,6 @@
 ﻿BC,BCID,BCCount,Group,NC,NCID,NCCount,NCFlippable
-Implement,1,630,Implement,Tool,10,150,0
-Gear,2,796,,Melee,11,160,0
+Implement,1,631,Implement,Tool,10,150,0
+Gear,2,795,,Melee,11,160,0
 Furniture,3,1482,,Ranged,12,145,0
 Item,4,1091,,Magic,13,80,0
 ,,,,Projectile,14,96,1
