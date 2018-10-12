@@ -1,0 +1,4000 @@
+﻿ID,ItemName,BC,NC,BCName,NCName
+1,Iron Pickaxe,1,10,Implement,Tool
+2,Dirt Block,4,40,Item,World Piece
+3,Stone Block,4,40,Item,World Piece
+4,Iron Broadsword,1,11,Implement,Melee
+5,Mushroom,4,41,Item,Material
+6,Iron Shortsword,1,11,Implement,Melee
+7,Iron Hammer,1,10,Implement,Tool
+8,Torch,1,10,Implement,Tool
+9,Wood,4,41,Item,Material
+10,Iron Axe,1,10,Implement,Tool
+11,Iron Ore,4,41,Item,Material
+12,Copper Ore,4,41,Item,Material
+13,Gold Ore,4,41,Item,Material
+14,Silver Ore,4,41,Item,Material
+15,Copper Watch,2,23,Gear,Accessory
+16,Silver Watch,2,23,Gear,Accessory
+17,Gold Watch,2,23,Gear,Accessory
+18,Depth Meter,2,23,Gear,Accessory
+19,Gold Bar,4,41,Item,Material
+20,Copper Bar,4,41,Item,Material
+21,Silver Bar,4,41,Item,Material
+22,Iron Bar,4,41,Item,Material
+23,Gel,4,41,Item,Material
+24,Wooden Sword,1,11,Implement,Melee
+25,Wooden Door,3,31,Furniture,Living Furniture
+26,Stone Wall,4,40,Item,World Piece
+27,Acorn,4,41,Item,Material
+28,Lesser Healing Potion,4,42,Item,Consumable
+29,Life Crystal,4,42,Item,Consumable
+30,Dirt Wall,4,40,Item,World Piece
+31,Bottle,4,41,Item,Material
+32,Wooden Table,3,31,Furniture,Living Furniture
+33,Furnace,3,30,Furniture,Crafting Furniture
+34,Wooden Chair,3,31,Furniture,Living Furniture
+35,Iron Anvil,3,30,Furniture,Crafting Furniture
+36,Work Bench,3,30,Furniture,Crafting Furniture
+37,Goggles,2,20,Gear,Headgear
+38,Lens,4,41,Item,Material
+39,Wooden Bow,1,12,Implement,Ranged
+40,Wooden Arrow,1,14,Implement,Projectile
+41,Flaming Arrow,1,14,Implement,Projectile
+42,Shuriken,1,14,Implement,Projectile
+43,Suspicious Looking Eye,4,42,Item,Consumable
+44,Demon Bow,1,12,Implement,Ranged
+45,War Axe of the Night,1,11,Implement,Melee
+46,Light's Bane,1,11,Implement,Melee
+47,Unholy Arrow,1,14,Implement,Projectile
+48,Chest,3,31,Furniture,Living Furniture
+49,Band of Regeneration,2,23,Gear,Accessory
+50,Magic Mirror,2,23,Gear,Accessory
+51,Jester's Arrow,1,14,Implement,Projectile
+52,Angel Statue,3,35,Furniture,Statue
+53,Cloud in a Bottle,2,23,Gear,Accessory
+54,Hermes Boots,2,22,Gear,Footwear
+55,Enchanted Boomerang,1,12,Implement,Ranged
+56,Demonite Ore,4,41,Item,Material
+57,Demonite Bar,4,41,Item,Material
+58,Heart,4,42,Item,Consumable
+59,Corrupt Seeds,4,41,Item,Material
+60,Vile Mushroom,4,41,Item,Material
+61,Ebonstone Block,4,40,Item,World Piece
+62,Grass Seeds,4,41,Item,Material
+63,Sunflower,4,41,Item,Material
+64,Vilethorn,1,13,Implement,Magic
+65,Starfury,1,11,Implement,Melee
+66,Purification Powder,4,42,Item,Consumable
+67,Vile Powder,4,42,Item,Consumable
+68,Rotten Chunk,4,41,Item,Material
+69,Worm Tooth,4,41,Item,Material
+70,Worm Food,4,42,Item,Consumable
+71,Copper Coin,4,42,Item,Consumable
+72,Silver Coin,4,42,Item,Consumable
+73,Gold Coin,4,42,Item,Consumable
+74,Platinum Coin,4,42,Item,Consumable
+75,Fallen Star,4,41,Item,Material
+76,Copper Greaves,2,22,Gear,Footwear
+77,Iron Greaves,2,22,Gear,Footwear
+78,Silver Greaves,2,22,Gear,Footwear
+79,Gold Greaves,2,22,Gear,Footwear
+80,Copper Chainmail,2,21,Gear,Armor
+81,Iron Chainmail,2,21,Gear,Armor
+82,Silver Chainmail,2,21,Gear,Armor
+83,Gold Chainmail,2,21,Gear,Armor
+84,Grappling Hook,1,10,Implement,Tool
+85,Chain,4,41,Item,Material
+86,Shadow Scale,4,41,Item,Material
+87,Piggy Bank,3,31,Furniture,Living Furniture
+88,Mining Helmet,2,20,Gear,Headgear
+89,Copper Helmet,2,20,Gear,Headgear
+90,Iron Helmet,2,20,Gear,Headgear
+91,Silver Helmet,2,20,Gear,Headgear
+92,Gold Helmet,2,20,Gear,Headgear
+93,Wood Wall,4,40,Item,World Piece
+94,Wood Platform,4,40,Item,World Piece
+95,Flintlock Pistol,1,12,Implement,Ranged
+96,Musket,1,12,Implement,Ranged
+97,Musket Ball,1,14,Implement,Projectile
+98,Minishark,1,12,Implement,Ranged
+99,Iron Bow,1,12,Implement,Ranged
+100,Shadow Greaves,2,22,Gear,Footwear
+101,Shadow Scalemail,2,21,Gear,Armor
+102,Shadow Helmet,2,20,Gear,Headgear
+103,Nightmare Pickaxe,1,10,Implement,Tool
+104,The Breaker,1,11,Implement,Melee
+105,Candle,3,32,Furniture,Decor
+106,Copper Chandelier,3,32,Furniture,Decor
+107,Silver Chandelier,3,32,Furniture,Decor
+108,Gold Chandelier,3,32,Furniture,Decor
+109,Mana Crystal,4,42,Item,Consumable
+110,Lesser Mana Potion,4,42,Item,Consumable
+111,Band of Starpower,2,23,Gear,Accessory
+112,Flower of Fire,2,23,Gear,Accessory
+113,Magic Missile,1,13,Implement,Magic
+114,Dirt Rod,1,13,Implement,Magic
+115,Shadow Orb,4,40,Item,World Piece
+116,Meteorite,4,41,Item,Material
+117,Meteorite Bar,4,41,Item,Material
+118,Hook,4,41,Item,Material
+119,Flamarang,1,12,Implement,Ranged
+120,Molten Fury,1,12,Implement,Ranged
+121,Fiery Greatsword,1,11,Implement,Melee
+122,Molten Pickaxe,1,10,Implement,Tool
+123,Meteor Helmet,2,20,Gear,Headgear
+124,Meteor Suit,2,21,Gear,Armor
+125,Meteor Leggings,2,22,Gear,Footwear
+126,Bottled Water,4,42,Item,Consumable
+127,Space Gun,1,12,Implement,Ranged
+128,Rocket Boots,2,22,Gear,Footwear
+129,Gray Brick,4,40,Item,World Piece
+130,Gray Brick Wall,4,40,Item,World Piece
+131,Red Brick,4,40,Item,World Piece
+132,Red Brick Wall,4,40,Item,World Piece
+133,Clay Block,4,40,Item,World Piece
+134,Blue Brick,4,40,Item,World Piece
+135,Blue Brick Wall,4,40,Item,World Piece
+136,Chain Lantern,3,32,Furniture,Decor
+137,Green Brick,4,40,Item,World Piece
+138,Green Brick Wall,4,40,Item,World Piece
+139,Pink Brick,4,40,Item,World Piece
+140,Pink Brick Wall,4,40,Item,World Piece
+141,Gold Brick,4,40,Item,World Piece
+142,Gold Brick Wall,4,40,Item,World Piece
+143,Silver Brick,4,40,Item,World Piece
+144,Silver Brick Wall,4,40,Item,World Piece
+145,Copper Brick,4,40,Item,World Piece
+146,Copper Brick Wall,4,40,Item,World Piece
+147,Spike,4,40,Item,World Piece
+148,Water Candle,3,32,Furniture,Decor
+149,Book,4,41,Item,Material
+150,Cobweb,4,41,Item,Material
+151,Necro Helmet,2,20,Gear,Headgear
+152,Necro Breastplate,2,21,Gear,Armor
+153,Necro Greaves,2,22,Gear,Footwear
+154,Bone,1,14,Implement,Projectile
+155,Muramasa,1,11,Implement,Melee
+156,Cobalt Shield,2,21,Gear,Armor
+157,Aqua Scepter,1,13,Implement,Magic
+158,Lucky Horseshoe,2,23,Gear,Accessory
+159,Shiny Red Balloon,2,23,Gear,Accessory
+160,Harpoon,1,12,Implement,Ranged
+161,Spiky Ball,1,14,Implement,Projectile
+162,Ball O' Hurt,1,12,Implement,Ranged
+163,Blue Moon,1,12,Implement,Ranged
+164,Handgun,1,12,Implement,Ranged
+165,Water Bolt,1,13,Implement,Magic
+166,Bomb,1,14,Implement,Projectile
+167,Dynamite,1,14,Implement,Projectile
+168,Grenade,1,14,Implement,Projectile
+169,Sand Block,4,40,Item,World Piece
+170,Glass,4,40,Item,World Piece
+171,Sign,3,32,Furniture,Decor
+172,Ash Block,4,40,Item,World Piece
+173,Obsidian,4,41,Item,Material
+174,Hellstone,4,41,Item,Material
+175,Hellstone Bar,4,41,Item,Material
+176,Mud Block,4,40,Item,World Piece
+177,Sapphire,4,41,Item,Material
+178,Ruby,4,41,Item,Material
+179,Emerald,4,41,Item,Material
+180,Topaz,4,41,Item,Material
+181,Amethyst,4,41,Item,Material
+182,Diamond,4,41,Item,Material
+183,Glowing Mushroom,4,41,Item,Material
+184,Star,4,42,Item,Consumable
+185,Ivy Whip,1,12,Implement,Ranged
+186,Breathing Reed,1,10,Implement,Tool
+187,Flipper,2,23,Gear,Accessory
+188,Healing Potion,4,42,Item,Consumable
+189,Mana Potion,4,42,Item,Consumable
+190,Blade of Grass,1,11,Implement,Melee
+191,Thorn Chakram,1,12,Implement,Ranged
+192,Obsidian Brick,4,40,Item,World Piece
+193,Obsidian Skull,3,31,Furniture,Living Furniture
+194,Mushroom Grass Seeds,4,41,Item,Material
+195,Jungle Grass Seeds,4,41,Item,Material
+196,Wooden Hammer,1,10,Implement,Tool
+197,Star Cannon,1,12,Implement,Ranged
+198,Blue Phaseblade,1,11,Implement,Melee
+199,Red Phaseblade,1,11,Implement,Melee
+200,Green Phaseblade,1,11,Implement,Melee
+201,Purple Phaseblade,1,11,Implement,Melee
+202,White Phaseblade,1,11,Implement,Melee
+203,Yellow Phaseblade,1,11,Implement,Melee
+204,Meteor Hamaxe,1,11,Implement,Melee
+205,Empty Bucket,2,23,Gear,Accessory
+206,Water Bucket,2,23,Gear,Accessory
+207,Lava Bucket,2,23,Gear,Accessory
+208,Jungle Rose,2,23,Gear,Accessory
+209,Stinger,4,41,Item,Material
+210,Vine,4,41,Item,Material
+211,Feral Claws,2,23,Gear,Accessory
+212,Anklet of the Wind,2,23,Gear,Accessory
+213,Staff of Regrowth,1,13,Implement,Magic
+214,Hellstone Brick,4,40,Item,World Piece
+215,Whoopie Cushion,2,23,Gear,Accessory
+216,Shackle,2,23,Gear,Accessory
+217,Molten Hamaxe,1,11,Implement,Melee
+218,Flamelash,1,13,Implement,Magic
+219,Phoenix Blaster,1,12,Implement,Ranged
+220,Sunfury,1,12,Implement,Ranged
+221,Hellforge,3,30,Furniture,Crafting Furniture
+222,Clay Pot,3,32,Furniture,Decor
+223,Nature's Gift,2,23,Gear,Accessory
+224,Bed,3,31,Furniture,Living Furniture
+225,Silk,4,41,Item,Material
+226,Lesser Restoration Potion,4,42,Item,Consumable
+227,Restoration Potion,4,42,Item,Consumable
+228,Jungle Hat,2,20,Gear,Headgear
+229,Jungle Shirt,2,21,Gear,Armor
+230,Jungle Pants,2,22,Gear,Footwear
+231,Molten Helmet,2,20,Gear,Headgear
+232,Molten Breastplate,2,21,Gear,Armor
+233,Molten Greaves,2,22,Gear,Footwear
+234,Meteor Shot,1,14,Implement,Projectile
+235,Sticky Bomb,1,14,Implement,Projectile
+236,Black Lens,4,41,Item,Material
+237,Sunglasses,2,20,Gear,Headgear
+238,Wizard Hat,2,20,Gear,Headgear
+239,Top Hat,2,20,Gear,Headgear
+240,Tuxedo Shirt,2,21,Gear,Armor
+241,Tuxedo Pants,2,22,Gear,Footwear
+242,Summer Hat,2,20,Gear,Headgear
+243,Bunny Hood,2,20,Gear,Headgear
+244,Plumber's Hat,2,20,Gear,Headgear
+245,Plumber's Shirt,2,21,Gear,Armor
+246,Plumber's Pants,2,22,Gear,Footwear
+247,Hero's Hat,2,20,Gear,Headgear
+248,Hero's Shirt,2,21,Gear,Armor
+249,Hero's Pants,2,22,Gear,Footwear
+250,Fish Bowl,2,20,Gear,Headgear
+251,Archaeologist's Hat,2,20,Gear,Headgear
+252,Archaeologist's Jacket,2,21,Gear,Armor
+253,Archaeologist's Pants,2,22,Gear,Footwear
+254,Black Thread,4,41,Item,Material
+255,Green Thread,4,41,Item,Material
+256,Ninja Hood,2,20,Gear,Headgear
+257,Ninja Shirt,2,21,Gear,Armor
+258,Ninja Pants,2,22,Gear,Footwear
+259,Leather,4,41,Item,Material
+260,Red Hat,2,20,Gear,Headgear
+261,Goldfish,4,44,Item,Critter
+262,Robe,2,21,Gear,Armor
+263,Robot Hat,2,20,Gear,Headgear
+264,Gold Crown,2,20,Gear,Headgear
+265,Hellfire Arrow,1,14,Implement,Projectile
+266,Sandgun,1,12,Implement,Ranged
+267,Guide Voodoo Doll,4,42,Item,Consumable
+268,Diving Helmet,2,20,Gear,Headgear
+269,Familiar Shirt,2,21,Gear,Armor
+270,Familiar Pants,2,22,Gear,Footwear
+271,Familiar Wig,2,20,Gear,Headgear
+272,Demon Scythe,1,13,Implement,Magic
+273,Night's Edge,1,11,Implement,Melee
+274,Dark Lance,1,11,Implement,Melee
+275,Coral,4,40,Item,World Piece
+276,Cactus,4,40,Item,World Piece
+277,Trident,1,11,Implement,Melee
+278,Silver Bullet,1,14,Implement,Projectile
+279,Throwing Knife,1,14,Implement,Projectile
+280,Spear,1,14,Implement,Projectile
+281,Blowpipe,1,12,Implement,Ranged
+282,Glowstick,1,14,Implement,Projectile
+283,Seed,4,41,Item,Material
+284,Wooden Boomerang,1,12,Implement,Ranged
+285,Aglet,2,23,Gear,Accessory
+286,Sticky Glowstick,1,14,Implement,Projectile
+287,Poisoned Knife,1,14,Implement,Projectile
+288,Obsidian Skin Potion,4,42,Item,Consumable
+289,Regeneration Potion,4,42,Item,Consumable
+290,Swiftness Potion,4,42,Item,Consumable
+291,Gills Potion,4,42,Item,Consumable
+292,Ironskin Potion,4,42,Item,Consumable
+293,Mana Regeneration Potion,4,42,Item,Consumable
+294,Magic Power Potion,4,42,Item,Consumable
+295,Featherfall Potion,4,42,Item,Consumable
+296,Spelunker Potion,4,42,Item,Consumable
+297,Invisibility Potion,4,42,Item,Consumable
+298,Shine Potion,4,42,Item,Consumable
+299,Night Owl Potion,4,42,Item,Consumable
+300,Battle Potion,4,42,Item,Consumable
+301,Thorns Potion,4,42,Item,Consumable
+302,Water Walking Potion,4,42,Item,Consumable
+303,Archery Potion,4,42,Item,Consumable
+304,Hunter Potion,4,42,Item,Consumable
+305,Gravitation Potion,4,42,Item,Consumable
+306,Gold Chest,3,31,Furniture,Living Furniture
+307,Daybloom Seeds,4,41,Item,Material
+308,Moonglow Seeds,4,41,Item,Material
+309,Blinkroot Seeds,4,41,Item,Material
+310,Deathweed Seeds,4,41,Item,Material
+311,Waterleaf Seeds,4,41,Item,Material
+312,Fireblossom Seeds,4,41,Item,Material
+313,Daybloom,4,41,Item,Material
+314,Moonglow,4,41,Item,Material
+315,Blinkroot,4,41,Item,Material
+316,Deathweed,4,41,Item,Material
+317,Waterleaf,4,41,Item,Material
+318,Fireblossom,4,41,Item,Material
+319,Shark Fin,4,41,Item,Material
+320,Feather,4,41,Item,Material
+321,Tombstone,3,31,Furniture,Living Furniture
+322,Mime Mask,2,20,Gear,Headgear
+323,Antlion Mandible,4,41,Item,Material
+324,Illegal Gun Parts,4,41,Item,Material
+325,The Doctor's Shirt,2,21,Gear,Armor
+326,The Doctor's Pants,2,22,Gear,Footwear
+327,Golden Key,4,42,Item,Consumable
+328,Shadow Chest,3,31,Furniture,Living Furniture
+329,Shadow Key,4,42,Item,Consumable
+330,Obsidian Brick Wall,4,40,Item,World Piece
+331,Jungle Spores,4,41,Item,Material
+332,Loom,3,30,Furniture,Crafting Furniture
+333,Piano,3,31,Furniture,Living Furniture
+334,Dresser,3,31,Furniture,Living Furniture
+335,Bench,3,31,Furniture,Living Furniture
+336,Bathtub,3,31,Furniture,Living Furniture
+337,Red Banner,3,33,Furniture,Banner
+338,Green Banner,3,33,Furniture,Banner
+339,Blue Banner,3,33,Furniture,Banner
+340,Yellow Banner,3,33,Furniture,Banner
+341,Lamp Post,3,32,Furniture,Decor
+342,Tiki Torch,3,32,Furniture,Decor
+343,Barrel,3,32,Furniture,Decor
+344,Chinese Lantern,3,32,Furniture,Decor
+345,Cooking Pot,3,31,Furniture,Living Furniture
+346,Safe,3,31,Furniture,Living Furniture
+347,Skull Lantern,3,32,Furniture,Decor
+348,Trash Can,3,31,Furniture,Living Furniture
+349,Candelabra,3,32,Furniture,Decor
+350,Pink Vase,3,32,Furniture,Decor
+351,Mug,3,32,Furniture,Decor
+352,Keg,3,30,Furniture,Crafting Furniture
+353,Ale,4,42,Item,Consumable
+354,Bookcase,3,32,Furniture,Decor
+355,Throne,3,31,Furniture,Living Furniture
+356,Bowl,3,32,Furniture,Decor
+357,Bowl of Soup,4,42,Item,Consumable
+358,Toilet,3,31,Furniture,Living Furniture
+359,Grandfather Clock,3,32,Furniture,Decor
+360,Armor Statue,3,35,Furniture,Statue
+361,Goblin Battle Standard,3,32,Furniture,Decor
+362,Tattered Cloth,4,41,Item,Material
+363,Sawmill,3,30,Furniture,Crafting Furniture
+364,Cobalt Ore,4,41,Item,Material
+365,Mythril Ore,4,41,Item,Material
+366,Adamantite Ore,4,41,Item,Material
+367,Pwnhammer,1,11,Implement,Melee
+368,Excalibur,1,11,Implement,Melee
+369,Hallowed Seeds,4,41,Item,Material
+370,Ebonsand Block,4,40,Item,World Piece
+371,Cobalt Hat,2,20,Gear,Headgear
+372,Cobalt Helmet,2,20,Gear,Headgear
+373,Cobalt Mask,2,20,Gear,Headgear
+374,Cobalt Breastplate,2,21,Gear,Armor
+375,Cobalt Leggings,2,22,Gear,Footwear
+376,Mythril Hood,2,20,Gear,Headgear
+377,Mythril Helmet,2,20,Gear,Headgear
+378,Mythril Hat,2,20,Gear,Headgear
+379,Mythril Chainmail,2,21,Gear,Armor
+380,Mythril Greaves,2,22,Gear,Footwear
+381,Cobalt Bar,4,41,Item,Material
+382,Mythril Bar,4,41,Item,Material
+383,Cobalt Chainsaw,1,10,Implement,Tool
+384,Mythril Chainsaw,1,10,Implement,Tool
+385,Cobalt Drill,1,10,Implement,Tool
+386,Mythril Drill,1,10,Implement,Tool
+387,Adamantite Chainsaw,1,10,Implement,Tool
+388,Adamantite Drill,1,10,Implement,Tool
+389,Dao of Pow,1,12,Implement,Ranged
+390,Mythril Halberd,1,11,Implement,Melee
+391,Adamantite Bar,4,41,Item,Material
+392,Glass Wall,4,40,Item,World Piece
+393,Compass,2,23,Gear,Accessory
+394,Diving Gear,2,23,Gear,Accessory
+395,GPS,2,23,Gear,Accessory
+396,Obsidian Horseshoe,2,23,Gear,Accessory
+397,Obsidian Shield,2,21,Gear,Armor
+398,Tinkerer's Workshop,3,30,Furniture,Crafting Furniture
+399,Cloud in a Balloon,2,23,Gear,Accessory
+400,Adamantite Headgear,2,20,Gear,Headgear
+401,Adamantite Helmet,2,20,Gear,Headgear
+402,Adamantite Mask,2,20,Gear,Headgear
+403,Adamantite Breastplate,2,21,Gear,Armor
+404,Adamantite Leggings,2,22,Gear,Footwear
+405,Spectre Boots,2,22,Gear,Footwear
+406,Adamantite Glaive,1,11,Implement,Melee
+407,Toolbelt,2,23,Gear,Accessory
+408,Pearlsand Block,4,40,Item,World Piece
+409,Pearlstone Block,4,40,Item,World Piece
+410,Mining Shirt,2,21,Gear,Armor
+411,Mining Pants,2,22,Gear,Footwear
+412,Pearlstone Brick,4,40,Item,World Piece
+413,Iridescent Brick,4,40,Item,World Piece
+414,Mudstone Brick,4,40,Item,World Piece
+415,Cobalt Brick,4,40,Item,World Piece
+416,Mythril Brick,4,40,Item,World Piece
+417,Pearlstone Brick Wall,4,40,Item,World Piece
+418,Iridescent Brick Wall,4,40,Item,World Piece
+419,Mudstone Brick Wall,4,40,Item,World Piece
+420,Cobalt Brick Wall,4,40,Item,World Piece
+421,Mythril Brick Wall,4,40,Item,World Piece
+422,Holy Water,4,42,Item,Consumable
+423,Unholy Water,4,42,Item,Consumable
+424,Silt Block,4,40,Item,World Piece
+425,Fairy Bell,4,42,Item,Consumable
+426,Breaker Blade,1,11,Implement,Melee
+427,Blue Torch,1,10,Implement,Tool
+428,Red Torch,1,10,Implement,Tool
+429,Green Torch,1,10,Implement,Tool
+430,Purple Torch,1,10,Implement,Tool
+431,White Torch,1,10,Implement,Tool
+432,Yellow Torch,1,10,Implement,Tool
+433,Demon Torch,1,10,Implement,Tool
+434,Clockwork Assault Rifle,1,12,Implement,Ranged
+435,Cobalt Repeater,1,12,Implement,Ranged
+436,Mythril Repeater,1,12,Implement,Ranged
+437,Dual Hook,1,12,Implement,Ranged
+438,Star Statue,3,35,Furniture,Statue
+439,Sword Statue,3,35,Furniture,Statue
+440,Slime Statue,3,35,Furniture,Statue
+441,Goblin Statue,3,35,Furniture,Statue
+442,Shield Statue,3,35,Furniture,Statue
+443,Bat Statue,3,35,Furniture,Statue
+444,Fish Statue,3,35,Furniture,Statue
+445,Bunny Statue,3,35,Furniture,Statue
+446,Skeleton Statue,3,35,Furniture,Statue
+447,Reaper Statue,3,35,Furniture,Statue
+448,Woman Statue,3,35,Furniture,Statue
+449,Imp Statue,3,35,Furniture,Statue
+450,Gargoyle Statue,3,35,Furniture,Statue
+451,Gloom Statue,3,35,Furniture,Statue
+452,Hornet Statue,3,35,Furniture,Statue
+453,Bomb Statue,3,35,Furniture,Statue
+454,Crab Statue,3,35,Furniture,Statue
+455,Hammer Statue,3,35,Furniture,Statue
+456,Potion Statue,3,35,Furniture,Statue
+457,Spear Statue,3,35,Furniture,Statue
+458,Cross Statue,3,35,Furniture,Statue
+459,Jellyfish Statue,3,35,Furniture,Statue
+460,Bow Statue,3,35,Furniture,Statue
+461,Boomerang Statue,3,35,Furniture,Statue
+462,Boot Statue,3,35,Furniture,Statue
+463,Chest Statue,3,35,Furniture,Statue
+464,Bird Statue,3,35,Furniture,Statue
+465,Axe Statue,3,35,Furniture,Statue
+466,Corrupt Statue,3,35,Furniture,Statue
+467,Tree Statue,3,35,Furniture,Statue
+468,Anvil Statue,3,35,Furniture,Statue
+469,Pickaxe Statue,3,35,Furniture,Statue
+470,Mushroom Statue,3,35,Furniture,Statue
+471,Eyeball Statue,3,35,Furniture,Statue
+472,Pillar Statue,3,35,Furniture,Statue
+473,Heart Statue,3,35,Furniture,Statue
+474,Pot Statue,3,35,Furniture,Statue
+475,Sunflower Statue,3,35,Furniture,Statue
+476,King Statue,3,35,Furniture,Statue
+477,Queen Statue,3,35,Furniture,Statue
+478,Piranha Statue,3,35,Furniture,Statue
+479,Planked Wall,4,40,Item,World Piece
+480,Wooden Beam,4,40,Item,World Piece
+481,Adamantite Repeater,1,12,Implement,Ranged
+482,Adamantite Sword,1,11,Implement,Melee
+483,Cobalt Sword,1,11,Implement,Melee
+484,Mythril Sword,1,11,Implement,Melee
+485,Moon Charm,2,23,Gear,Accessory
+486,Ruler,2,23,Gear,Accessory
+487,Crystal Ball,3,32,Furniture,Decor
+488,Disco Ball,3,32,Furniture,Decor
+489,Sorcerer Emblem,2,23,Gear,Accessory
+490,Warrior Emblem,2,23,Gear,Accessory
+491,Ranger Emblem,2,23,Gear,Accessory
+492,Demon Wings,2,23,Gear,Accessory
+493,Angel Wings,2,23,Gear,Accessory
+494,Magical Harp,1,13,Implement,Magic
+495,Rainbow Rod,1,13,Implement,Magic
+496,Ice Rod,1,13,Implement,Magic
+497,Neptune's Shell,2,23,Gear,Accessory
+498,Mannequin,3,32,Furniture,Decor
+499,Greater Healing Potion,4,42,Item,Consumable
+500,Greater Mana Potion,4,42,Item,Consumable
+501,Pixie Dust,4,42,Item,Consumable
+502,Crystal Shard,4,41,Item,Material
+503,Clown Hat,2,20,Gear,Headgear
+504,Clown Shirt,2,21,Gear,Armor
+505,Clown Pants,2,22,Gear,Footwear
+506,Flamethrower,1,12,Implement,Ranged
+507,Bell,4,41,Item,Material
+508,Harp,4,41,Item,Material
+509,Red Wrench,1,10,Implement,Tool
+510,Wire Cutter,1,10,Implement,Tool
+511,Active Stone Block,4,40,Item,World Piece
+512,Inactive Stone Block,4,40,Item,World Piece
+513,Lever,4,40,Item,World Piece
+514,Laser Rifle,1,12,Implement,Ranged
+515,Crystal Bullet,1,14,Implement,Projectile
+516,Holy Arrow,1,14,Implement,Projectile
+517,Magic Dagger,1,14,Implement,Projectile
+518,Crystal Storm,1,13,Implement,Magic
+519,Cursed Flames,1,13,Implement,Magic
+520,Soul of Light,4,41,Item,Material
+521,Soul of Night,4,41,Item,Material
+522,Cursed Flame,4,41,Item,Material
+523,Cursed Torch,1,10,Implement,Tool
+524,Adamantite Forge,3,30,Furniture,Crafting Furniture
+525,Mythril Anvil,3,30,Furniture,Crafting Furniture
+526,Unicorn Horn,4,41,Item,Material
+527,Dark Shard,4,41,Item,Material
+528,Light Shard,4,41,Item,Material
+529,Red Pressure Plate,4,40,Item,World Piece
+530,Wire,4,40,Item,World Piece
+531,Spell Tome,4,41,Item,Material
+532,Star Cloak,1,21,Implement,Armor
+533,Megashark,1,12,Implement,Ranged
+534,Shotgun,1,12,Implement,Ranged
+535,Philosopher's Stone,2,23,Gear,Accessory
+536,Titan Glove,2,23,Gear,Accessory
+537,Cobalt Naginata,1,11,Implement,Melee
+538,Switch,4,40,Item,World Piece
+539,Dart Trap,4,40,Item,World Piece
+540,Boulder,4,40,Item,World Piece
+541,Green Pressure Plate,4,40,Item,World Piece
+542,Gray Pressure Plate,4,40,Item,World Piece
+543,Brown Pressure Plate,4,40,Item,World Piece
+544,Mechanical Eye,4,42,Item,Consumable
+545,Cursed Arrow,1,14,Implement,Projectile
+546,Cursed Bullet,1,14,Implement,Projectile
+547,Soul of Fright,4,41,Item,Material
+548,Soul of Might,4,41,Item,Material
+549,Soul of Sight,4,41,Item,Material
+550,Gungnir,1,11,Implement,Melee
+551,Hallowed Plate Mail,2,21,Gear,Armor
+552,Hallowed Greaves,2,22,Gear,Footwear
+553,Hallowed Helmet,2,20,Gear,Headgear
+554,Cross Necklace,2,23,Gear,Accessory
+555,Mana Flower,2,23,Gear,Accessory
+556,Mechanical Worm,4,42,Item,Consumable
+557,Mechanical Skull,4,42,Item,Consumable
+558,Hallowed Headgear,2,20,Gear,Headgear
+559,Hallowed Mask,2,20,Gear,Headgear
+560,Slime Crown,2,20,Gear,Headgear
+561,Light Disc,1,12,Implement,Ranged
+562,Music Box (Overworld Day),3,32,Furniture,Decor
+563,Music Box (Eerie),3,32,Furniture,Decor
+564,Music Box (Night),3,32,Furniture,Decor
+565,Music Box (Title),3,32,Furniture,Decor
+566,Music Box (Underground),3,32,Furniture,Decor
+567,Music Box (Boss 1),3,32,Furniture,Decor
+568,Music Box (Jungle),3,32,Furniture,Decor
+569,Music Box (Corruption),3,32,Furniture,Decor
+570,Music Box (Underground Corruption),3,32,Furniture,Decor
+571,Music Box (The Hallow),3,32,Furniture,Decor
+572,Music Box (Boss 2),3,32,Furniture,Decor
+573,Music Box (Underground Hallow),3,32,Furniture,Decor
+574,Music Box (Boss 3),3,32,Furniture,Decor
+575,Soul of Flight,4,41,Item,Material
+576,Music Box,3,31,Furniture,Living Furniture
+577,Demonite Brick,4,40,Item,World Piece
+578,Hallowed Repeater,1,12,Implement,Ranged
+579,Drax,1,10,Implement,Tool
+580,Explosives,1,14,Implement,Projectile
+581,Inlet Pump,3,31,Furniture,Living Furniture
+582,Outlet Pump,3,31,Furniture,Living Furniture
+583,1 Second Timer,4,40,Item,World Piece
+584,3 Second Timer,4,40,Item,World Piece
+585,5 Second Timer,4,40,Item,World Piece
+586,Candy Cane Block,4,40,Item,World Piece
+587,Candy Cane Wall,4,40,Item,World Piece
+588,Santa Hat,2,20,Gear,Headgear
+589,Santa Shirt,2,21,Gear,Armor
+590,Santa Pants,2,22,Gear,Footwear
+591,Green Candy Cane Block,4,40,Item,World Piece
+592,Green Candy Cane Wall,4,40,Item,World Piece
+593,Snow Block,4,40,Item,World Piece
+594,Snow Brick,4,40,Item,World Piece
+595,Snow Brick Wall,4,40,Item,World Piece
+596,Blue Light,3,32,Furniture,Decor
+597,Red Light,3,32,Furniture,Decor
+598,Green Light,3,32,Furniture,Decor
+599,Blue Present,3,32,Furniture,Decor
+600,Green Present,3,32,Furniture,Decor
+601,Yellow Present,3,32,Furniture,Decor
+602,Snow Globe,3,32,Furniture,Decor
+603,Cabbage,4,41,Item,Material
+604,Adamantite Beam,4,40,Item,World Piece
+605,Adamantite Beam Wall,4,40,Item,World Piece
+606,Demonite Brick Wall,4,40,Item,World Piece
+607,Sandstone Brick,4,40,Item,World Piece
+608,Sandstone Brick Wall,4,40,Item,World Piece
+609,Ebonstone Brick,4,40,Item,World Piece
+610,Ebonstone Brick Wall,4,40,Item,World Piece
+611,Red Stucco,4,40,Item,World Piece
+612,Yellow Stucco,4,40,Item,World Piece
+613,Green Stucco,4,40,Item,World Piece
+614,Gray Stucco,4,40,Item,World Piece
+615,Red Stucco Wall,4,40,Item,World Piece
+616,Yellow Stucco Wall,4,40,Item,World Piece
+617,Green Stucco Wall,4,40,Item,World Piece
+618,Gray Stucco Wall,4,40,Item,World Piece
+619,Ebonwood,4,41,Item,Material
+620,Rich Mahogany,4,41,Item,Material
+621,Pearlwood,4,41,Item,Material
+622,Ebonwood Wall,4,40,Item,World Piece
+623,Rich Mahogany Wall,4,40,Item,World Piece
+624,Pearlwood Wall,4,40,Item,World Piece
+625,Ebonwood Chest,3,31,Furniture,Living Furniture
+626,Rich Mahogany Chest,3,31,Furniture,Living Furniture
+627,Pearlwood Chest,3,31,Furniture,Living Furniture
+628,Ebonwood Chair,3,31,Furniture,Living Furniture
+629,Rich Mahogany Chair,3,31,Furniture,Living Furniture
+630,Pearlwood Chair,3,31,Furniture,Living Furniture
+631,Ebonwood Platform,4,40,Item,World Piece
+632,Rich Mahogany Platform,4,40,Item,World Piece
+633,Pearlwood Platform,4,40,Item,World Piece
+634,Bone Platform,4,40,Item,World Piece
+635,Ebonwood Work Bench,3,30,Furniture,Crafting Furniture
+636,Rich Mahogany Work Bench,3,30,Furniture,Crafting Furniture
+637,Pearlwood Work Bench,3,30,Furniture,Crafting Furniture
+638,Ebonwood Table,3,31,Furniture,Living Furniture
+639,Rich Mahogany Table,3,31,Furniture,Living Furniture
+640,Pearlwood Table,3,31,Furniture,Living Furniture
+641,Ebonwood Piano,3,31,Furniture,Living Furniture
+642,Rich Mahogany Piano,3,31,Furniture,Living Furniture
+643,Pearlwood Piano,3,31,Furniture,Living Furniture
+644,Ebonwood Bed,3,31,Furniture,Living Furniture
+645,Rich Mahogany Bed,3,31,Furniture,Living Furniture
+646,Pearlwood Bed,3,31,Furniture,Living Furniture
+647,Ebonwood Dresser,3,31,Furniture,Living Furniture
+648,Rich Mahogany Dresser,3,31,Furniture,Living Furniture
+649,Pearlwood Dresser,3,31,Furniture,Living Furniture
+650,Ebonwood Door,3,31,Furniture,Living Furniture
+651,Rich Mahogany Door,3,31,Furniture,Living Furniture
+652,Pearlwood Door,3,31,Furniture,Living Furniture
+653,Ebonwood Sword,1,11,Implement,Melee
+654,Ebonwood Hammer,1,10,Implement,Tool
+655,Ebonwood Bow,1,12,Implement,Ranged
+656,Rich Mahogany Sword,1,11,Implement,Melee
+657,Rich Mahogany Hammer,1,10,Implement,Tool
+658,Rich Mahogany Bow,1,12,Implement,Ranged
+659,Pearlwood Sword,1,11,Implement,Melee
+660,Pearlwood Hammer,1,10,Implement,Tool
+661,Pearlwood Bow,1,12,Implement,Ranged
+662,Rainbow Brick,4,40,Item,World Piece
+663,Rainbow Brick Wall,4,40,Item,World Piece
+664,Ice Block,4,40,Item,World Piece
+665,Red's Wings,2,23,Gear,Accessory
+666,Red's Helmet,2,20,Gear,Headgear
+667,Red's Breastplate,2,21,Gear,Armor
+668,Red's Leggings,2,22,Gear,Footwear
+669,Fish,4,41,Item,Material
+670,Ice Boomerang,1,12,Implement,Ranged
+671,Keybrand,1,11,Implement,Melee
+672,Cutlass,1,11,Implement,Melee
+673,Boreal Wood Work Bench,3,30,Furniture,Crafting Furniture
+674,True Excalibur,1,11,Implement,Melee
+675,True Night's Edge,1,11,Implement,Melee
+676,Frostbrand,1,11,Implement,Melee
+677,Boreal Wood Table,3,31,Furniture,Living Furniture
+678,Red Potion,4,42,Item,Consumable
+679,Tactical Shotgun,1,12,Implement,Ranged
+680,Ivy Chest,3,31,Furniture,Living Furniture
+681,Ice Chest,3,31,Furniture,Living Furniture
+682,Marrow,1,12,Implement,Ranged
+683,Unholy Trident,1,11,Implement,Melee
+684,Frost Helmet,2,20,Gear,Headgear
+685,Frost Breastplate,2,21,Gear,Armor
+686,Frost Leggings,2,22,Gear,Footwear
+687,Tin Helmet,2,20,Gear,Headgear
+688,Tin Chainmail,2,21,Gear,Armor
+689,Tin Greaves,2,22,Gear,Footwear
+690,Lead Helmet,2,20,Gear,Headgear
+691,Lead Chainmail,2,21,Gear,Armor
+692,Lead Greaves,2,22,Gear,Footwear
+693,Tungsten Helmet,2,20,Gear,Headgear
+694,Tungsten Chainmail,2,21,Gear,Armor
+695,Tungsten Greaves,2,22,Gear,Footwear
+696,Platinum Helmet,2,20,Gear,Headgear
+697,Platinum Chainmail,2,21,Gear,Armor
+698,Platinum Greaves,2,22,Gear,Footwear
+699,Tin Ore,4,41,Item,Material
+700,Lead Ore,4,41,Item,Material
+701,Tungsten Ore,4,41,Item,Material
+702,Platinum Ore,4,41,Item,Material
+703,Tin Bar,4,41,Item,Material
+704,Lead Bar,4,41,Item,Material
+705,Tungsten Bar,4,41,Item,Material
+706,Platinum Bar,4,41,Item,Material
+707,Tin Watch,2,23,Gear,Accessory
+708,Tungsten Watch,2,23,Gear,Accessory
+709,Platinum Watch,2,23,Gear,Accessory
+710,Tin Chandelier,3,32,Furniture,Decor
+711,Tungsten Chandelier,3,32,Furniture,Decor
+712,Platinum Chandelier,3,32,Furniture,Decor
+713,Platinum Candle,3,32,Furniture,Decor
+714,Platinum Candelabra,3,32,Furniture,Decor
+715,Platinum Crown,2,20,Gear,Headgear
+716,Lead Anvil,3,30,Furniture,Crafting Furniture
+717,Tin Brick,4,40,Item,World Piece
+718,Tungsten Brick,4,40,Item,World Piece
+719,Platinum Brick,4,40,Item,World Piece
+720,Tin Brick Wall,4,40,Item,World Piece
+721,Tungsten Brick Wall,4,40,Item,World Piece
+722,Platinum Brick Wall,4,40,Item,World Piece
+723,Beam Sword,1,11,Implement,Melee
+724,Ice Blade,1,11,Implement,Melee
+725,Ice Bow,1,12,Implement,Ranged
+726,Frost Staff,1,13,Implement,Magic
+727,Wood Helmet,2,20,Gear,Headgear
+728,Wood Breastplate,2,21,Gear,Armor
+729,Wood Greaves,2,22,Gear,Footwear
+730,Ebonwood Helmet,2,20,Gear,Headgear
+731,Ebonwood Breastplate,2,21,Gear,Armor
+732,Ebonwood Greaves,2,22,Gear,Footwear
+733,Rich Mahogany Helmet,2,20,Gear,Headgear
+734,Rich Mahogany Breastplate,2,21,Gear,Armor
+735,Rich Mahogany Greaves,2,22,Gear,Footwear
+736,Pearlwood Helmet,2,20,Gear,Headgear
+737,Pearlwood Breastplate,2,21,Gear,Armor
+738,Pearlwood Greaves,2,22,Gear,Footwear
+739,Amethyst Staff,1,13,Implement,Magic
+740,Topaz Staff,1,13,Implement,Magic
+741,Sapphire Staff,1,13,Implement,Magic
+742,Emerald Staff,1,13,Implement,Magic
+743,Ruby Staff,1,13,Implement,Magic
+744,Diamond Staff,1,13,Implement,Magic
+745,Grass Wall,4,40,Item,World Piece
+746,Jungle Wall,4,40,Item,World Piece
+747,Flower Wall,4,40,Item,World Piece
+748,Jetpack,2,23,Gear,Accessory
+749,Butterfly Wings,2,23,Gear,Accessory
+750,Cactus Wall,4,40,Item,World Piece
+751,Cloud,4,40,Item,World Piece
+752,Cloud Wall,4,40,Item,World Piece
+753,Seaweed,4,40,Item,World Piece
+754,Rune Hat,2,20,Gear,Headgear
+755,Rune Robe,2,21,Gear,Armor
+756,Mushroom Spear,1,14,Implement,Projectile
+757,Terra Blade,1,11,Implement,Melee
+758,Grenade Launcher,1,12,Implement,Ranged
+759,Rocket Launcher,1,12,Implement,Ranged
+760,Proximity Mine Launcher,1,12,Implement,Ranged
+761,Fairy Wings,2,23,Gear,Accessory
+762,Slime Block,4,40,Item,World Piece
+763,Flesh Block,4,40,Item,World Piece
+764,Mushroom Wall,4,40,Item,World Piece
+765,Rain Cloud,4,40,Item,World Piece
+766,Bone Block,4,40,Item,World Piece
+767,Frozen Slime Block,4,40,Item,World Piece
+768,Bone Block Wall,4,40,Item,World Piece
+769,Slime Block Wall,4,40,Item,World Piece
+770,Flesh Block Wall,4,40,Item,World Piece
+771,Rocket I,1,14,Implement,Projectile
+772,Rocket II,1,14,Implement,Projectile
+773,Rocket III,1,14,Implement,Projectile
+774,Rocket IV,1,14,Implement,Projectile
+775,Asphalt Block,4,40,Item,World Piece
+776,Cobalt Pickaxe,1,10,Implement,Tool
+777,Mythril Pickaxe,1,10,Implement,Tool
+778,Adamantite Pickaxe,1,10,Implement,Tool
+779,Clentaminator,1,12,Implement,Ranged
+780,Green Solution,1,14,Implement,Projectile
+781,Blue Solution,1,14,Implement,Projectile
+782,Purple Solution,1,14,Implement,Projectile
+783,Dark Blue Solution,1,14,Implement,Projectile
+784,Red Solution,1,14,Implement,Projectile
+785,Harpy Wings,2,23,Gear,Accessory
+786,Bone Wings,2,23,Gear,Accessory
+787,Hammush,1,11,Implement,Melee
+788,Nettle Burst,1,13,Implement,Magic
+789,Ankh Banner,3,33,Furniture,Banner
+790,Snake Banner,3,33,Furniture,Banner
+791,Omega Banner,3,33,Furniture,Banner
+792,Crimson Helmet,2,20,Gear,Headgear
+793,Crimson Scalemail,2,21,Gear,Armor
+794,Crimson Greaves,2,22,Gear,Footwear
+795,Blood Butcherer,1,11,Implement,Melee
+796,Tendon Bow,1,12,Implement,Ranged
+797,Flesh Grinder,1,11,Implement,Melee
+798,Deathbringer Pickaxe,1,10,Implement,Tool
+799,Blood Lust Cluster,1,11,Implement,Melee
+800,The Undertaker,1,12,Implement,Ranged
+801,The Meatball,1,12,Implement,Ranged
+802,The Rotted Fork,1,11,Implement,Melee
+803,Eskimo Hood,2,20,Gear,Headgear
+804,Eskimo Coat,2,21,Gear,Armor
+805,Eskimo Pants,2,22,Gear,Footwear
+806,Living Wood Chair,3,31,Furniture,Living Furniture
+807,Cactus Chair,3,31,Furniture,Living Furniture
+808,Bone Chair,3,31,Furniture,Living Furniture
+809,Flesh Chair,3,31,Furniture,Living Furniture
+810,Mushroom Chair,3,31,Furniture,Living Furniture
+811,Bone Work Bench,3,30,Furniture,Crafting Furniture
+812,Cactus Work Bench,3,30,Furniture,Crafting Furniture
+813,Flesh Work Bench,3,30,Furniture,Crafting Furniture
+814,Mushroom Work Bench,3,30,Furniture,Crafting Furniture
+815,Slime Work Bench,3,30,Furniture,Crafting Furniture
+816,Cactus Door,3,31,Furniture,Living Furniture
+817,Flesh Door,3,31,Furniture,Living Furniture
+818,Mushroom Door,3,31,Furniture,Living Furniture
+819,Living Wood Door,3,31,Furniture,Living Furniture
+820,Bone Door,3,31,Furniture,Living Furniture
+821,Flame Wings,2,23,Gear,Accessory
+822,Frozen Wings,2,23,Gear,Accessory
+823,Spectre Wings,2,23,Gear,Accessory
+824,Sunplate Block,4,40,Item,World Piece
+825,Disc Wall,4,40,Item,World Piece
+826,Skyware Chair,3,31,Furniture,Living Furniture
+827,Bone Table,3,31,Furniture,Living Furniture
+828,Flesh Table,3,31,Furniture,Living Furniture
+829,Living Wood Table,3,31,Furniture,Living Furniture
+830,Skyware Table,3,31,Furniture,Living Furniture
+831,Living Wood Chest,3,31,Furniture,Living Furniture
+832,Living Wood Wand,1,10,Implement,Tool
+833,Purple Ice Block,4,40,Item,World Piece
+834,Pink Ice Block,4,40,Item,World Piece
+835,Red Ice Block,4,40,Item,World Piece
+836,Crimstone Block,4,40,Item,World Piece
+837,Skyware Door,3,31,Furniture,Living Furniture
+838,Skyware Chest,3,31,Furniture,Living Furniture
+839,Steampunk Hat,2,20,Gear,Headgear
+840,Steampunk Shirt,2,21,Gear,Armor
+841,Steampunk Pants,2,22,Gear,Footwear
+842,Bee Hat,2,20,Gear,Headgear
+843,Bee Shirt,2,21,Gear,Armor
+844,Bee Pants,2,22,Gear,Footwear
+845,World Banner,3,33,Furniture,Banner
+846,Sun Banner,3,33,Furniture,Banner
+847,Gravity Banner,3,33,Furniture,Banner
+848,Pharaoh's Mask,2,20,Gear,Headgear
+849,Actuator,1,10,Implement,Tool
+850,Blue Wrench,1,10,Implement,Tool
+851,Green Wrench,1,10,Implement,Tool
+852,Blue Pressure Plate,4,40,Item,World Piece
+853,Yellow Pressure Plate,4,40,Item,World Piece
+854,Discount Card,2,23,Gear,Accessory
+855,Lucky Coin,2,23,Gear,Accessory
+856,Unicorn on a Stick,2,23,Gear,Accessory
+857,Sandstorm in a Bottle,2,23,Gear,Accessory
+858,Boreal Wood Sofa,3,31,Furniture,Living Furniture
+859,Beach Ball,3,32,Furniture,Decor
+860,Charm of Myths,2,23,Gear,Accessory
+861,Moon Shell,2,23,Gear,Accessory
+862,Star Veil,2,23,Gear,Accessory
+863,Water Walking Boots,2,22,Gear,Footwear
+864,Tiara,2,20,Gear,Headgear
+865,Princess Dress,2,21,Gear,Armor
+866,Pharaoh's Robe,2,21,Gear,Armor
+867,Green Cap,2,20,Gear,Headgear
+868,Mushroom Cap,2,20,Gear,Headgear
+869,Tam O' Shanter,2,20,Gear,Headgear
+870,Mummy Mask,2,20,Gear,Headgear
+871,Mummy Shirt,2,21,Gear,Armor
+872,Mummy Pants,2,22,Gear,Footwear
+873,Cowboy Hat,2,20,Gear,Headgear
+874,Cowboy Jacket,2,21,Gear,Armor
+875,Cowboy Pants,2,22,Gear,Footwear
+876,Pirate Hat,2,20,Gear,Headgear
+877,Pirate Shirt,2,21,Gear,Armor
+878,Pirate Pants,2,22,Gear,Footwear
+879,Viking Helmet,2,20,Gear,Headgear
+880,Crimtane Ore,4,41,Item,Material
+881,Cactus Sword,1,11,Implement,Melee
+882,Cactus Pickaxe,1,10,Implement,Tool
+883,Ice Brick,4,40,Item,World Piece
+884,Ice Brick Wall,4,40,Item,World Piece
+885,Adhesive Bandage,2,23,Gear,Accessory
+886,Armor Polish,2,23,Gear,Accessory
+887,Bezoar,2,23,Gear,Accessory
+888,Blindfold,2,23,Gear,Accessory
+889,Fast Clock,2,23,Gear,Accessory
+890,Megaphone,2,23,Gear,Accessory
+891,Nazar,2,23,Gear,Accessory
+892,Vitamins,4,42,Item,Consumable
+893,Trifold Map,2,23,Gear,Accessory
+894,Cactus Helmet,2,20,Gear,Headgear
+895,Cactus Breastplate,2,21,Gear,Armor
+896,Cactus Leggings,2,22,Gear,Footwear
+897,Power Glove,2,23,Gear,Accessory
+898,Lightning Boots,2,22,Gear,Footwear
+899,Sun Stone,2,23,Gear,Accessory
+900,Moon Stone,2,23,Gear,Accessory
+901,Armor Bracing,2,23,Gear,Accessory
+902,Medicated Bandage,2,23,Gear,Accessory
+903,The Plan,2,23,Gear,Accessory
+904,Countercurse Mantra,2,23,Gear,Accessory
+905,Coin Gun,1,12,Implement,Ranged
+906,Lava Charm,2,23,Gear,Accessory
+907,Obsidian Water Walking Boots,2,22,Gear,Footwear
+908,Lava Waders,2,22,Gear,Footwear
+909,Pure Water Fountain,3,32,Furniture,Decor
+910,Desert Water Fountain,3,32,Furniture,Decor
+911,Shadewood,4,41,Item,Material
+912,Shadewood Door,3,31,Furniture,Living Furniture
+913,Shadewood Platform,4,40,Item,World Piece
+914,Shadewood Chest,3,31,Furniture,Living Furniture
+915,Shadewood Chair,3,31,Furniture,Living Furniture
+916,Shadewood Work Bench,3,30,Furniture,Crafting Furniture
+917,Shadewood Table,3,31,Furniture,Living Furniture
+918,Shadewood Dresser,3,31,Furniture,Living Furniture
+919,Shadewood Piano,3,31,Furniture,Living Furniture
+920,Shadewood Bed,3,31,Furniture,Living Furniture
+921,Shadewood Sword,1,11,Implement,Melee
+922,Shadewood Hammer,1,10,Implement,Tool
+923,Shadewood Bow,1,12,Implement,Ranged
+924,Shadewood Helmet,2,20,Gear,Headgear
+925,Shadewood Breastplate,2,21,Gear,Armor
+926,Shadewood Greaves,2,22,Gear,Footwear
+927,Shadewood Wall,4,40,Item,World Piece
+928,Cannon,1,12,Implement,Ranged
+929,Cannonball,1,14,Implement,Projectile
+930,Flare Gun,1,12,Implement,Ranged
+931,Flare,1,14,Implement,Projectile
+932,Bone Wand,1,10,Implement,Tool
+933,Leaf Wand,1,10,Implement,Tool
+934,Flying Carpet,2,23,Gear,Accessory
+935,Avenger Emblem,2,23,Gear,Accessory
+936,Mechanical Glove,2,23,Gear,Accessory
+937,Land Mine,4,40,Item,World Piece
+938,Paladin's Shield,2,21,Gear,Armor
+939,Web Slinger,1,12,Implement,Ranged
+940,Jungle Water Fountain,3,32,Furniture,Decor
+941,Icy Water Fountain,3,32,Furniture,Decor
+942,Corrupt Water Fountain,3,32,Furniture,Decor
+943,Crimson Water Fountain,3,32,Furniture,Decor
+944,Hallowed Water Fountain,3,32,Furniture,Decor
+945,Blood Water Fountain,3,32,Furniture,Decor
+946,Umbrella,2,23,Gear,Accessory
+947,Chlorophyte Ore,4,41,Item,Material
+948,Steampunk Wings,2,23,Gear,Accessory
+949,Snowball,1,14,Implement,Projectile
+950,Ice Skates,2,22,Gear,Footwear
+951,Snowball Launcher,1,12,Implement,Ranged
+952,Web Covered Chest,3,31,Furniture,Living Furniture
+953,Climbing Claws,2,23,Gear,Accessory
+954,Ancient Iron Helmet,2,20,Gear,Headgear
+955,Ancient Gold Helmet,2,20,Gear,Headgear
+956,Ancient Shadow Helmet,2,20,Gear,Headgear
+957,Ancient Shadow Scalemail,2,21,Gear,Armor
+958,Ancient Shadow Greaves,2,22,Gear,Footwear
+959,Ancient Necro Helmet,2,20,Gear,Headgear
+960,Ancient Cobalt Helmet,2,20,Gear,Headgear
+961,Ancient Cobalt Breastplate,2,21,Gear,Armor
+962,Ancient Cobalt Leggings,2,22,Gear,Footwear
+963,Black Belt,2,23,Gear,Accessory
+964,Boomstick,1,12,Implement,Ranged
+965,Rope,4,41,Item,Material
+966,Campfire,3,32,Furniture,Decor
+967,Marshmallow,4,41,Item,Material
+968,Marshmallow on a Stick,1,10,Implement,Tool
+969,Cooked Marshmallow,4,42,Item,Consumable
+970,Red Rocket,3,32,Furniture,Decor
+971,Green Rocket,3,32,Furniture,Decor
+972,Blue Rocket,3,32,Furniture,Decor
+973,Yellow Rocket,3,32,Furniture,Decor
+974,Ice Torch,1,10,Implement,Tool
+975,Shoe Spikes,2,23,Gear,Accessory
+976,Tiger Climbing Gear,2,23,Gear,Accessory
+977,Tabi,2,23,Gear,Accessory
+978,Pink Eskimo Hood,2,20,Gear,Headgear
+979,Pink Eskimo Coat,2,21,Gear,Armor
+980,Pink Eskimo Pants,2,22,Gear,Footwear
+981,Pink Thread,4,41,Item,Material
+982,Mana Regeneration Band,2,23,Gear,Accessory
+983,Sandstorm in a Balloon,2,23,Gear,Accessory
+984,Master Ninja Gear,2,23,Gear,Accessory
+985,Rope Coil,4,42,Item,Consumable
+986,Blowgun,1,12,Implement,Ranged
+987,Blizzard in a Bottle,2,23,Gear,Accessory
+988,Frostburn Arrow,1,14,Implement,Projectile
+989,Enchanted Sword,1,11,Implement,Melee
+990,Pickaxe Axe,1,10,Implement,Tool
+991,Cobalt Waraxe,1,11,Implement,Melee
+992,Mythril Waraxe,1,11,Implement,Melee
+993,Adamantite Waraxe,1,11,Implement,Melee
+994,Eater's Bone,4,42,Item,Consumable
+995,Blend-O-Matic,3,30,Furniture,Crafting Furniture
+996,Meat Grinder,3,30,Furniture,Crafting Furniture
+997,Extractinator,3,30,Furniture,Crafting Furniture
+998,Solidifier,3,30,Furniture,Crafting Furniture
+999,Amber,4,40,Item,World Piece
+1000,Confetti Gun,1,12,Implement,Ranged
+1001,Chlorophyte Mask,2,20,Gear,Headgear
+1002,Chlorophyte Helmet,2,20,Gear,Headgear
+1003,Chlorophyte Headgear,2,20,Gear,Headgear
+1004,Chlorophyte Plate Mail,2,21,Gear,Armor
+1005,Chlorophyte Greaves,2,22,Gear,Footwear
+1006,Chlorophyte Bar,4,42,Item,Consumable
+1007,Red Dye,4,43,Item,Dye
+1008,Orange Dye,4,43,Item,Dye
+1009,Yellow Dye,4,43,Item,Dye
+1010,Lime Dye,4,43,Item,Dye
+1011,Green Dye,4,43,Item,Dye
+1012,Teal Dye,4,43,Item,Dye
+1013,Cyan Dye,4,43,Item,Dye
+1014,Sky Blue Dye,4,43,Item,Dye
+1015,Blue Dye,4,43,Item,Dye
+1016,Purple Dye,4,43,Item,Dye
+1017,Violet Dye,4,43,Item,Dye
+1018,Pink Dye,4,43,Item,Dye
+1019,Red and Black Dye,4,43,Item,Dye
+1020,Orange and Black Dye,4,43,Item,Dye
+1021,Yellow and Black Dye,4,43,Item,Dye
+1022,Lime and Black Dye,4,43,Item,Dye
+1023,Green and Black Dye,4,43,Item,Dye
+1024,Teal and Black Dye,4,43,Item,Dye
+1025,Cyan and Black Dye,4,43,Item,Dye
+1026,Sky Blue and Black Dye,4,43,Item,Dye
+1027,Blue and Black Dye,4,43,Item,Dye
+1028,Purple and Black Dye,4,43,Item,Dye
+1029,Violet and Black Dye,4,43,Item,Dye
+1030,Pink and Black Dye,4,43,Item,Dye
+1031,Flame Dye,4,43,Item,Dye
+1032,Flame and Black Dye,4,43,Item,Dye
+1033,Green Flame Dye,4,43,Item,Dye
+1034,Green Flame and Black Dye,4,43,Item,Dye
+1035,Blue Flame Dye,4,43,Item,Dye
+1036,Blue Flame and Black Dye,4,43,Item,Dye
+1037,Silver Dye,4,43,Item,Dye
+1038,Bright Red Dye,4,43,Item,Dye
+1039,Bright Orange Dye,4,43,Item,Dye
+1040,Bright Yellow Dye,4,43,Item,Dye
+1041,Bright Lime Dye,4,43,Item,Dye
+1042,Bright Green Dye,4,43,Item,Dye
+1043,Bright Teal Dye,4,43,Item,Dye
+1044,Bright Cyan Dye,4,43,Item,Dye
+1045,Bright Sky Blue Dye,4,43,Item,Dye
+1046,Bright Blue Dye,4,43,Item,Dye
+1047,Bright Purple Dye,4,43,Item,Dye
+1048,Bright Violet Dye,4,43,Item,Dye
+1049,Bright Pink Dye,4,43,Item,Dye
+1050,Black Dye,4,43,Item,Dye
+1051,Red and Silver Dye,4,43,Item,Dye
+1052,Orange and Silver Dye,4,43,Item,Dye
+1053,Yellow and Silver Dye,4,43,Item,Dye
+1054,Lime and Silver Dye,4,43,Item,Dye
+1055,Green and Silver Dye,4,43,Item,Dye
+1056,Teal and Silver Dye,4,43,Item,Dye
+1057,Cyan and Silver Dye,4,43,Item,Dye
+1058,Sky Blue and Silver Dye,4,43,Item,Dye
+1059,Blue and Silver Dye,4,43,Item,Dye
+1060,Purple and Silver Dye,4,43,Item,Dye
+1061,Violet and Silver Dye,4,43,Item,Dye
+1062,Pink and Silver Dye,4,43,Item,Dye
+1063,Intense Flame Dye,4,43,Item,Dye
+1064,Intense Green Flame Dye,4,43,Item,Dye
+1065,Intense Blue Flame Dye,4,43,Item,Dye
+1066,Rainbow Dye,4,43,Item,Dye
+1067,Intense Rainbow Dye,4,43,Item,Dye
+1068,Yellow Gradient Dye,4,43,Item,Dye
+1069,Cyan Gradient Dye,4,43,Item,Dye
+1070,Violet Gradient Dye,4,43,Item,Dye
+1071,Paintbrush,1,10,Implement,Tool
+1072,Paint Roller,1,10,Implement,Tool
+1073,Red Paint,4,42,Item,Consumable
+1074,Orange Paint,4,42,Item,Consumable
+1075,Yellow Paint,4,42,Item,Consumable
+1076,Lime Paint,4,42,Item,Consumable
+1077,Green Paint,4,42,Item,Consumable
+1078,Teal Paint,4,42,Item,Consumable
+1079,Cyan Paint,4,42,Item,Consumable
+1080,Sky Blue Paint,4,42,Item,Consumable
+1081,Blue Paint,4,42,Item,Consumable
+1082,Purple Paint,4,42,Item,Consumable
+1083,Violet Paint,4,42,Item,Consumable
+1084,Pink Paint,4,42,Item,Consumable
+1085,Deep Red Paint,4,42,Item,Consumable
+1086,Deep Orange Paint,4,42,Item,Consumable
+1087,Deep Yellow Paint,4,42,Item,Consumable
+1088,Deep Lime Paint,4,42,Item,Consumable
+1089,Deep Green Paint,4,42,Item,Consumable
+1090,Deep Teal Paint,4,42,Item,Consumable
+1091,Deep Cyan Paint,4,42,Item,Consumable
+1092,Deep Sky Blue Paint,4,42,Item,Consumable
+1093,Deep Blue Paint,4,42,Item,Consumable
+1094,Deep Purple Paint,4,42,Item,Consumable
+1095,Deep Violet Paint,4,42,Item,Consumable
+1096,Deep Pink Paint,4,42,Item,Consumable
+1097,Black Paint,4,42,Item,Consumable
+1098,White Paint,4,42,Item,Consumable
+1099,Gray Paint,4,42,Item,Consumable
+1100,Paint Scraper,1,10,Implement,Tool
+1101,Lihzahrd Brick,4,40,Item,World Piece
+1102,Lihzahrd Brick Wall,4,40,Item,World Piece
+1103,Slush Block,4,40,Item,World Piece
+1104,Palladium Ore,4,41,Item,Material
+1105,Orichalcum Ore,4,41,Item,Material
+1106,Titanium Ore,4,41,Item,Material
+1107,Teal Mushroom,4,41,Item,Material
+1108,Green Mushroom,4,41,Item,Material
+1109,Sky Blue Flower,4,41,Item,Material
+1110,Yellow Marigold,4,41,Item,Material
+1111,Blue Berries,4,41,Item,Material
+1112,Lime Kelp,4,41,Item,Material
+1113,Pink Prickly Pear,4,41,Item,Material
+1114,Orange Bloodroot,4,41,Item,Material
+1115,Red Husk,4,41,Item,Material
+1116,Cyan Husk,4,41,Item,Material
+1117,Violet Husk,4,41,Item,Material
+1118,Purple Mucos,4,41,Item,Material
+1119,Black Ink,4,41,Item,Material
+1120,Dye Vat,3,30,Furniture,Crafting Furniture
+1121,Bee Gun,1,12,Implement,Ranged
+1122,Possessed Hatchet,1,11,Implement,Melee
+1123,Bee Keeper,1,11,Implement,Melee
+1124,Hive,4,40,Item,World Piece
+1125,Honey Block,4,40,Item,World Piece
+1126,Hive Wall,4,40,Item,World Piece
+1127,Crispy Honey Block,4,40,Item,World Piece
+1128,Honey Bucket,2,23,Gear,Accessory
+1129,Hive Wand,1,10,Implement,Tool
+1130,Beenade,1,14,Implement,Projectile
+1131,Gravity Globe,2,23,Gear,Accessory
+1132,Honey Comb,2,23,Gear,Accessory
+1133,Abeemination,4,42,Item,Consumable
+1134,Bottled Honey,4,42,Item,Consumable
+1135,Rain Hat,2,20,Gear,Headgear
+1136,Rain Coat,2,21,Gear,Armor
+1137,Lihzahrd Door,3,31,Furniture,Living Furniture
+1138,Dungeon Door,3,31,Furniture,Living Furniture
+1139,Lead Door,3,31,Furniture,Living Furniture
+1140,Iron Door,3,31,Furniture,Living Furniture
+1141,Temple Key,4,42,Item,Consumable
+1142,Lihzahrd Chest,3,31,Furniture,Living Furniture
+1143,Lihzahrd Chair,3,31,Furniture,Living Furniture
+1144,Lihzahrd Table,3,31,Furniture,Living Furniture
+1145,Lihzahrd Work Bench,3,30,Furniture,Crafting Furniture
+1146,Super Dart Trap,4,40,Item,World Piece
+1147,Flame Trap,4,40,Item,World Piece
+1148,Spiky Ball Trap,4,40,Item,World Piece
+1149,Spear Trap,4,40,Item,World Piece
+1150,Wooden Spike,4,40,Item,World Piece
+1151,Lihzahrd Pressure Plate,4,40,Item,World Piece
+1152,Lihzahrd Statue,3,35,Furniture,Statue
+1153,Lihzahrd Watcher Statue,3,35,Furniture,Statue
+1154,Lihzahrd Guardian Statue,3,35,Furniture,Statue
+1155,Wasp Gun,1,12,Implement,Ranged
+1156,Piranha Gun,1,12,Implement,Ranged
+1157,Pygmy Staff,1,13,Implement,Magic
+1158,Pygmy Necklace,2,23,Gear,Accessory
+1159,Tiki Mask,2,20,Gear,Headgear
+1160,Tiki Shirt,2,21,Gear,Armor
+1161,Tiki Pants,2,22,Gear,Footwear
+1162,Leaf Wings,2,23,Gear,Accessory
+1163,Blizzard in a Balloon,2,23,Gear,Accessory
+1164,Bundle of Balloons,2,23,Gear,Accessory
+1165,Bat Wings,2,23,Gear,Accessory
+1166,Bone Sword,1,11,Implement,Melee
+1167,Hercules Beetle,2,23,Gear,Accessory
+1168,Smoke Bomb,1,14,Implement,Projectile
+1169,Bone Key,4,42,Item,Consumable
+1170,Nectar,4,42,Item,Consumable
+1171,Tiki Totem,4,42,Item,Consumable
+1172,Lizard Egg,4,42,Item,Consumable
+1173,Grave Marker,3,32,Furniture,Decor
+1174,Cross Grave Marker,3,32,Furniture,Decor
+1175,Headstone,3,32,Furniture,Decor
+1176,Gravestone,3,32,Furniture,Decor
+1177,Obelisk,3,32,Furniture,Decor
+1178,Leaf Blower,1,12,Implement,Ranged
+1179,Chlorophyte Bullet,1,14,Implement,Projectile
+1180,Parrot Cracker,4,42,Item,Consumable
+1181,Strange Glowing Mushroom,4,42,Item,Consumable
+1182,Seedling,4,42,Item,Consumable
+1183,Wisp in a Bottle,4,42,Item,Consumable
+1184,Palladium Bar,4,41,Item,Material
+1185,Palladium Sword,1,11,Implement,Melee
+1186,Palladium Pike,1,11,Implement,Melee
+1187,Palladium Repeater,1,12,Implement,Ranged
+1188,Palladium Pickaxe,1,10,Implement,Tool
+1189,Palladium Drill,1,10,Implement,Tool
+1190,Palladium Chainsaw,1,10,Implement,Tool
+1191,Orichalcum Bar,4,41,Item,Material
+1192,Orichalcum Sword,1,11,Implement,Melee
+1193,Orichalcum Halberd,1,11,Implement,Melee
+1194,Orichalcum Repeater,1,12,Implement,Ranged
+1195,Orichalcum Pickaxe,1,10,Implement,Tool
+1196,Orichalcum Drill,1,10,Implement,Tool
+1197,Orichalcum Chainsaw,1,10,Implement,Tool
+1198,Titanium Bar,4,41,Item,Material
+1199,Titanium Sword,1,11,Implement,Melee
+1200,Titanium Trident,1,11,Implement,Melee
+1201,Titanium Repeater,1,12,Implement,Ranged
+1202,Titanium Pickaxe,1,10,Implement,Tool
+1203,Titanium Drill,1,10,Implement,Tool
+1204,Titanium Chainsaw,1,10,Implement,Tool
+1205,Palladium Mask,2,20,Gear,Headgear
+1206,Palladium Helmet,2,20,Gear,Headgear
+1207,Palladium Headgear,2,20,Gear,Headgear
+1208,Palladium Breastplate,2,21,Gear,Armor
+1209,Palladium Leggings,2,22,Gear,Footwear
+1210,Orichalcum Mask,2,20,Gear,Headgear
+1211,Orichalcum Helmet,2,20,Gear,Headgear
+1212,Orichalcum Headgear,2,20,Gear,Headgear
+1213,Orichalcum Breastplate,2,21,Gear,Armor
+1214,Orichalcum Leggings,2,22,Gear,Footwear
+1215,Titanium Mask,2,20,Gear,Headgear
+1216,Titanium Helmet,2,20,Gear,Headgear
+1217,Titanium Headgear,2,20,Gear,Headgear
+1218,Titanium Breastplate,2,21,Gear,Armor
+1219,Titanium Leggings,2,21,Gear,Armor
+1220,Orichalcum Anvil,3,30,Furniture,Crafting Furniture
+1221,Titanium Forge,3,30,Furniture,Crafting Furniture
+1222,Palladium Waraxe,1,11,Implement,Melee
+1223,Orichalcum Waraxe,1,11,Implement,Melee
+1224,Titanium Waraxe,1,11,Implement,Melee
+1225,Hallowed Bar,4,41,Item,Material
+1226,Chlorophyte Claymore,1,11,Implement,Melee
+1227,Chlorophyte Saber,1,11,Implement,Melee
+1228,Chlorophyte Partisan,1,11,Implement,Melee
+1229,Chlorophyte Shotbow,1,12,Implement,Ranged
+1230,Chlorophyte Pickaxe,1,10,Implement,Tool
+1231,Chlorophyte Drill,1,10,Implement,Tool
+1232,Chlorophyte Chainsaw,1,10,Implement,Tool
+1233,Chlorophyte Greataxe,1,11,Implement,Melee
+1234,Chlorophyte Warhammer,1,11,Implement,Melee
+1235,Chlorophyte Arrow,1,14,Implement,Projectile
+1236,Amethyst Hook,1,10,Implement,Tool
+1237,Topaz Hook,1,10,Implement,Tool
+1238,Sapphire Hook,1,10,Implement,Tool
+1239,Emerald Hook,1,10,Implement,Tool
+1240,Ruby Hook,1,10,Implement,Tool
+1241,Diamond Hook,1,10,Implement,Tool
+1242,Amber Mosquito,4,42,Item,Consumable
+1243,Umbrella Hat,2,20,Gear,Headgear
+1244,Nimbus Rod,1,13,Implement,Magic
+1245,Orange Torch,1,10,Implement,Tool
+1246,Crimsand Block,4,40,Item,World Piece
+1247,Bee Cloak,2,23,Gear,Accessory
+1248,Eye of the Golem,2,23,Gear,Accessory
+1249,Honey Balloon,2,23,Gear,Accessory
+1250,Blue Horseshoe Balloon,2,23,Gear,Accessory
+1251,White Horseshoe Balloon,2,23,Gear,Accessory
+1252,Yellow Horseshoe Balloon,2,23,Gear,Accessory
+1253,Frozen Turtle Shell,2,23,Gear,Accessory
+1254,Sniper Rifle,1,12,Implement,Ranged
+1255,Venus Magnum,1,12,Implement,Ranged
+1256,Crimson Rod,1,13,Implement,Magic
+1257,Crimtane Bar,4,41,Item,Material
+1258,Stynger,1,12,Implement,Ranged
+1259,Flower Pow,1,12,Implement,Ranged
+1260,Rainbow Gun,1,12,Implement,Ranged
+1261,Stynger Bolt,1,14,Implement,Projectile
+1262,Chlorophyte Jackhammer,1,10,Implement,Tool
+1263,Teleporter,4,40,Item,World Piece
+1264,Flower of Frost,2,23,Gear,Accessory
+1265,Uzi,2,12,Gear,Ranged
+1266,Magnet Sphere,1,13,Implement,Magic
+1267,Purple Stained Glass,4,40,Item,World Piece
+1268,Yellow Stained Glass,4,40,Item,World Piece
+1269,Blue Stained Glass,4,40,Item,World Piece
+1270,Green Stained Glass,4,40,Item,World Piece
+1271,Red Stained Glass,4,40,Item,World Piece
+1272,Multicolored Stained Glass,4,40,Item,World Piece
+1273,Skeletron Hand,1,11,Implement,Melee
+1274,Skull,3,32,Furniture,Decor
+1275,Balla Hat,2,20,Gear,Headgear
+1276,Gangsta Hat,2,20,Gear,Headgear
+1277,Sailor Hat,2,20,Gear,Headgear
+1278,Eye Patch,2,20,Gear,Headgear
+1279,Sailor Shirt,2,21,Gear,Armor
+1280,Sailor Pants,2,22,Gear,Footwear
+1281,Skeletron Mask,2,20,Gear,Headgear
+1282,Amethyst Robe,2,21,Gear,Armor
+1283,Topaz Robe,2,21,Gear,Armor
+1284,Sapphire Robe,2,21,Gear,Armor
+1285,Emerald Robe,2,21,Gear,Armor
+1286,Ruby Robe,2,21,Gear,Armor
+1287,Diamond Robe,2,21,Gear,Armor
+1288,White Tuxedo Shirt,2,21,Gear,Armor
+1289,White Tuxedo Pants,2,22,Gear,Footwear
+1291,Life Fruit,4,42,Item,Consumable
+1292,Lihzahrd Altar,3,30,Furniture,Crafting Furniture
+1293,Lihzahrd Power Cell,4,41,Item,Material
+1294,Picksaw,1,10,Implement,Tool
+1295,Heat Ray,1,12,Implement,Ranged
+1296,Staff of Earth,1,13,Implement,Magic
+1297,Golem Fist,1,12,Implement,Ranged
+1298,Water Chest,3,31,Furniture,Living Furniture
+1299,Binoculars,2,23,Gear,Accessory
+1300,Rifle Scope,2,23,Gear,Accessory
+1301,Destroyer Emblem,2,23,Gear,Accessory
+1302,High Velocity Bullet,1,14,Implement,Projectile
+1303,Jellyfish Necklace,2,23,Gear,Accessory
+1304,Zombie Arm,1,11,Implement,Melee
+1305,The Axe,1,11,Implement,Melee
+1306,Ice Sickle,1,11,Implement,Melee
+1307,Clothier Voodoo Doll,4,42,Item,Consumable
+1308,Poison Staff,1,13,Implement,Magic
+1309,Slime Staff,1,13,Implement,Magic
+1310,Poison Dart,1,14,Implement,Projectile
+1311,Eye Spring,4,42,Item,Consumable
+1312,Toy Sled,4,42,Item,Consumable
+1313,Book of Skulls,1,13,Implement,Magic
+1314,KO Cannon,1,12,Implement,Ranged
+1315,Pirate Map,2,23,Gear,Accessory
+1316,Turtle Helmet,2,20,Gear,Headgear
+1317,Turtle Scale Mail,2,21,Gear,Armor
+1318,Turtle Leggings,2,22,Gear,Footwear
+1319,Snowball Cannon,2,12,Gear,Ranged
+1320,Bone Pickaxe,1,10,Implement,Tool
+1321,Magic Quiver,2,23,Gear,Accessory
+1322,Magma Stone,2,23,Gear,Accessory
+1323,Obsidian Rose,2,23,Gear,Accessory
+1324,Bananarang,1,12,Implement,Ranged
+1325,Chain Knife,1,12,Implement,Ranged
+1326,Rod of Discord,1,13,Implement,Magic
+1327,Death Sickle,1,11,Implement,Melee
+1328,Turtle Shell,2,23,Gear,Accessory
+1329,Tissue Sample,4,41,Item,Material
+1330,Vertebrae,4,41,Item,Material
+1331,Bloody Spine,4,41,Item,Material
+1332,Ichor,4,41,Item,Material
+1333,Ichor Torch,1,10,Implement,Tool
+1334,Ichor Arrow,1,14,Implement,Projectile
+1335,Ichor Bullet,1,14,Implement,Projectile
+1336,Golden Shower,1,13,Implement,Magic
+1337,Bunny Cannon,1,13,Implement,Magic
+1338,Explosive Bunny,1,14,Implement,Projectile
+1339,Vial of Venom,1,14,Implement,Projectile
+1340,Flask of Venom,1,14,Implement,Projectile
+1341,Venom Arrow,1,14,Implement,Projectile
+1342,Venom Bullet,1,14,Implement,Projectile
+1343,Fire Gauntlet,2,23,Gear,Accessory
+1344,Cog,4,41,Item,Material
+1345,Confetti,4,41,Item,Material
+1346,Nanites,4,41,Item,Material
+1347,Explosive Powder,4,41,Item,Material
+1348,Gold Dust,4,41,Item,Material
+1349,Party Bullet,1,14,Implement,Projectile
+1350,Nano Bullet,1,14,Implement,Projectile
+1351,Exploding Bullet,1,14,Implement,Projectile
+1352,Golden Bullet,1,14,Implement,Projectile
+1353,Flask of Cursed Flames,4,42,Item,Consumable
+1354,Flask of Fire,4,42,Item,Consumable
+1355,Flask of Gold,4,42,Item,Consumable
+1356,Flask of Ichor,4,42,Item,Consumable
+1357,Flask of Nanites,4,42,Item,Consumable
+1358,Flask of Party,4,42,Item,Consumable
+1359,Flask of Poison,4,42,Item,Consumable
+1360,Eye of Cthulhu Trophy,3,32,Furniture,Decor
+1361,Eater of Worlds Trophy,3,32,Furniture,Decor
+1362,Brain of Cthulhu Trophy,3,32,Furniture,Decor
+1363,Skeletron Trophy,3,32,Furniture,Decor
+1364,Queen Bee Trophy,3,32,Furniture,Decor
+1365,Wall of Flesh Trophy,3,32,Furniture,Decor
+1366,Destroyer Trophy,3,32,Furniture,Decor
+1367,Skeletron Prime Trophy,3,32,Furniture,Decor
+1368,Retinazer Trophy,3,32,Furniture,Decor
+1369,Spazmatism Trophy,3,32,Furniture,Decor
+1370,Plantera Trophy,3,32,Furniture,Decor
+1371,Golem Trophy,3,32,Furniture,Decor
+1372,Blood Moon Rising,3,32,Furniture,Decor
+1373,The Hanged Man,3,32,Furniture,Decor
+1374,Glory of the Fire,3,32,Furniture,Decor
+1375,Bone Warp,3,32,Furniture,Decor
+1376,Wall Skeleton,3,32,Furniture,Decor
+1377,Hanging Skeleton,3,32,Furniture,Decor
+1378,Blue Slab Wall,4,40,Item,World Piece
+1379,Blue Tiled Wall,4,40,Item,World Piece
+1380,Pink Slab Wall,4,40,Item,World Piece
+1381,Pink Tiled Wall,4,40,Item,World Piece
+1382,Green Slab Wall,4,40,Item,World Piece
+1383,Green Tiled Wall,4,40,Item,World Piece
+1384,Blue Brick Platform,4,40,Item,World Piece
+1385,Pink Brick Platform,4,40,Item,World Piece
+1386,Green Brick Platform,4,40,Item,World Piece
+1387,Metal Shelf,3,31,Furniture,Living Furniture
+1388,Brass Shelf,3,31,Furniture,Living Furniture
+1389,Wood Shelf,3,31,Furniture,Living Furniture
+1390,Brass Lantern,3,32,Furniture,Decor
+1391,Caged Lantern,3,32,Furniture,Decor
+1392,Carriage Lantern,3,32,Furniture,Decor
+1393,Alchemy Lantern,3,32,Furniture,Decor
+1394,Diabolist Lamp,3,32,Furniture,Decor
+1395,Oil Rag Sconse,3,32,Furniture,Decor
+1396,Blue Dungeon Chair,3,31,Furniture,Living Furniture
+1397,Blue Dungeon Table,3,31,Furniture,Living Furniture
+1398,Blue Dungeon Work Bench,3,30,Furniture,Crafting Furniture
+1399,Green Dungeon Chair,3,31,Furniture,Living Furniture
+1400,Green Dungeon Table,3,31,Furniture,Living Furniture
+1401,Green Dungeon Work Bench,3,30,Furniture,Crafting Furniture
+1402,Pink Dungeon Chair,3,31,Furniture,Living Furniture
+1403,Pink Dungeon Table,3,31,Furniture,Living Furniture
+1404,Pink Dungeon Work Bench,3,30,Furniture,Crafting Furniture
+1405,Blue Dungeon Candle,3,32,Furniture,Decor
+1406,Green Dungeon Candle,3,32,Furniture,Decor
+1407,Pink Dungeon Candle,3,32,Furniture,Decor
+1408,Blue Dungeon Vase,3,32,Furniture,Decor
+1409,Green Dungeon Vase,3,32,Furniture,Decor
+1410,Pink Dungeon Vase,3,32,Furniture,Decor
+1411,Blue Dungeon Door,3,31,Furniture,Living Furniture
+1412,Green Dungeon Door,3,31,Furniture,Living Furniture
+1413,Pink Dungeon Door,3,31,Furniture,Living Furniture
+1414,Blue Dungeon Bookcase,3,32,Furniture,Decor
+1415,Green Dungeon Bookcase,3,32,Furniture,Decor
+1416,Pink Dungeon Bookcase,3,32,Furniture,Decor
+1417,Catacomb,3,34,Furniture,Painting
+1418,Dungeon Shelf,3,32,Furniture,Decor
+1419,Skellington J Skellingsworth,3,34,Furniture,Painting
+1420,The Cursed Man,3,34,Furniture,Painting
+1421,The Eye Sees the End,3,34,Furniture,Painting
+1422,Something Evil is Watching You,3,34,Furniture,Painting
+1423,The Twins Have Awoken,3,34,Furniture,Painting
+1424,The Screamer,3,34,Furniture,Painting
+1425,Goblins Playing Poker,3,34,Furniture,Painting
+1426,Dryadisque,3,34,Furniture,Painting
+1427,Sunflowers,3,34,Furniture,Painting
+1428,Terrarian Gothic,3,34,Furniture,Painting
+1429,Beanie,2,20,Gear,Headgear
+1430,Imbuing Station,3,30,Furniture,Crafting Furniture
+1431,Star in a Bottle,4,42,Item,Consumable
+1432,Empty Bullet,4,41,Item,Material
+1433,Impact,3,34,Furniture,Painting
+1434,Powered by Birds,3,34,Furniture,Painting
+1435,The Destroyer (item),3,34,Furniture,Painting
+1436,The Persistency of Eyes,3,34,Furniture,Painting
+1437,Unicorn Crossing the Hallows,3,34,Furniture,Painting
+1438,Great Wave,3,34,Furniture,Painting
+1439,Starry Night,3,34,Furniture,Painting
+1440,Guide Picasso,3,34,Furniture,Painting
+1441,The Guardian's Gaze,3,34,Furniture,Painting
+1442,Father of Someone,3,34,Furniture,Painting
+1443,Nurse Lisa,3,34,Furniture,Painting
+1444,Shadowbeam Staff,1,13,Implement,Magic
+1445,Inferno Fork,1,11,Implement,Melee
+1446,Spectre Staff,1,13,Implement,Magic
+1447,Wooden Fence,4,40,Item,World Piece
+1448,Lead Fence,4,40,Item,World Piece
+1449,Bubble Machine,3,30,Furniture,Crafting Furniture
+1450,Bubble Wand,1,10,Implement,Tool
+1451,Marching Bones Banner,3,33,Furniture,Banner
+1452,Necromantic Sign,3,32,Furniture,Decor
+1453,Rusted Company Standard,3,32,Furniture,Decor
+1454,Ragged Brotherhood Sigil,3,32,Furniture,Decor
+1455,Molten Legion Flag,3,32,Furniture,Decor
+1456,Diabolic Sigil,3,32,Furniture,Decor
+1457,Obsidian Platform,4,40,Item,World Piece
+1458,Obsidian Door,3,31,Furniture,Living Furniture
+1459,Obsidian Chair,3,31,Furniture,Living Furniture
+1460,Obsidian Table,3,31,Furniture,Living Furniture
+1461,Obsidian Work Bench,3,30,Furniture,Crafting Furniture
+1462,Obsidian Vase,3,32,Furniture,Decor
+1463,Obsidian Bookcase,3,32,Furniture,Decor
+1464,Hellbound Banner,3,33,Furniture,Banner
+1465,Hell Hammer Banner,3,33,Furniture,Banner
+1466,Helltower Banner,3,33,Furniture,Banner
+1467,Lost Hopes of Man Banner,3,33,Furniture,Banner
+1468,Obsidian Watcher Banner,3,33,Furniture,Banner
+1469,Lava Erupts Banner,3,33,Furniture,Banner
+1470,Blue Dungeon Bed,3,31,Furniture,Living Furniture
+1471,Green Dungeon Bed,3,31,Furniture,Living Furniture
+1472,Pink Dungeon Bed,3,31,Furniture,Living Furniture
+1473,Obsidian Bed,3,31,Furniture,Living Furniture
+1474,Waldo,3,34,Furniture,Painting
+1475,Darkness (Painting),3,34,Furniture,Painting
+1476,Dark Soul Reaper,3,34,Furniture,Painting
+1477,Land,3,34,Furniture,Painting
+1478,Trapped Ghost,3,34,Furniture,Painting
+1479,Demon's Eye,3,34,Furniture,Painting
+1480,Finding Gold,3,34,Furniture,Painting
+1481,First Encounter,3,34,Furniture,Painting
+1482,Good Morning,3,34,Furniture,Painting
+1483,Underground Reward,3,34,Furniture,Painting
+1484,Through the Window,3,34,Furniture,Painting
+1485,Place Above the Clouds,3,34,Furniture,Painting
+1486,Do Not Step on the Grass,3,34,Furniture,Painting
+1487,Cold Waters in the White Land,3,34,Furniture,Painting
+1488,Lightless Chasms,3,34,Furniture,Painting
+1489,The Land of Deceiving Looks,3,34,Furniture,Painting
+1490,Daylight,3,34,Furniture,Painting
+1491,Secret of the Sands,3,34,Furniture,Painting
+1492,Deadland Comes Alive,3,34,Furniture,Painting
+1493,Evil Presence,3,34,Furniture,Painting
+1494,Sky Guardian,3,34,Furniture,Painting
+1495,American Explosive,3,34,Furniture,Painting
+1496,Discover,3,34,Furniture,Painting
+1497,Hand Earth,3,34,Furniture,Painting
+1498,Old Miner,3,34,Furniture,Painting
+1499,Skelehead,3,34,Furniture,Painting
+1500,Facing the Cerebral Mastermind,3,34,Furniture,Painting
+1501,Lake of Fire,3,34,Furniture,Painting
+1502,Trio Super Heroes,3,34,Furniture,Painting
+1503,Spectre Hood,2,20,Gear,Headgear
+1504,Spectre Robe,2,21,Gear,Armor
+1505,Spectre Pants,2,22,Gear,Footwear
+1506,Spectre Pickaxe,1,10,Implement,Tool
+1507,Spectre Hamaxe,1,11,Implement,Melee
+1508,Ectoplasm,4,41,Item,Material
+1509,Gothic Chair,3,31,Furniture,Living Furniture
+1510,Gothic Table,3,31,Furniture,Living Furniture
+1511,Gothic Work Bench,3,30,Furniture,Crafting Furniture
+1512,Gothic Bookcase,3,32,Furniture,Decor
+1513,Paladin's Hammer,1,11,Implement,Melee
+1514,SWAT Helmet,2,20,Gear,Headgear
+1515,Bee Wings,2,23,Gear,Accessory
+1516,Giant Harpy Feather,4,41,Item,Material
+1517,Bone Feather,4,41,Item,Material
+1518,Fire Feather,4,41,Item,Material
+1519,Ice Feather,4,41,Item,Material
+1520,Broken Bat Wing,4,41,Item,Material
+1521,Tattered Bee Wing,4,41,Item,Material
+1522,Large Amethyst,4,41,Item,Material
+1523,Large Topaz,4,41,Item,Material
+1524,Large Sapphire,4,41,Item,Material
+1525,Large Emerald,4,41,Item,Material
+1526,Large Ruby,4,41,Item,Material
+1527,Large Diamond,4,41,Item,Material
+1528,Jungle Chest,3,31,Furniture,Living Furniture
+1529,Corruption Chest,3,31,Furniture,Living Furniture
+1530,Crimson Chest,3,31,Furniture,Living Furniture
+1531,Hallowed Chest,3,31,Furniture,Living Furniture
+1532,Frozen Chest,3,31,Furniture,Living Furniture
+1533,Jungle Key,4,42,Item,Consumable
+1534,Corruption Key,4,42,Item,Consumable
+1535,Crimson Key,4,42,Item,Consumable
+1536,Hallowed Key,4,42,Item,Consumable
+1537,Frozen Key,4,42,Item,Consumable
+1538,Imp Face,3,34,Furniture,Painting
+1539,Ominous Presence,3,34,Furniture,Painting
+1540,Shining Moon,3,34,Furniture,Painting
+1541,Living Gore,3,34,Furniture,Painting
+1542,Flowing Magma,3,34,Furniture,Painting
+1543,Spectre Paintbrush,1,10,Implement,Tool
+1544,Spectre Paint Roller,1,10,Implement,Tool
+1545,Spectre Paint Scraper,1,10,Implement,Tool
+1546,Shroomite Headgear,2,20,Gear,Headgear
+1547,Shroomite Mask,2,20,Gear,Headgear
+1548,Shroomite Helmet,2,20,Gear,Headgear
+1549,Shroomite Breastplate,2,21,Gear,Armor
+1550,Shroomite Leggings,2,22,Gear,Footwear
+1551,Autohammer,3,30,Furniture,Crafting Furniture
+1552,Shroomite Bar,4,41,Item,Material
+1553,S.D.M.G.,1,12,Implement,Ranged
+1554,Cenx's Tiara,2,20,Gear,Headgear
+1555,Cenx's Breastplate,2,21,Gear,Armor
+1556,Cenx's Leggings,2,22,Gear,Footwear
+1557,Crowno's Mask,2,20,Gear,Headgear
+1558,Crowno's Breastplate,2,21,Gear,Armor
+1559,Crowno's Leggings,2,22,Gear,Footwear
+1560,Will's Helmet,2,20,Gear,Headgear
+1561,Will's Breastplate,2,21,Gear,Armor
+1562,Will's Leggings,2,22,Gear,Footwear
+1563,Jim's Helmet,2,20,Gear,Headgear
+1564,Jim's Breastplate,2,21,Gear,Armor
+1565,Jim's Leggings,2,22,Gear,Footwear
+1566,Aaron's Helmet,2,20,Gear,Headgear
+1567,Aaron's Breastplate,2,21,Gear,Armor
+1568,Aaron's Leggings,2,22,Gear,Footwear
+1569,Vampire Knives,2,21,Gear,Armor
+1570,Broken Hero Sword,1,11,Implement,Melee
+1571,Scourge of the Corruptor,1,12,Implement,Ranged
+1572,Staff of the Frost Hydra,1,13,Implement,Magic
+1573,The Creation of the Guide,3,34,Furniture,Painting
+1574,The Merchant,3,34,Furniture,Painting
+1575,Crowno Devours His Lunch,3,34,Furniture,Painting
+1576,Rare Enchantment,3,34,Furniture,Painting
+1577,Glorious Night,3,34,Furniture,Painting
+1578,Sweetheart Necklace,2,23,Gear,Accessory
+1579,Flurry Boots,2,22,Gear,Footwear
+1580,D-Town's Helmet,2,20,Gear,Headgear
+1581,D-Town's Breastplate,2,21,Gear,Armor
+1582,D-Town's Leggings,2,22,Gear,Footwear
+1583,D-Town's Wings,2,23,Gear,Accessory
+1584,Will's Wings,2,23,Gear,Accessory
+1585,Crowno's Wings,2,23,Gear,Accessory
+1586,Cenx's Wings,2,23,Gear,Accessory
+1587,Cenx's Dress,2,21,Gear,Armor
+1588,Cenx's Dress Pants,2,22,Gear,Footwear
+1589,Palladium Column,4,40,Item,World Piece
+1590,Palladium Column Wall,4,40,Item,World Piece
+1591,Bubblegum Block,4,40,Item,World Piece
+1592,Bubblegum Block Wall,4,40,Item,World Piece
+1593,Titanstone Block,4,40,Item,World Piece
+1594,Titanstone Block Wall,4,40,Item,World Piece
+1595,Magic Cuffs,2,23,Gear,Accessory
+1596,Music Box (Snow),3,32,Furniture,Decor
+1597,Music Box (Space),3,32,Furniture,Decor
+1598,Music Box (Crimson),3,32,Furniture,Decor
+1599,Music Box (Boss 4),3,32,Furniture,Decor
+1600,Music Box (Alt Overworld Day),3,32,Furniture,Decor
+1601,Music Box (Rain),3,32,Furniture,Decor
+1602,Music Box (Ice),3,32,Furniture,Decor
+1603,Music Box (Desert),3,32,Furniture,Decor
+1604,Music Box (Ocean),3,32,Furniture,Decor
+1605,Music Box (Dungeon),3,32,Furniture,Decor
+1606,Music Box (Plantera),3,32,Furniture,Decor
+1607,Music Box (Boss 5),3,32,Furniture,Decor
+1608,Music Box (Temple),3,32,Furniture,Decor
+1609,Music Box (Eclipse),3,32,Furniture,Decor
+1610,Music Box (Mushrooms),3,32,Furniture,Decor
+1611,Butterfly Dust,4,41,Item,Material
+1612,Ankh Charm,2,23,Gear,Accessory
+1613,Ankh Shield,2,21,Gear,Armor
+1614,Blue Flare,1,14,Implement,Projectile
+1615,Angler Fish Banner,3,33,Furniture,Banner
+1616,Angry Nimbus Banner,3,33,Furniture,Banner
+1617,Anomura Fungus Banner,3,33,Furniture,Banner
+1618,Antlion Banner,3,33,Furniture,Banner
+1619,Arapaima Banner,3,33,Furniture,Banner
+1620,Armored Skeleton Banner,3,33,Furniture,Banner
+1621,Cave Bat Banner,3,33,Furniture,Banner
+1622,Bird Banner,3,33,Furniture,Banner
+1623,Black Recluse Banner,3,33,Furniture,Banner
+1624,Blood Feeder Banner,3,33,Furniture,Banner
+1625,Blood Jelly Banner,3,33,Furniture,Banner
+1626,Blood Crawler Banner,3,33,Furniture,Banner
+1627,Bone Serpent Banner,3,33,Furniture,Banner
+1628,Bunny Banner,3,33,Furniture,Banner
+1629,Chaos Elemental Banner,3,33,Furniture,Banner
+1630,Mimic Banner,3,33,Furniture,Banner
+1631,Clown Banner,3,33,Furniture,Banner
+1632,Corrupt Bunny Banner,3,33,Furniture,Banner
+1633,Corrupt Goldfish Banner,3,33,Furniture,Banner
+1634,Crab Banner,3,33,Furniture,Banner
+1635,Crimera Banner,3,33,Furniture,Banner
+1636,Crimson Axe Banner,3,33,Furniture,Banner
+1637,Cursed Hammer Banner,3,33,Furniture,Banner
+1638,Demon Banner,3,33,Furniture,Banner
+1639,Demon Eye Banner,3,33,Furniture,Banner
+1640,Derpling Banner,3,33,Furniture,Banner
+1641,Eater of Souls Banner,3,33,Furniture,Banner
+1642,Enchanted Sword Banner,3,33,Furniture,Banner
+1643,Zombie Eskimo Banner,3,33,Furniture,Banner
+1644,Face Monster Banner,3,33,Furniture,Banner
+1645,Floaty Gross Banner,3,33,Furniture,Banner
+1646,Flying Fish Banner,3,33,Furniture,Banner
+1647,Flying Snake Banner,3,33,Furniture,Banner
+1648,Frankenstein Banner,3,33,Furniture,Banner
+1649,Fungi Bulb Banner,3,33,Furniture,Banner
+1650,Fungo Fish Banner,3,33,Furniture,Banner
+1651,Gastropod Banner,3,33,Furniture,Banner
+1652,Goblin Thief Banner,3,33,Furniture,Banner
+1653,Goblin Sorcerer Banner,3,33,Furniture,Banner
+1654,Goblin Peon Banner,3,33,Furniture,Banner
+1655,Goblin Scout Banner,3,33,Furniture,Banner
+1656,Goblin Warrior Banner,3,33,Furniture,Banner
+1657,Goldfish Banner,3,33,Furniture,Banner
+1658,Harpy Banner,3,33,Furniture,Banner
+1659,Hellbat Banner,3,33,Furniture,Banner
+1660,Herpling Banner,3,33,Furniture,Banner
+1661,Hornet Banner,3,33,Furniture,Banner
+1662,Ice Elemental Banner,3,33,Furniture,Banner
+1663,Icy Merman Banner,3,33,Furniture,Banner
+1664,Fire Imp Banner,3,33,Furniture,Banner
+1665,Jellyfish Banner,3,33,Furniture,Banner
+1666,Jungle Creeper Banner,3,33,Furniture,Banner
+1667,Lihzahrd Banner,3,33,Furniture,Banner
+1668,Man Eater Banner,3,33,Furniture,Banner
+1669,Meteor Head Banner,3,33,Furniture,Banner
+1670,Moth Banner,3,33,Furniture,Banner
+1671,Mummy Banner,3,33,Furniture,Banner
+1672,Mushi Ladybug Banner,3,33,Furniture,Banner
+1673,Parrot Banner,3,33,Furniture,Banner
+1674,Pigron Banner,3,33,Furniture,Banner
+1675,Piranha Banner,3,33,Furniture,Banner
+1676,Pirate Deckhand Banner,3,33,Furniture,Banner
+1677,Pixie Banner,3,33,Furniture,Banner
+1678,Raincoat Zombie Banner,3,33,Furniture,Banner
+1679,Reaper Banner,3,33,Furniture,Banner
+1680,Shark Banner,3,33,Furniture,Banner
+1681,Skeleton Banner,3,33,Furniture,Banner
+1682,Dark Caster Banner,3,33,Furniture,Banner
+1683,Slime Banner,3,33,Furniture,Banner
+1684,Snow Flinx Banner,3,33,Furniture,Banner
+1685,Wall Creeper Banner,3,33,Furniture,Banner
+1686,Spore Zombie Banner,3,33,Furniture,Banner
+1687,Swamp Thing Banner,3,33,Furniture,Banner
+1688,Giant Tortoise Banner,3,33,Furniture,Banner
+1689,Toxic Sludge Banner,3,33,Furniture,Banner
+1690,Umbrella Slime Banner,3,33,Furniture,Banner
+1691,Unicorn Banner,3,33,Furniture,Banner
+1692,Vampire Banner,3,33,Furniture,Banner
+1693,Vulture Banner,3,33,Furniture,Banner
+1694,Nymph Banner,3,33,Furniture,Banner
+1695,Werewolf Banner,3,33,Furniture,Banner
+1696,Wolf Banner,3,33,Furniture,Banner
+1697,World Feeder Banner,3,33,Furniture,Banner
+1698,Worm Banner,3,33,Furniture,Banner
+1699,Wraith Banner,3,33,Furniture,Banner
+1700,Wyvern Banner,3,33,Furniture,Banner
+1701,Zombie Banner,3,33,Furniture,Banner
+1702,Glass Platform,4,40,Item,World Piece
+1703,Glass Chair,3,31,Furniture,Living Furniture
+1704,Golden Chair,3,31,Furniture,Living Furniture
+1705,Golden Toilet,3,31,Furniture,Living Furniture
+1706,Bar Stool,3,31,Furniture,Living Furniture
+1707,Honey Chair,3,31,Furniture,Living Furniture
+1708,Steampunk Chair,3,31,Furniture,Living Furniture
+1709,Glass Door,3,31,Furniture,Living Furniture
+1710,Golden Door,3,31,Furniture,Living Furniture
+1711,Honey Door,3,31,Furniture,Living Furniture
+1712,Steampunk Door,3,31,Furniture,Living Furniture
+1713,Glass Table,3,31,Furniture,Living Furniture
+1714,Banquet Table,3,31,Furniture,Living Furniture
+1715,Bar,3,31,Furniture,Living Furniture
+1716,Golden Table,3,31,Furniture,Living Furniture
+1717,Honey Table,3,31,Furniture,Living Furniture
+1718,Steampunk Table,3,31,Furniture,Living Furniture
+1719,Glass Bed,3,31,Furniture,Living Furniture
+1720,Golden Bed,3,31,Furniture,Living Furniture
+1721,Honey Bed,3,31,Furniture,Living Furniture
+1722,Steampunk Bed,3,31,Furniture,Living Furniture
+1723,Living Wood Wall,4,40,Item,World Piece
+1724,Fart in a Jar,2,23,Gear,Accessory
+1725,Pumpkin,4,40,Item,World Piece
+1726,Pumpkin Wall,4,40,Item,World Piece
+1727,Hay,4,40,Item,World Piece
+1728,Hay Wall,4,40,Item,World Piece
+1729,Spooky Wood,4,41,Item,Material
+1730,Spooky Wood Wall,4,40,Item,World Piece
+1731,Pumpkin Helmet,2,20,Gear,Headgear
+1732,Pumpkin Breastplate,2,21,Gear,Armor
+1733,Pumpkin Leggings,2,22,Gear,Footwear
+1734,Candy Apple,4,42,Item,Consumable
+1735,Soul Cake,4,42,Item,Consumable
+1736,Nurse Hat,2,20,Gear,Headgear
+1737,Nurse Shirt,2,21,Gear,Armor
+1738,Nurse Pants,2,22,Gear,Footwear
+1739,Wizard's Hat,2,20,Gear,Headgear
+1740,Guy Fawkes Mask,2,20,Gear,Headgear
+1741,Dye Trader Robe,2,21,Gear,Armor
+1742,Steampunk Goggles,2,20,Gear,Headgear
+1743,Cyborg Helmet,2,20,Gear,Headgear
+1744,Cyborg Shirt,2,21,Gear,Armor
+1745,Cyborg Pants,2,22,Gear,Footwear
+1746,Creeper Mask,2,20,Gear,Headgear
+1747,Creeper Shirt,2,21,Gear,Armor
+1748,Creeper Pants,2,22,Gear,Footwear
+1749,Cat Mask,2,20,Gear,Headgear
+1750,Cat Shirt,2,21,Gear,Armor
+1751,Cat Pants,2,22,Gear,Footwear
+1752,Ghost Mask,2,20,Gear,Headgear
+1753,Ghost Shirt,2,21,Gear,Armor
+1754,Pumpkin Mask,2,20,Gear,Headgear
+1755,Pumpkin Shirt,2,21,Gear,Armor
+1756,Pumpkin Pants,2,22,Gear,Footwear
+1757,Robot Mask,2,20,Gear,Headgear
+1758,Robot Shirt,2,21,Gear,Armor
+1759,Robot Pants,2,22,Gear,Footwear
+1760,Unicorn Mask,2,20,Gear,Headgear
+1761,Unicorn Shirt,2,21,Gear,Armor
+1762,Unicorn Pants,2,22,Gear,Footwear
+1763,Vampire Mask,2,20,Gear,Headgear
+1764,Vampire Shirt,2,21,Gear,Armor
+1765,Vampire Pants,2,22,Gear,Footwear
+1766,Witch Hat,2,20,Gear,Headgear
+1767,Leprechaun Hat,2,20,Gear,Headgear
+1768,Leprechaun Shirt,2,21,Gear,Armor
+1769,Leprechaun Pants,2,22,Gear,Footwear
+1770,Pixie Shirt,2,21,Gear,Armor
+1771,Pixie Pants,2,22,Gear,Footwear
+1772,Princess Hat,2,20,Gear,Headgear
+1773,Princess Dress,2,21,Gear,Armor
+1774,Goodie Bag,4,42,Item,Consumable
+1775,Witch Dress,2,21,Gear,Armor
+1776,Witch Boots,2,22,Gear,Footwear
+1777,Bride of Frankenstein Mask,2,20,Gear,Headgear
+1778,Bride of Frankenstein Dress,2,21,Gear,Armor
+1779,Karate Tortoise Mask,2,20,Gear,Headgear
+1780,Karate Tortoise Shirt,2,21,Gear,Armor
+1781,Karate Tortoise Pants,2,22,Gear,Footwear
+1782,Candy Corn Rifle,1,12,Implement,Ranged
+1783,Candy Corn,1,14,Implement,Projectile
+1784,Jack 'O Lantern Launcher,1,12,Implement,Ranged
+1785,Explosive Jack 'O Lantern,1,14,Implement,Projectile
+1786,Sickle,1,11,Implement,Melee
+1787,Pumpkin Pie,4,42,Item,Consumable
+1788,Scarecrow Hat,2,20,Gear,Headgear
+1789,Scarecrow Shirt,2,21,Gear,Armor
+1790,Scarecrow Pants,2,22,Gear,Footwear
+1791,Cauldron,3,30,Furniture,Crafting Furniture
+1792,Pumpkin Chair,3,31,Furniture,Living Furniture
+1793,Pumpkin Door,3,31,Furniture,Living Furniture
+1794,Pumpkin Table,3,31,Furniture,Living Furniture
+1795,Pumpkin Work Bench,3,30,Furniture,Crafting Furniture
+1796,Pumpkin Platform,4,40,Item,World Piece
+1797,Tattered Fairy Wings,2,23,Gear,Accessory
+1798,Spider Egg,4,41,Item,Material
+1799,Magical Pumpkin Seed,4,41,Item,Material
+1800,Bat Hook,1,12,Implement,Ranged
+1801,Bat Scepter,1,11,Implement,Melee
+1802,Raven Staff,1,13,Implement,Magic
+1803,Jungle Key Mold,4,41,Item,Material
+1804,Corruption Key Mold,4,41,Item,Material
+1805,Crimson Key Mold,4,41,Item,Material
+1806,Hallowed Key Mold,4,41,Item,Material
+1807,Frozen Key Mold,4,41,Item,Material
+1808,Hanging Jack 'O Lantern,3,32,Furniture,Decor
+1809,Rotten Egg,1,14,Implement,Projectile
+1810,Unlucky Yarn,2,23,Gear,Accessory
+1811,Black Fairy Dust,4,41,Item,Material
+1812,Jackelier,3,32,Furniture,Decor
+1813,Jack 'O Lantern,3,32,Furniture,Decor
+1814,Spooky Chair,3,31,Furniture,Living Furniture
+1815,Spooky Door,3,31,Furniture,Living Furniture
+1816,Spooky Table,3,31,Furniture,Living Furniture
+1817,Spooky Work Bench,3,30,Furniture,Crafting Furniture
+1818,Spooky Platform,4,40,Item,World Piece
+1819,Reaper Hood,2,20,Gear,Headgear
+1820,Reaper Robe,2,21,Gear,Armor
+1821,Fox Mask,2,20,Gear,Headgear
+1822,Fox Shirt,2,21,Gear,Armor
+1823,Fox Pants,2,22,Gear,Footwear
+1824,Cat Ears,2,20,Gear,Headgear
+1825,Bloody Machete,1,11,Implement,Melee
+1826,The Horseman's Blade,1,11,Implement,Melee
+1827,Bladed Glove,2,23,Gear,Accessory
+1828,Pumpkin Seed,4,41,Item,Material
+1829,Spooky Hook,1,12,Implement,Ranged
+1830,Spooky Wings,2,23,Gear,Accessory
+1831,Spooky Twig,4,41,Item,Material
+1832,Spooky Helmet,2,20,Gear,Headgear
+1833,Spooky Breastplate,2,21,Gear,Armor
+1834,Spooky Leggings,2,22,Gear,Footwear
+1835,Stake Launcher,1,12,Implement,Ranged
+1836,Stake,1,14,Implement,Projectile
+1837,Cursed Sapling,4,42,Item,Consumable
+1838,Space Creature Mask,2,20,Gear,Headgear
+1839,Space Creature Shirt,2,21,Gear,Armor
+1840,Space Creature Pants,2,22,Gear,Footwear
+1841,Wolf Mask,2,20,Gear,Headgear
+1842,Wolf Shirt,2,21,Gear,Armor
+1843,Wolf Pants,2,22,Gear,Footwear
+1844,Pumpkin Moon Medallion,2,23,Gear,Accessory
+1845,Necromantic Scroll,2,23,Gear,Accessory
+1846,Jacking Skeletron,3,34,Furniture,Painting
+1847,Bitter Harvest,3,34,Furniture,Painting
+1848,Blood Moon Countess,3,34,Furniture,Painting
+1849,Hallow's Eve,3,34,Furniture,Painting
+1850,Morbid Curiosity,3,34,Furniture,Painting
+1851,Treasure Hunter Shirt,2,21,Gear,Armor
+1852,Treasure Hunter Pants,2,22,Gear,Footwear
+1853,Dryad Coverings,2,21,Gear,Armor
+1854,Dryad Loincloth,2,22,Gear,Footwear
+1855,Mourning Wood Trophy,3,32,Furniture,Decor
+1856,Pumpking Trophy,3,32,Furniture,Decor
+1857,Jack 'O Lantern Mask,2,20,Gear,Headgear
+1858,Sniper Scope,2,23,Gear,Accessory
+1859,Heart Lantern,3,32,Furniture,Decor
+1860,Jellyfish Diving Gear,2,23,Gear,Accessory
+1861,Arctic Diving Gear,2,23,Gear,Accessory
+1862,Frostspark Boots,2,22,Gear,Footwear
+1863,Fart in a Balloon,2,23,Gear,Accessory
+1864,Papyrus Scarab,2,23,Gear,Accessory
+1865,Celestial Stone,2,23,Gear,Accessory
+1866,Hoverboard,2,23,Gear,Accessory
+1867,Candy Cane,2,23,Gear,Accessory
+1868,Sugar Plum,2,23,Gear,Accessory
+1869,Present,4,42,Item,Consumable
+1870,Red Ryder,1,12,Implement,Ranged
+1871,Festive Wings,2,23,Gear,Accessory
+1872,Pine Tree Block,4,40,Item,World Piece
+1873,Christmas Tree,3,32,Furniture,Decor
+1874,Star Topper 1,3,32,Furniture,Decor
+1875,Star Topper 2,3,32,Furniture,Decor
+1876,Star Topper 3,3,32,Furniture,Decor
+1877,Bow Topper,3,32,Furniture,Decor
+1878,White Garland,3,32,Furniture,Decor
+1879,White and Red Garland,3,32,Furniture,Decor
+1880,Red Garland,3,32,Furniture,Decor
+1881,Red and Green Garland,3,32,Furniture,Decor
+1882,Green Garland,3,32,Furniture,Decor
+1883,Green and White Garland,3,32,Furniture,Decor
+1884,Multicolored Bulb,3,32,Furniture,Decor
+1885,Red Bulb,3,32,Furniture,Decor
+1886,Yellow Bulb,3,32,Furniture,Decor
+1887,Green Bulb,3,32,Furniture,Decor
+1888,Red and Green Bulb,3,32,Furniture,Decor
+1889,Yellow and Green Bulb,3,32,Furniture,Decor
+1890,Red and Yellow Bulb,3,32,Furniture,Decor
+1891,White Bulb,3,32,Furniture,Decor
+1892,White and Red Bulb,3,32,Furniture,Decor
+1893,White and Yellow Bulb,3,32,Furniture,Decor
+1894,White and Green Bulb,3,32,Furniture,Decor
+1895,Multicolored Lights,3,32,Furniture,Decor
+1896,Red Lights,3,32,Furniture,Decor
+1897,Green Lights,3,32,Furniture,Decor
+1898,Blue Lights,3,32,Furniture,Decor
+1899,Yellow Lights,3,32,Furniture,Decor
+1900,Red and Yellow Lights,3,32,Furniture,Decor
+1901,Red and Green Lights,3,32,Furniture,Decor
+1902,Yellow and Green Lights,3,32,Furniture,Decor
+1903,Blue and Green Lights,3,32,Furniture,Decor
+1904,Red and Blue Lights,3,32,Furniture,Decor
+1905,Blue and Yellow Lights,3,32,Furniture,Decor
+1906,Giant Bow,2,20,Gear,Headgear
+1907,Reindeer Antlers,2,20,Gear,Headgear
+1908,Holly,3,32,Furniture,Decor
+1909,Candy Cane Sword,1,11,Implement,Melee
+1910,Elf Melter,1,12,Implement,Ranged
+1911,Christmas Pudding,4,42,Item,Consumable
+1912,Eggnog,4,42,Item,Consumable
+1913,Star Anise,4,41,Item,Material
+1914,Reindeer Bells,2,23,Gear,Accessory
+1915,Candy Cane Hook,1,12,Implement,Ranged
+1916,Christmas Hook,1,12,Implement,Ranged
+1917,Candy Cane Pickaxe,1,10,Implement,Tool
+1918,Fruitcake Chakram,2,23,Gear,Accessory
+1919,Sugar Cookie,4,42,Item,Consumable
+1920,Gingerbread Cookie,4,42,Item,Consumable
+1921,Hand Warmer,2,23,Gear,Accessory
+1922,Coal,4,41,Item,Material
+1923,Toolbox,2,23,Gear,Accessory
+1924,Pine Door,3,31,Furniture,Living Furniture
+1925,Pine Chair,3,31,Furniture,Living Furniture
+1926,Pine Table,3,31,Furniture,Living Furniture
+1927,Dog Whistle,4,42,Item,Consumable
+1928,Christmas Tree Sword,1,11,Implement,Melee
+1929,Chain Gun,1,12,Implement,Ranged
+1930,Razorpine,1,13,Implement,Magic
+1931,Blizzard Staff,1,13,Implement,Magic
+1932,Mrs. Claus Hat,2,20,Gear,Headgear
+1933,Mrs. Claus Shirt,2,21,Gear,Armor
+1934,Mrs. Claus Heels,2,22,Gear,Footwear
+1935,Parka Hood,2,20,Gear,Headgear
+1936,Parka Coat,2,21,Gear,Armor
+1937,Parka Pants,2,22,Gear,Footwear
+1938,Snow Hat,2,20,Gear,Headgear
+1939,Ugly Sweater,2,21,Gear,Armor
+1940,Tree Mask,2,20,Gear,Headgear
+1941,Tree Shirt,2,21,Gear,Armor
+1942,Tree Trunks,2,22,Gear,Footwear
+1943,Elf Hat,2,20,Gear,Headgear
+1944,Elf Shirt,2,21,Gear,Armor
+1945,Elf Pants,2,22,Gear,Footwear
+1946,Snowman Cannon,1,12,Implement,Ranged
+1947,North Pole,1,13,Implement,Magic
+1948,Christmas Tree Wallpaper,4,40,Item,World Piece
+1949,Ornament Wallpaper,4,40,Item,World Piece
+1950,Candy Cane Wallpaper,4,40,Item,World Piece
+1951,Festive Wallpaper,4,40,Item,World Piece
+1952,Stars Wallpaper,4,40,Item,World Piece
+1953,Squiggles Wallpaper,4,40,Item,World Piece
+1954,Snowflake Wallpaper,4,40,Item,World Piece
+1955,Krampus Horn Wallpaper,4,40,Item,World Piece
+1956,Bluegreen Wallpaper,4,40,Item,World Piece
+1957,Grinch Finger Wallpaper,4,40,Item,World Piece
+1958,Naughty Present,4,42,Item,Consumable
+1959,Baby Grinch's Mischief Whistle,4,42,Item,Consumable
+1960,Ice Queen Trophy,3,32,Furniture,Decor
+1961,Santa-NK1 Trophy,3,32,Furniture,Decor
+1962,Everscream Trophy,3,32,Furniture,Decor
+1963,Music Box (Pumpkin Moon),3,32,Furniture,Decor
+1964,Music Box (Alt Underground),3,32,Furniture,Decor
+1965,Music Box (Frost Moon),3,32,Furniture,Decor
+1966,Brown Paint,4,42,Item,Consumable
+1967,Shadow Paint,4,42,Item,Consumable
+1968,Negative Paint,4,42,Item,Consumable
+1969,Team Dye,4,43,Item,Dye
+1970,Amethyst Gemspark Block,4,40,Item,World Piece
+1971,Topaz Gemspark Block,4,40,Item,World Piece
+1972,Sapphire Gemspark Block,4,40,Item,World Piece
+1973,Emerald Gemspark Block,4,40,Item,World Piece
+1974,Ruby Gemspark Block,4,40,Item,World Piece
+1975,Diamond Gemspark Block,4,40,Item,World Piece
+1976,Amber Gemspark Block,4,40,Item,World Piece
+1977,Life Hair Dye,4,43,Item,Dye
+1978,Mana Hair Dye,4,43,Item,Dye
+1979,Depth Hair Dye,4,43,Item,Dye
+1980,Money Hair Dye,4,43,Item,Dye
+1981,Time Hair Dye,4,43,Item,Dye
+1982,Team Hair Dye,4,43,Item,Dye
+1983,Biome Hair Dye,4,43,Item,Dye
+1984,Party Hair Dye,4,43,Item,Dye
+1985,Rainbow Hair Dye,4,43,Item,Dye
+1986,Speed Hair Dye,4,43,Item,Dye
+1987,Angel Halo,2,20,Gear,Headgear
+1988,Fez,2,20,Gear,Headgear
+1989,Womannequin,3,32,Furniture,Decor
+1990,Hair Dye Remover,4,43,Item,Dye
+1991,Bug Net,1,10,Implement,Tool
+1992,Firefly,4,44,Item,Critter
+1993,Firefly in a Bottle,3,32,Furniture,Decor
+1994,Monarch Butterfly,4,40,Item,World Piece
+1995,Purple Emperor Butterfly,4,44,Item,Critter
+1996,Red Admiral Butterfly,4,44,Item,Critter
+1997,Ulysses Butterfly,4,44,Item,Critter
+1998,Sulphur Butterfly,4,44,Item,Critter
+1999,Tree Nymph Butterfly,4,44,Item,Critter
+2000,Zebra Swallowtail Butterfly,4,44,Item,Critter
+2001,Julia Butterfly,4,44,Item,Critter
+2002,Worm,4,44,Item,Critter
+2003,Mouse,4,44,Item,Critter
+2004,Lightning Bug,4,44,Item,Critter
+2005,Lightning Bug in a Bottle,3,32,Furniture,Decor
+2006,Snail,4,44,Item,Critter
+2007,Glowing Snail,4,44,Item,Critter
+2008,Fancy Gray Wallpaper,4,40,Item,World Piece
+2009,Ice Floe Wallpaper,4,40,Item,World Piece
+2010,Music Wallpaper,4,40,Item,World Piece
+2011,Purple Rain Wallpaper,4,40,Item,World Piece
+2012,Rainbow Wallpaper,4,40,Item,World Piece
+2013,Sparkle Stone Wallpaper,4,40,Item,World Piece
+2014,Starlit Heaven Wallpaper,4,40,Item,World Piece
+2015,Bird,4,44,Item,Critter
+2016,Blue Jay,4,44,Item,Critter
+2017,Cardinal,4,44,Item,Critter
+2018,Squirrel,4,44,Item,Critter
+2019,Bunny,4,44,Item,Critter
+2020,Cactus Bookcase,3,32,Furniture,Decor
+2021,Ebonwood Bookcase,3,32,Furniture,Decor
+2022,Flesh Bookcase,3,32,Furniture,Decor
+2023,Honey Bookcase,3,32,Furniture,Decor
+2024,Steampunk Bookcase,3,32,Furniture,Decor
+2025,Glass Bookcase,3,32,Furniture,Decor
+2026,Rich Mahogany Bookcase,3,32,Furniture,Decor
+2027,Pearlwood Bookcase,3,32,Furniture,Decor
+2028,Spooky Bookcase,3,32,Furniture,Decor
+2029,Skyware Bookcase,3,32,Furniture,Decor
+2030,Lihzahrd Bookcase,3,32,Furniture,Decor
+2031,Frozen Bookcase,3,32,Furniture,Decor
+2032,Cactus Lantern,3,32,Furniture,Decor
+2033,Ebonwood Lantern,3,32,Furniture,Decor
+2034,Flesh Lantern,3,32,Furniture,Decor
+2035,Honey Lantern,3,32,Furniture,Decor
+2036,Steampunk Lantern,3,32,Furniture,Decor
+2037,Glass Lantern,3,32,Furniture,Decor
+2038,Rich Mahogany Lantern,3,32,Furniture,Decor
+2039,Pearlwood Lantern,3,32,Furniture,Decor
+2040,Frozen Lantern,3,32,Furniture,Decor
+2041,Lihzahrd Lantern,3,32,Furniture,Decor
+2042,Skyware Lantern,3,32,Furniture,Decor
+2043,Spooky Lantern,3,32,Furniture,Decor
+2044,Frozen Door,3,31,Furniture,Living Furniture
+2045,Cactus Candle,3,32,Furniture,Decor
+2046,Ebonwood Candle,3,32,Furniture,Decor
+2047,Flesh Candle,3,32,Furniture,Decor
+2048,Glass Candle,3,32,Furniture,Decor
+2049,Frozen Candle,3,32,Furniture,Decor
+2050,Rich Mahogany Candle,3,32,Furniture,Decor
+2051,Pearlwood Candle,3,32,Furniture,Decor
+2052,Lihzahrd Candle,3,32,Furniture,Decor
+2053,Skyware Candle,3,32,Furniture,Decor
+2054,Pumpkin Candle,3,32,Furniture,Decor
+2055,Cactus Chandelier,3,32,Furniture,Decor
+2056,Ebonwood Chandelier,3,32,Furniture,Decor
+2057,Flesh Chandelier,3,32,Furniture,Decor
+2058,Honey Chandelier,3,32,Furniture,Decor
+2059,Frozen Chandelier,3,32,Furniture,Decor
+2060,Rich Mahogany Chandelier,3,32,Furniture,Decor
+2061,Pearlwood Chandelier,3,32,Furniture,Decor
+2062,Lihzahrd Chandelier,3,32,Furniture,Decor
+2063,Skyware Chandelier,3,32,Furniture,Decor
+2064,Spooky Chandelier,3,32,Furniture,Decor
+2065,Glass Chandelier,3,32,Furniture,Decor
+2066,Cactus Bed,3,31,Furniture,Living Furniture
+2067,Flesh Bed,3,31,Furniture,Living Furniture
+2068,Frozen Bed,3,31,Furniture,Living Furniture
+2069,Lihzahrd Bed,3,31,Furniture,Living Furniture
+2070,Skyware Bed,3,31,Furniture,Living Furniture
+2071,Spooky Bed,3,31,Furniture,Living Furniture
+2072,Cactus Bathtub,3,31,Furniture,Living Furniture
+2073,Ebonwood Bathtub,3,31,Furniture,Living Furniture
+2074,Flesh Bathtub,3,31,Furniture,Living Furniture
+2075,Glass Bathtub,3,31,Furniture,Living Furniture
+2076,Frozen Bathtub,3,31,Furniture,Living Furniture
+2077,Rich Mahogany Bathtub,3,31,Furniture,Living Furniture
+2078,Pearlwood Bathtub,3,31,Furniture,Living Furniture
+2079,Lihzahrd Bathtub,3,31,Furniture,Living Furniture
+2080,Skyware Bathtub,3,31,Furniture,Living Furniture
+2081,Spooky Bathtub,3,31,Furniture,Living Furniture
+2082,Cactus Lamp,3,32,Furniture,Decor
+2083,Ebonwood Lamp,3,32,Furniture,Decor
+2084,Flesh Lamp,3,32,Furniture,Decor
+2085,Glass Lamp,3,32,Furniture,Decor
+2086,Frozen Lamp,3,32,Furniture,Decor
+2087,Rich Mahogany Lamp,3,32,Furniture,Decor
+2088,Pearlwood Lamp,3,32,Furniture,Decor
+2089,Lihzahrd Lamp,3,32,Furniture,Decor
+2090,Skyware Lamp,3,32,Furniture,Decor
+2091,Spooky Lamp,3,32,Furniture,Decor
+2092,Cactus Candelabra,3,32,Furniture,Decor
+2093,Ebonwood Candelabra,3,32,Furniture,Decor
+2094,Flesh Candelabra,3,32,Furniture,Decor
+2095,Honey Candelabra,3,32,Furniture,Decor
+2096,Steampunk Candelabra,3,32,Furniture,Decor
+2097,Glass Candelabra,3,32,Furniture,Decor
+2098,Rich Mahogany Candelabra,3,32,Furniture,Decor
+2099,Pearlwood Candelabra,3,32,Furniture,Decor
+2100,Frozen Candelabra,3,32,Furniture,Decor
+2101,Lihzahrd Candelabra,3,32,Furniture,Decor
+2102,Skyware Candelabra,3,32,Furniture,Decor
+2103,Spooky Candelabra,3,32,Furniture,Decor
+2104,Brain of Cthulhu Mask,2,20,Gear,Headgear
+2105,Wall of Flesh Mask,2,20,Gear,Headgear
+2106,Twin Mask,2,20,Gear,Headgear
+2107,Skeletron Prime Mask,2,20,Gear,Headgear
+2108,Queen Bee Mask,2,20,Gear,Headgear
+2109,Plantera Mask,2,20,Gear,Headgear
+2110,Golem Mask,2,20,Gear,Headgear
+2111,Eater of Worlds Mask,2,20,Gear,Headgear
+2112,Eye of Cthulhu Mask,2,20,Gear,Headgear
+2113,Destroyer Mask,2,20,Gear,Headgear
+2114,Blacksmith Rack,3,32,Furniture,Decor
+2115,Carpentry Rack,3,32,Furniture,Decor
+2116,Helmet Rack,3,32,Furniture,Decor
+2117,Spear Rack,3,32,Furniture,Decor
+2118,Sword Rack,3,32,Furniture,Decor
+2119,Stone Slab,4,40,Item,World Piece
+2120,Sandstone Slab,4,40,Item,World Piece
+2121,Frog,4,44,Item,Critter
+2122,Mallard Duck,4,44,Item,Critter
+2123,Duck,4,44,Item,Critter
+2124,Honey Bathtub,3,31,Furniture,Living Furniture
+2125,Steampunk Bathtub,3,31,Furniture,Living Furniture
+2126,Living Wood Bathtub,3,31,Furniture,Living Furniture
+2127,Shadewood Bathtub,3,31,Furniture,Living Furniture
+2128,Bone Bathtub,3,31,Furniture,Living Furniture
+2129,Honey Lamp,3,32,Furniture,Decor
+2130,Steampunk Lamp,3,32,Furniture,Decor
+2131,Living Wood Lamp,3,32,Furniture,Decor
+2132,Shadewood Lamp,3,32,Furniture,Decor
+2133,Golden Lamp,3,32,Furniture,Decor
+2134,Bone Lamp,3,32,Furniture,Decor
+2135,Living Wood Bookcase,3,32,Furniture,Decor
+2136,Shadewood Bookcase,3,32,Furniture,Decor
+2137,Golden Bookcase,3,32,Furniture,Decor
+2138,Bone Bookcase,3,32,Furniture,Decor
+2139,Living Wood Bed,3,31,Furniture,Living Furniture
+2140,Bone Bed,3,31,Furniture,Living Furniture
+2141,Living Wood Chandelier,3,32,Furniture,Decor
+2142,Shadewood Chandelier,3,32,Furniture,Decor
+2143,Golden Chandelier,3,32,Furniture,Decor
+2144,Bone Chandelier,3,32,Furniture,Decor
+2145,Living Wood Lantern,3,32,Furniture,Decor
+2146,Shadewood Lantern,3,32,Furniture,Decor
+2147,Golden Lantern,3,32,Furniture,Decor
+2148,Bone Lantern,3,32,Furniture,Decor
+2149,Living Wood Candelabra,3,32,Furniture,Decor
+2150,Shadewood Candelabra,3,32,Furniture,Decor
+2151,Golden Candelabra,3,32,Furniture,Decor
+2152,Bone Candelabra,3,32,Furniture,Decor
+2153,Living Wood Candle,3,32,Furniture,Decor
+2154,Shadewood Candle,3,32,Furniture,Decor
+2155,Golden Candle,3,32,Furniture,Decor
+2156,Black Scorpion,4,44,Item,Critter
+2157,Scorpion,4,44,Item,Critter
+2158,Bubble Wallpaper,4,40,Item,World Piece
+2159,Copper Pipe Wallpaper,4,40,Item,World Piece
+2160,Ducky Wallpaper,4,40,Item,World Piece
+2161,Frost Core,4,41,Item,Material
+2162,Bunny Cage,3,32,Furniture,Decor
+2163,Squirrel Cage,3,32,Furniture,Decor
+2164,Mallard Duck Cage,3,32,Furniture,Decor
+2165,Duck Cage,3,32,Furniture,Decor
+2166,Bird Cage,3,32,Furniture,Decor
+2167,Blue Jay Cage,3,32,Furniture,Decor
+2168,Cardinal Cage,3,32,Furniture,Decor
+2169,Waterfall Wall,4,40,Item,World Piece
+2170,Lavafall Wall,4,40,Item,World Piece
+2171,Crimson Seeds,4,41,Item,Material
+2172,Heavy Work Bench,3,30,Furniture,Crafting Furniture
+2173,Copper Plating,4,40,Item,World Piece
+2174,Snail Cage,3,32,Furniture,Decor
+2175,Glowing Snail Cage,3,32,Furniture,Decor
+2176,Shroomite Digging Claw,2,23,Gear,Accessory
+2177,Ammo Box,3,31,Furniture,Living Furniture
+2178,Monarch Butterfly Jar,3,32,Furniture,Decor
+2179,Purple Emperor Butterfly Jar,3,32,Furniture,Decor
+2180,Red Admiral Butterfly Jar,3,32,Furniture,Decor
+2181,Ulysses Butterfly Jar,3,32,Furniture,Decor
+2182,Sulphur Butterfly Jar,3,32,Furniture,Decor
+2183,Tree Nymph Butterfly Jar,3,32,Furniture,Decor
+2184,Zebra Swallowtail Butterfly Jar,3,32,Furniture,Decor
+2185,Julia Butterfly Jar,3,32,Furniture,Decor
+2186,Scorpion Cage,3,32,Furniture,Decor
+2187,Black Scorpion Cage,3,32,Furniture,Decor
+2188,Venom Staff,1,13,Implement,Magic
+2189,Spectre Mask,2,20,Gear,Headgear
+2190,Frog Cage,3,32,Furniture,Decor
+2191,Mouse Cage,3,32,Furniture,Decor
+2192,Bone Welder,1,10,Implement,Tool
+2193,Flesh Cloning Vat,3,30,Furniture,Crafting Furniture
+2194,Glass Kiln,3,30,Furniture,Crafting Furniture
+2195,Lihzahrd Furnace,3,30,Furniture,Crafting Furniture
+2196,Living Loom,3,30,Furniture,Crafting Furniture
+2197,Sky Mill,3,30,Furniture,Crafting Furniture
+2198,Ice Machine,3,30,Furniture,Crafting Furniture
+2199,Beetle Helmet,2,20,Gear,Headgear
+2200,Beetle Scale Mail,2,21,Gear,Armor
+2201,Beetle Shell,2,21,Gear,Armor
+2202,Beetle Leggings,2,22,Gear,Footwear
+2203,Steampunk Boiler,3,30,Furniture,Crafting Furniture
+2204,Honey Dispenser,3,30,Furniture,Crafting Furniture
+2205,Penguin,4,44,Item,Critter
+2206,Penguin Cage,3,32,Furniture,Decor
+2207,Worm Cage,3,32,Furniture,Decor
+2208,Terrarium,3,32,Furniture,Decor
+2209,Super Mana Potion,4,42,Item,Consumable
+2210,Ebonwood Fence,4,40,Item,World Piece
+2211,Rich Mahogany Fence,4,40,Item,World Piece
+2212,Pearlwood Fence,4,40,Item,World Piece
+2213,Shadewood Fence,4,40,Item,World Piece
+2214,Brick Layer,1,10,Implement,Tool
+2215,Extendo Grip,2,23,Gear,Accessory
+2216,Paint Sprayer,1,10,Implement,Tool
+2217,Portable Cement Mixer,1,10,Implement,Tool
+2218,Beetle Husk,4,41,Item,Material
+2219,Celestial Magnet,2,23,Gear,Accessory
+2220,Celestial Emblem,2,23,Gear,Accessory
+2221,Celestial Cuffs,2,23,Gear,Accessory
+2222,Peddler's Hat,2,20,Gear,Headgear
+2223,Pulse Bow,1,12,Implement,Ranged
+2224,Large Dynasty Lantern,3,32,Furniture,Decor
+2225,Dynasty Lamp,3,32,Furniture,Decor
+2226,Dynasty Lantern,3,32,Furniture,Decor
+2227,Large Dynasty Candle,3,32,Furniture,Decor
+2228,Dynasty Chair,3,31,Furniture,Living Furniture
+2229,Dynasty Work Bench,3,30,Furniture,Crafting Furniture
+2230,Dynasty Chest,3,31,Furniture,Living Furniture
+2231,Dynasty Bed,3,31,Furniture,Living Furniture
+2232,Dynasty Bathtub,3,31,Furniture,Living Furniture
+2233,Dynasty Bookcase,3,32,Furniture,Decor
+2234,Dynasty Cup,3,31,Furniture,Living Furniture
+2235,Dynasty Bowl,3,31,Furniture,Living Furniture
+2236,Dynasty Candle,3,32,Furniture,Decor
+2237,Dynasty Clock,3,32,Furniture,Decor
+2238,Golden Clock,3,32,Furniture,Decor
+2239,Glass Clock,3,32,Furniture,Decor
+2240,Honey Clock,3,32,Furniture,Decor
+2241,Steampunk Clock,3,32,Furniture,Decor
+2242,Fancy Dishes,3,32,Furniture,Decor
+2243,Glass Bowl,3,31,Furniture,Living Furniture
+2244,Wine Glass,3,31,Furniture,Living Furniture
+2245,Living Wood Piano,3,31,Furniture,Living Furniture
+2246,Flesh Piano,3,31,Furniture,Living Furniture
+2247,Frozen Piano,3,31,Furniture,Living Furniture
+2248,Frozen Table,3,31,Furniture,Living Furniture
+2249,Honey Chest,3,31,Furniture,Living Furniture
+2250,Steampunk Chest,3,31,Furniture,Living Furniture
+2251,Honey Work Bench,3,30,Furniture,Crafting Furniture
+2252,Frozen Work Bench,3,30,Furniture,Crafting Furniture
+2253,Steampunk Work Bench,3,30,Furniture,Crafting Furniture
+2254,Glass Piano,3,31,Furniture,Living Furniture
+2255,Honey Piano,3,31,Furniture,Living Furniture
+2256,Steampunk Piano,3,31,Furniture,Living Furniture
+2257,Honey Cup,3,31,Furniture,Living Furniture
+2258,Chalice,3,32,Furniture,Decor
+2259,Dynasty Table,3,31,Furniture,Living Furniture
+2260,Dynasty Wood,4,41,Item,Material
+2261,Red Dynasty Shingles,4,40,Item,World Piece
+2262,Blue Dynasty Shingles,4,40,Item,World Piece
+2263,White Dynasty Wall,4,40,Item,World Piece
+2264,Blue Dynasty Wall,4,40,Item,World Piece
+2265,Dynasty Door,3,31,Furniture,Living Furniture
+2266,Sake,4,42,Item,Consumable
+2267,Pad Thai,4,42,Item,Consumable
+2268,Pho,4,42,Item,Consumable
+2269,Revolver,1,12,Implement,Ranged
+2270,Gatligator,1,12,Implement,Ranged
+2271,Arcane Rune Wall,4,40,Item,World Piece
+2272,Water Gun,1,12,Implement,Ranged
+2273,Katana,1,11,Implement,Melee
+2274,Ultrabright Torch,1,10,Implement,Tool
+2275,Magic Hat,2,20,Gear,Headgear
+2276,Diamond Ring,2,23,Gear,Accessory
+2277,Gi,2,21,Gear,Armor
+2278,Kimono,2,21,Gear,Armor
+2279,Gypsy Robe,2,21,Gear,Armor
+2280,Beetle Wings,2,23,Gear,Accessory
+2281,Tiger Skin,3,32,Furniture,Decor
+2282,Leopard Skin,3,32,Furniture,Decor
+2283,Zebra Skin,3,32,Furniture,Decor
+2284,Crimson Cloak,2,21,Gear,Armor
+2285,Mysterious Cape,2,21,Gear,Armor
+2286,Red Cape,2,21,Gear,Armor
+2287,Winter Cape,2,21,Gear,Armor
+2288,Frozen Chair,3,31,Furniture,Living Furniture
+2289,Wood Fishing Pole,1,10,Implement,Tool
+2290,Bass,4,41,Item,Material
+2291,Reinforced Fishing Pole,1,10,Implement,Tool
+2292,Fiberglass Fishing Pole,1,10,Implement,Tool
+2293,Fisher of Souls,1,10,Implement,Tool
+2294,Golden Fishing Rod,1,10,Implement,Tool
+2295,Mechanic's Rod,1,10,Implement,Tool
+2296,Sitting Duck's Fishing Pole,1,10,Implement,Tool
+2297,Trout,4,44,Item,Critter
+2298,Salmon,4,44,Item,Critter
+2299,Atlantic Cod,4,44,Item,Critter
+2300,Tuna,4,44,Item,Critter
+2301,Red Snapper,4,44,Item,Critter
+2302,Neon Tetra,4,44,Item,Critter
+2303,Armored Cavefish,4,44,Item,Critter
+2304,Damselfish,4,44,Item,Critter
+2305,Crimson Tigerfish,4,44,Item,Critter
+2306,Frost Minnow,4,44,Item,Critter
+2307,Princess Fish,4,44,Item,Critter
+2308,Golden Carp,4,44,Item,Critter
+2309,Specular Fish,4,44,Item,Critter
+2310,Prismite,4,44,Item,Critter
+2311,Variegated Lardfish,4,44,Item,Critter
+2312,Flarefin Koi,4,44,Item,Critter
+2313,Double Cod,4,44,Item,Critter
+2314,Honeyfin,4,42,Item,Consumable
+2315,Obsidifish,4,44,Item,Critter
+2316,Shrimp,4,44,Item,Critter
+2317,Chaos Fish,4,44,Item,Critter
+2318,Ebonkoi,4,44,Item,Critter
+2319,Hemopiranha,4,44,Item,Critter
+2320,Rockfish,1,10,Implement,Tool
+2321,Stinkfish,4,44,Item,Critter
+2322,Mining Potion,4,42,Item,Consumable
+2323,Heartreach Potion,4,42,Item,Consumable
+2324,Calming Potion,4,42,Item,Consumable
+2325,Builder Potion,4,42,Item,Consumable
+2326,Titan Potion,4,42,Item,Consumable
+2327,Flipper Potion,4,42,Item,Consumable
+2328,Summoning Potion,4,42,Item,Consumable
+2329,Dangersense Potion,4,42,Item,Consumable
+2330,Purple Clubberfish,1,11,Implement,Melee
+2331,Obsidian Swordfish,1,14,Implement,Projectile
+2332,Swordfish,1,14,Implement,Projectile
+2333,Iron Fence,4,40,Item,World Piece
+2334,Wooden Crate,4,40,Item,World Piece
+2335,Iron Crate,4,40,Item,World Piece
+2336,Golden Crate,4,40,Item,World Piece
+2337,Old Shoe,4,41,Item,Material
+2338,Seaweed,4,42,Item,Consumable
+2339,Tin Can,4,41,Item,Material
+2340,Minecart Track,4,40,Item,World Piece
+2341,Reaver Shark,1,10,Implement,Tool
+2342,Sawtooth Shark,1,10,Implement,Tool
+2343,Minecart,4,40,Item,World Piece
+2344,Ammo Reservation Potion,4,42,Item,Consumable
+2345,Lifeforce Potion,4,42,Item,Consumable
+2346,Endurance Potion,4,42,Item,Consumable
+2347,Rage Potion,4,42,Item,Consumable
+2348,Inferno Potion,4,42,Item,Consumable
+2349,Wrath Potion,4,42,Item,Consumable
+2350,Recall Potion,4,42,Item,Consumable
+2351,Teleportation Potion,4,42,Item,Consumable
+2352,Love Potion,4,42,Item,Consumable
+2353,Stink Potion,4,42,Item,Consumable
+2354,Fishing Potion,4,42,Item,Consumable
+2355,Sonar Potion,4,42,Item,Consumable
+2356,Crate Potion,4,42,Item,Consumable
+2357,Shiverthorn Seeds,4,41,Item,Material
+2358,Shiverthorn,4,41,Item,Material
+2359,Warmth Potion,4,42,Item,Consumable
+2360,Fish Hook,2,23,Gear,Accessory
+2361,Bee Headgear,2,20,Gear,Headgear
+2362,Bee Breastplate,2,21,Gear,Armor
+2363,Bee Greaves,2,22,Gear,Footwear
+2364,Hornet Staff,1,13,Implement,Magic
+2365,Imp Staff,1,13,Implement,Magic
+2366,Queen Spider Staff,1,13,Implement,Magic
+2367,Angler Hat,2,20,Gear,Headgear
+2368,Angler Vest,2,21,Gear,Armor
+2369,Angler Pants,2,22,Gear,Footwear
+2370,Spider Mask,2,20,Gear,Headgear
+2371,Spider Breastplate,2,21,Gear,Armor
+2372,Spider Greaves,2,22,Gear,Footwear
+2373,High Test Fishing Line,4,41,Item,Material
+2374,Angler Earring,2,23,Gear,Accessory
+2375,Tackle Box,2,23,Gear,Accessory
+2376,Blue Dungeon Piano,3,31,Furniture,Living Furniture
+2377,Green Dungeon Piano,3,31,Furniture,Living Furniture
+2378,Pink Dungeon Piano,3,31,Furniture,Living Furniture
+2379,Golden Piano,3,31,Furniture,Living Furniture
+2380,Obsidian Piano,3,31,Furniture,Living Furniture
+2381,Bone Piano,3,31,Furniture,Living Furniture
+2382,Cactus Piano,3,31,Furniture,Living Furniture
+2383,Spooky Piano,3,31,Furniture,Living Furniture
+2384,Skyware Piano,3,31,Furniture,Living Furniture
+2385,Lihzahrd Piano,3,31,Furniture,Living Furniture
+2386,Blue Dungeon Dresser,3,31,Furniture,Living Furniture
+2387,Green Dungeon Dresser,3,31,Furniture,Living Furniture
+2388,Pink Dungeon Dresser,3,31,Furniture,Living Furniture
+2389,Golden Dresser,3,31,Furniture,Living Furniture
+2390,Obsidian Dresser,3,31,Furniture,Living Furniture
+2391,Bone Dresser,3,31,Furniture,Living Furniture
+2392,Cactus Dresser,3,31,Furniture,Living Furniture
+2393,Spooky Dresser,3,31,Furniture,Living Furniture
+2394,Skyware Dresser,3,31,Furniture,Living Furniture
+2395,Honey Dresser,3,31,Furniture,Living Furniture
+2396,Lihzahrd Dresser,3,31,Furniture,Living Furniture
+2397,Sofa,3,31,Furniture,Living Furniture
+2398,Ebonwood Sofa,3,31,Furniture,Living Furniture
+2399,Rich Mahogany Sofa,3,31,Furniture,Living Furniture
+2400,Pearlwood Sofa,3,31,Furniture,Living Furniture
+2401,Shadewood Sofa,3,31,Furniture,Living Furniture
+2402,Blue Dungeon Sofa,3,31,Furniture,Living Furniture
+2403,Green Dungeon Sofa,3,31,Furniture,Living Furniture
+2404,Pink Dungeon Sofa,3,31,Furniture,Living Furniture
+2405,Golden Sofa,3,31,Furniture,Living Furniture
+2406,Obsidian Sofa,3,31,Furniture,Living Furniture
+2407,Bone Sofa,3,31,Furniture,Living Furniture
+2408,Cactus Sofa,3,31,Furniture,Living Furniture
+2409,Spooky Sofa,3,31,Furniture,Living Furniture
+2410,Skyware Sofa,3,31,Furniture,Living Furniture
+2411,Honey Sofa,3,31,Furniture,Living Furniture
+2412,Steampunk Sofa,3,31,Furniture,Living Furniture
+2413,Mushroom Sofa,3,31,Furniture,Living Furniture
+2414,Glass Sofa,3,31,Furniture,Living Furniture
+2415,Pumpkin Sofa,3,31,Furniture,Living Furniture
+2416,Lihzahrd Sofa,3,31,Furniture,Living Furniture
+2417,Seashell Hairpin,2,20,Gear,Headgear
+2418,Mermaid Adornment,2,20,Gear,Headgear
+2419,Mermaid Tail,2,23,Gear,Accessory
+2420,Zephyr Fish,4,42,Item,Consumable
+2421,Fleshcatcher,1,10,Implement,Tool
+2422,Hotline Fishing Hook,1,10,Implement,Tool
+2423,Frog Leg,2,23,Gear,Accessory
+2424,Anchor,1,12,Implement,Ranged
+2425,Cooked Fish,4,42,Item,Consumable
+2426,Cooked Shrimp,4,42,Item,Consumable
+2427,Sashimi,4,42,Item,Consumable
+2428,Fuzzy Carrot,4,41,Item,Material
+2429,Scaly Truffle,4,41,Item,Material
+2430,Slimy Saddle,4,42,Item,Consumable
+2431,Bee Wax,4,41,Item,Material
+2432,Copper Plating Wall,4,40,Item,World Piece
+2433,Stone Slab Wall,4,40,Item,World Piece
+2434,Sail,2,23,Gear,Accessory
+2435,Coralstone Block,4,40,Item,World Piece
+2436,Blue Jellyfish (bait),4,44,Item,Critter
+2437,Green Jellyfish (bait),4,44,Item,Critter
+2438,Pink Jellyfish (bait),4,44,Item,Critter
+2439,Blue Jellyfish Jar,3,32,Furniture,Decor
+2440,Green Jellyfish Jar,3,32,Furniture,Decor
+2441,Pink Jellyfish Jar,3,32,Furniture,Decor
+2442,Life Preserver,3,32,Furniture,Decor
+2443,Ship's Wheel,3,32,Furniture,Decor
+2444,Compass Rose,3,32,Furniture,Decor
+2445,Wall Anchor,3,32,Furniture,Decor
+2446,Goldfish Trophy,3,32,Furniture,Decor
+2447,Bunnyfish Trophy,3,32,Furniture,Decor
+2448,Swordfish Trophy,3,32,Furniture,Decor
+2449,Sharkteeth Trophy,3,32,Furniture,Decor
+2450,Batfish,4,44,Item,Critter
+2451,Bumblebee Tuna,4,44,Item,Critter
+2452,Catfish,4,44,Item,Critter
+2453,Cloudfish,4,44,Item,Critter
+2454,Cursedfish,4,44,Item,Critter
+2455,Dirtfish,4,44,Item,Critter
+2456,Dynamite Fish,4,44,Item,Critter
+2457,Eater of Plankton,4,44,Item,Critter
+2458,Fallen Starfish,4,44,Item,Critter
+2459,The Fish of Cthulhu,4,44,Item,Critter
+2460,Fishotron,4,44,Item,Critter
+2461,Harpyfish,4,44,Item,Critter
+2462,Hungerfish,4,44,Item,Critter
+2463,Ichorfish,4,44,Item,Critter
+2464,Jewelfish,4,44,Item,Critter
+2465,Mirage Fish,4,44,Item,Critter
+2466,Mutant Flinxfin,4,44,Item,Critter
+2467,Pengfish,4,44,Item,Critter
+2468,Pixiefish,4,44,Item,Critter
+2469,Spiderfish,4,44,Item,Critter
+2470,Tundra Trout,4,44,Item,Critter
+2471,Unicorn Fish,4,44,Item,Critter
+2472,Guide Voodoo Fish,4,44,Item,Critter
+2473,Wyverntail,4,44,Item,Critter
+2474,Zombie Fish,4,44,Item,Critter
+2475,Amanitia Fungifin,4,44,Item,Critter
+2476,Angelfish,4,44,Item,Critter
+2477,Bloody Manowar,4,44,Item,Critter
+2478,Bonefish,4,44,Item,Critter
+2479,Bunnyfish,4,44,Item,Critter
+2480,Cap'n Tunabeard,4,44,Item,Critter
+2481,Clownfish,4,44,Item,Critter
+2482,Demonic Hellfish,4,44,Item,Critter
+2483,Derpfish,4,44,Item,Critter
+2484,Fishron,4,44,Item,Critter
+2485,Infected Scabbardfish,4,44,Item,Critter
+2486,Mudfish,4,44,Item,Critter
+2487,Slimefish,4,44,Item,Critter
+2488,Tropical Barracuda,4,44,Item,Critter
+2489,King Slime Trophy,3,32,Furniture,Decor
+2490,Ship in a Bottle,3,32,Furniture,Decor
+2491,Hardy Saddle,4,42,Item,Consumable
+2492,Pressure Plate Track,4,40,Item,World Piece
+2493,King Slime Mask,2,20,Gear,Headgear
+2494,Fin Wings,2,23,Gear,Accessory
+2495,Treasure Map,2,23,Gear,Accessory
+2496,Seaweed Planter,3,32,Furniture,Decor
+2497,Pillagin Me Pixels,3,34,Furniture,Painting
+2498,Fish Costume Mask,2,20,Gear,Headgear
+2499,Fish Costume Shirt,2,21,Gear,Armor
+2500,Fish Costume Finskirt,2,22,Gear,Footwear
+2501,Ginger Beard,2,20,Gear,Headgear
+2502,Honeyed Goggles,2,20,Gear,Headgear
+2503,Boreal Wood,4,41,Item,Material
+2504,Palm Wood,4,41,Item,Material
+2505,Boreal Wood Wall,4,40,Item,World Piece
+2506,Palm Wood Wall,4,40,Item,World Piece
+2507,Boreal Wood Fence,4,40,Item,World Piece
+2508,Palm Wood Fence,4,40,Item,World Piece
+2509,Boreal Wood Helmet,2,20,Gear,Headgear
+2510,Boreal Wood Breastplate,2,21,Gear,Armor
+2511,Boreal Wood Greaves,2,22,Gear,Footwear
+2512,Palm Wood Helmet,2,20,Gear,Headgear
+2513,Palm Wood Breastplate,2,21,Gear,Armor
+2514,Palm Wood Greaves,2,22,Gear,Footwear
+2515,Palm Wood Bow,1,12,Implement,Ranged
+2516,Palm Wood Hammer,1,10,Implement,Tool
+2517,Palm Wood Sword,1,11,Implement,Melee
+2518,Palm Wood Platform,4,40,Item,World Piece
+2519,Palm Wood Bathtub,3,31,Furniture,Living Furniture
+2520,Palm Wood Bed,3,31,Furniture,Living Furniture
+2521,Palm Wood Bench,3,31,Furniture,Living Furniture
+2522,Palm Wood Candelabra,3,32,Furniture,Decor
+2523,Palm Wood Candle,3,32,Furniture,Decor
+2524,Palm Wood Chair,3,31,Furniture,Living Furniture
+2525,Palm Wood Chandelier,3,32,Furniture,Decor
+2526,Palm Wood Chest,3,31,Furniture,Living Furniture
+2527,Palm Wood Sofa,3,31,Furniture,Living Furniture
+2528,Palm Wood Door,3,31,Furniture,Living Furniture
+2529,Palm Wood Dresser,3,32,Furniture,Decor
+2530,Palm Wood Lantern,3,32,Furniture,Decor
+2531,Palm Wood Piano,3,31,Furniture,Living Furniture
+2532,Palm Wood Table,3,31,Furniture,Living Furniture
+2533,Palm Wood Lamp,3,32,Furniture,Decor
+2534,Palm Wood Work Bench,3,30,Furniture,Crafting Furniture
+2535,Optic Staff,1,13,Implement,Magic
+2536,Palm Wood Bookcase,3,32,Furniture,Decor
+2537,Mushroom Bathtub,3,31,Furniture,Living Furniture
+2538,Mushroom Bed,3,31,Furniture,Living Furniture
+2539,Mushroom Bench,3,31,Furniture,Living Furniture
+2540,Mushroom Bookcase,3,32,Furniture,Decor
+2541,Mushroom Candelabra,3,32,Furniture,Decor
+2542,Mushroom Candle,3,32,Furniture,Decor
+2543,Mushroom Chandelier,3,32,Furniture,Decor
+2544,Mushroom Chest,3,31,Furniture,Living Furniture
+2545,Mushroom Dresser,3,31,Furniture,Living Furniture
+2546,Mushroom Lantern,3,32,Furniture,Decor
+2547,Mushroom Lamp,3,32,Furniture,Decor
+2548,Mushroom Piano,3,31,Furniture,Living Furniture
+2549,Mushroom Platform,4,40,Item,World Piece
+2550,Mushroom Table,3,31,Furniture,Living Furniture
+2551,Spider Staff,1,13,Implement,Magic
+2552,Boreal Wood Bathtub,3,31,Furniture,Living Furniture
+2553,Boreal Wood Bed,3,31,Furniture,Living Furniture
+2554,Boreal Wood Bookcase,3,32,Furniture,Decor
+2555,Boreal Wood Candelabra,3,32,Furniture,Decor
+2556,Boreal Wood Candle,3,32,Furniture,Decor
+2557,Boreal Wood Chair,3,31,Furniture,Living Furniture
+2558,Boreal Wood Chandelier,3,32,Furniture,Decor
+2559,Boreal Wood Chest,3,31,Furniture,Living Furniture
+2560,Boreal Wood Clock,3,32,Furniture,Decor
+2561,Boreal Wood Door,3,31,Furniture,Living Furniture
+2562,Boreal Wood Dresser,3,31,Furniture,Living Furniture
+2563,Boreal Wood Lamp,3,32,Furniture,Decor
+2564,Boreal Wood Lantern,3,32,Furniture,Decor
+2565,Boreal Wood Piano,3,31,Furniture,Living Furniture
+2566,Boreal Wood Platform,4,40,Item,World Piece
+2567,Slime Bathtub,3,31,Furniture,Living Furniture
+2568,Slime Bed,3,31,Furniture,Living Furniture
+2569,Slime Bookcase,3,32,Furniture,Decor
+2570,Slime Candelabra,3,32,Furniture,Decor
+2571,Slime Candle,3,32,Furniture,Decor
+2572,Slime Chair,3,31,Furniture,Living Furniture
+2573,Slime Chandelier,3,32,Furniture,Decor
+2574,Slime Chest,3,31,Furniture,Living Furniture
+2575,Slime Clock,3,32,Furniture,Decor
+2576,Slime Door,3,31,Furniture,Living Furniture
+2577,Slime Dresser,3,31,Furniture,Living Furniture
+2578,Slime Lamp,3,32,Furniture,Decor
+2579,Slime Lantern,3,32,Furniture,Decor
+2580,Slime Piano,3,31,Furniture,Living Furniture
+2581,Slime Platform,4,40,Item,World Piece
+2582,Slime Sofa,3,31,Furniture,Living Furniture
+2583,Slime Table,3,31,Furniture,Living Furniture
+2584,Pirate Staff,1,13,Implement,Magic
+2585,Slime Hook,1,12,Implement,Ranged
+2586,Sticky Grenade,1,14,Implement,Projectile
+2587,Tartar Sauce,4,42,Item,Consumable
+2588,Duke Fishron Mask,2,20,Gear,Headgear
+2589,Duke Fishron Trophy,3,32,Furniture,Decor
+2590,Molotov Cocktail,1,14,Implement,Projectile
+2591,Bone Clock,3,32,Furniture,Decor
+2592,Cactus Clock,3,32,Furniture,Decor
+2593,Ebonwood Clock,3,32,Furniture,Decor
+2594,Frozen Clock,3,32,Furniture,Decor
+2595,Lihzahrd Clock,3,32,Furniture,Decor
+2596,Living Wood Clock,3,32,Furniture,Decor
+2597,Rich Mahogany Clock,3,32,Furniture,Decor
+2598,Flesh Clock,3,32,Furniture,Decor
+2599,Mushroom Clock,3,32,Furniture,Decor
+2600,Obsidian Clock,3,32,Furniture,Decor
+2601,Palm Wood Clock,3,32,Furniture,Decor
+2602,Pearlwood Clock,3,32,Furniture,Decor
+2603,Pumpkin Clock,3,32,Furniture,Decor
+2604,Shadewood Clock,3,32,Furniture,Decor
+2605,Spooky Clock,3,32,Furniture,Decor
+2606,Skyware Clock,3,32,Furniture,Decor
+2607,Spider Fang,4,41,Item,Material
+2608,Falcon Blade,1,11,Implement,Melee
+2609,Fishron Wings,2,23,Gear,Accessory
+2610,Slime Gun,1,12,Implement,Ranged
+2611,Flairon,1,12,Implement,Ranged
+2612,Green Dungeon Chest,3,31,Furniture,Living Furniture
+2613,Pink Dungeon Chest,3,31,Furniture,Living Furniture
+2614,Blue Dungeon Chest,3,31,Furniture,Living Furniture
+2615,Bone Chest,3,31,Furniture,Living Furniture
+2616,Cactus Chest,3,31,Furniture,Living Furniture
+2617,Flesh Chest,3,31,Furniture,Living Furniture
+2618,Obsidian Chest,3,31,Furniture,Living Furniture
+2619,Pumpkin Chest,3,31,Furniture,Living Furniture
+2620,Spooky Chest,3,31,Furniture,Living Furniture
+2621,Tempest Staff,1,13,Implement,Magic
+2622,Razorblade Typhoon,1,13,Implement,Magic
+2623,Bubble Gun,1,12,Implement,Ranged
+2624,Tsunami,1,12,Implement,Ranged
+2625,Seashell,3,32,Furniture,Decor
+2626,Starfish,3,32,Furniture,Decor
+2627,Steampunk Platform,4,40,Item,World Piece
+2628,Skyware Platform,4,40,Item,World Piece
+2629,Living Wood Platform,4,40,Item,World Piece
+2630,Honey Platform,4,40,Item,World Piece
+2631,Skyware Work Bench,3,30,Furniture,Crafting Furniture
+2632,Glass Work Bench,3,30,Furniture,Crafting Furniture
+2633,Living Wood Work Bench,3,30,Furniture,Crafting Furniture
+2634,Flesh Sofa,3,31,Furniture,Living Furniture
+2635,Frozen Sofa,3,31,Furniture,Living Furniture
+2636,Living Wood Sofa,3,31,Furniture,Living Furniture
+2637,Pumpkin Dresser,3,31,Furniture,Living Furniture
+2638,Steampunk Dresser,3,31,Furniture,Living Furniture
+2639,Glass Dresser,3,31,Furniture,Living Furniture
+2640,Flesh Dresser,3,31,Furniture,Living Furniture
+2641,Pumpkin Lantern,3,32,Furniture,Decor
+2642,Obsidian Lantern,3,32,Furniture,Decor
+2643,Pumpkin Lamp,3,32,Furniture,Decor
+2644,Obsidian Lamp,3,32,Furniture,Decor
+2645,Blue Dungeon Lamp,3,32,Furniture,Decor
+2646,Green Dungeon Lamp,3,32,Furniture,Decor
+2647,Pink Dungeon Lamp,3,32,Furniture,Decor
+2648,Honey Candle,3,32,Furniture,Decor
+2649,Steampunk Candle,3,32,Furniture,Decor
+2650,Spooky Candle,3,32,Furniture,Decor
+2651,Obsidian Candle,3,32,Furniture,Decor
+2652,Blue Dungeon Chandelier,3,32,Furniture,Decor
+2653,Green Dungeon Chandelier,3,32,Furniture,Decor
+2654,Pink Dungeon Chandelier,3,32,Furniture,Decor
+2655,Steampunk Chandelier,3,32,Furniture,Decor
+2656,Pumpkin Chandelier,3,32,Furniture,Decor
+2657,Obsidian Chandelier,3,32,Furniture,Decor
+2658,Blue Dungeon Bathtub,3,31,Furniture,Living Furniture
+2659,Green Dungeon Bathtub,3,31,Furniture,Living Furniture
+2660,Pink Dungeon Bathtub,3,31,Furniture,Living Furniture
+2661,Pumpkin Bathtub,3,31,Furniture,Living Furniture
+2662,Obsidian Bathtub,3,31,Furniture,Living Furniture
+2663,Golden Bathtub,3,31,Furniture,Living Furniture
+2664,Blue Dungeon Candelabra,3,32,Furniture,Decor
+2665,Green Dungeon Candelabra,3,32,Furniture,Decor
+2666,Pink Dungeon Candelabra,3,32,Furniture,Decor
+2667,Obsidian Candelabra,3,32,Furniture,Decor
+2668,Pumpkin Candelabra,3,32,Furniture,Decor
+2669,Pumpkin Bed,3,31,Furniture,Living Furniture
+2670,Pumpkin Bookcase,3,32,Furniture,Decor
+2671,Pumpkin Piano,3,31,Furniture,Living Furniture
+2672,Shark Statue,3,35,Furniture,Statue
+2673,Truffle Worm,4,44,Item,Critter
+2674,Apprentice Bait,4,41,Item,Material
+2675,Journeyman Bait,4,41,Item,Material
+2676,Master Bait,4,41,Item,Material
+2677,Amber Gemspark Wall,4,40,Item,World Piece
+2678,Offline Amber Gemspark Wall,4,40,Item,World Piece
+2679,Amethyst Gemspark Wall,4,40,Item,World Piece
+2680,Offline Amethyst Gemspark Wall,4,40,Item,World Piece
+2681,Diamond Gemspark Wall,4,40,Item,World Piece
+2682,Offline Diamond Gemspark Wall,4,40,Item,World Piece
+2683,Emerald Gemspark Wall,4,40,Item,World Piece
+2684,Offline Emerald Gemspark Wall,4,40,Item,World Piece
+2685,Ruby Gemspark Wall,4,40,Item,World Piece
+2686,Offline Ruby Gemspark Wall,4,40,Item,World Piece
+2687,Sapphire Gemspark Wall,4,40,Item,World Piece
+2688,Offline Sapphire Gemspark Wall,4,40,Item,World Piece
+2689,Topaz Gemspark Wall,4,40,Item,World Piece
+2690,Offline Topaz Gemspark Wall,4,40,Item,World Piece
+2691,Tin Plating Wall,4,40,Item,World Piece
+2692,Tin Plating,4,40,Item,World Piece
+2693,Waterfall Block,4,40,Item,World Piece
+2694,Lavafall Block,4,40,Item,World Piece
+2695,Confetti Block,4,40,Item,World Piece
+2696,Confetti Wall,4,40,Item,World Piece
+2697,Midnight Confetti Block,4,40,Item,World Piece
+2698,Midnight Confetti Wall,4,40,Item,World Piece
+2699,Weapon Rack,3,32,Furniture,Decor
+2700,Fireworks Box,3,32,Furniture,Decor
+2701,Living Fire Block,4,40,Item,World Piece
+2702,'0' Statue,3,35,Furniture,Statue
+2703,'1' Statue,3,35,Furniture,Statue
+2704,'2' Statue,3,35,Furniture,Statue
+2705,'3' Statue,3,35,Furniture,Statue
+2706,'4' Statue,3,35,Furniture,Statue
+2707,'5' Statue,3,35,Furniture,Statue
+2708,'6' Statue,3,35,Furniture,Statue
+2709,'7' Statue,3,35,Furniture,Statue
+2710,'8' Statue,3,35,Furniture,Statue
+2711,'9' Statue,3,35,Furniture,Statue
+2712,'A' Statue,3,35,Furniture,Statue
+2713,'B' Statue,3,35,Furniture,Statue
+2714,'C' Statue,3,35,Furniture,Statue
+2715,'D' Statue,3,35,Furniture,Statue
+2716,'E' Statue,3,35,Furniture,Statue
+2717,'F' Statue,3,35,Furniture,Statue
+2718,'G' Statue,3,35,Furniture,Statue
+2719,'H' Statue,3,35,Furniture,Statue
+2720,'I' Statue,3,35,Furniture,Statue
+2721,'J' Statue,3,35,Furniture,Statue
+2722,'K' Statue,3,35,Furniture,Statue
+2723,'L' Statue,3,35,Furniture,Statue
+2724,'M' Statue,3,35,Furniture,Statue
+2725,'N' Statue,3,35,Furniture,Statue
+2726,'O' Statue,3,35,Furniture,Statue
+2727,'P' Statue,3,35,Furniture,Statue
+2728,'Q' Statue,3,35,Furniture,Statue
+2729,'R' Statue,3,35,Furniture,Statue
+2730,'S' Statue,3,35,Furniture,Statue
+2731,'T' Statue,3,35,Furniture,Statue
+2732,'U' Statue,3,35,Furniture,Statue
+2733,'V' Statue,3,35,Furniture,Statue
+2734,'W' Statue,3,35,Furniture,Statue
+2735,'X' Statue,3,35,Furniture,Statue
+2736,'Y' Statue,3,35,Furniture,Statue
+2737,'Z' Statue,3,35,Furniture,Statue
+2738,Firework Fountain,3,32,Furniture,Decor
+2739,Booster Track,4,40,Item,World Piece
+2740,Grasshopper,4,44,Item,Critter
+2741,Grasshopper Cage,3,32,Furniture,Decor
+2742,Music Box (Underground Crimson),3,32,Furniture,Decor
+2743,Cactus Table,3,31,Furniture,Living Furniture
+2744,Cactus Platform,4,40,Item,World Piece
+2745,Boreal Wood Sword,1,11,Implement,Melee
+2746,Boreal Wood Hammer,1,10,Implement,Tool
+2747,Boreal Wood Bow,1,12,Implement,Ranged
+2748,Glass Chest,3,31,Furniture,Living Furniture
+2749,Xeno Staff,1,13,Implement,Magic
+2750,Meteor Staff,1,13,Implement,Magic
+2751,Living Cursed Fire Block,4,40,Item,World Piece
+2752,Living Demon Fire Block,4,40,Item,World Piece
+2753,Living Frost Fire Block,4,40,Item,World Piece
+2754,Living Ichor Fire Block,4,40,Item,World Piece
+2755,Living Ultrabright Fire Block,4,40,Item,World Piece
+2756,Gender Change Potion,4,42,Item,Consumable
+2757,Vortex Helmet,2,20,Gear,Headgear
+2758,Vortex Breastplate,2,21,Gear,Armor
+2759,Vortex Leggings,2,22,Gear,Footwear
+2760,Nebula Helmet,2,20,Gear,Headgear
+2761,Nebula Breastplate,2,21,Gear,Armor
+2762,Nebula Leggings,2,22,Gear,Footwear
+2763,Solar Flare Helmet,2,20,Gear,Headgear
+2764,Solar Flare Breastplate,2,21,Gear,Armor
+2765,Solar Flare Leggings,2,22,Gear,Footwear
+2766,Solar Tablet Fragment,4,41,Item,Material
+2767,Solar Tablet,4,42,Item,Consumable
+2768,Drill Containment Unit,4,42,Item,Consumable
+2769,Cosmic Car Key,4,42,Item,Consumable
+2770,Mothron Wings,2,23,Gear,Accessory
+2771,Brain Scrambler (item),4,42,Item,Consumable
+2772,Vortex Axe,1,11,Implement,Melee
+2773,Vortex Chainsaw,1,10,Implement,Tool
+2774,Vortex Drill,1,10,Implement,Tool
+2775,Vortex Hammer,1,10,Implement,Tool
+2776,Vortex Pickaxe,1,10,Implement,Tool
+2777,Nebula Axe,1,11,Implement,Melee
+2778,Nebula Chainsaw,1,10,Implement,Tool
+2779,Nebula Drill,1,10,Implement,Tool
+2780,Nebula Hammer,1,10,Implement,Tool
+2781,Nebula Pickaxe,1,10,Implement,Tool
+2782,Solar Flare Axe,1,11,Implement,Melee
+2783,Solar Flare Chainsaw,1,10,Implement,Tool
+2784,Solar Flare Drill,1,10,Implement,Tool
+2785,Solar Flare Hammer,1,10,Implement,Tool
+2786,Solar Flare Pickaxe,1,10,Implement,Tool
+2787,Honeyfall Block,4,40,Item,World Piece
+2788,Honeyfall Wall,4,40,Item,World Piece
+2789,Chlorophyte Brick Wall,4,40,Item,World Piece
+2790,Crimtane Brick Wall,4,40,Item,World Piece
+2791,Shroomite Plating Wall,4,40,Item,World Piece
+2792,Chlorophyte Brick,4,40,Item,World Piece
+2793,Horned God Mask,2,20,Gear,Headgear
+2794,Horned God Boots,2,22,Gear,Footwear
+2795,Laser Machinegun,1,12,Implement,Ranged
+2796,Electrosphere Launcher,1,12,Implement,Ranged
+2797,Xenopopper,1,12,Implement,Ranged
+2798,Laser Drill,1,12,Implement,Ranged
+2799,Mechanical Ruler,2,23,Gear,Accessory
+2800,Anti-Gravity Hook,1,12,Implement,Ranged
+2801,Moon Mask,2,20,Gear,Headgear
+2802,Sun Mask,2,20,Gear,Headgear
+2803,Martian Costume Mask,2,20,Gear,Headgear
+2804,Martian Costume Shirt,2,21,Gear,Armor
+2805,Martian Costume Pants,2,22,Gear,Footwear
+2806,Martian Uniform Helmet,2,20,Gear,Headgear
+2807,Martian Uniform Torso,2,21,Gear,Armor
+2808,Martian Uniform Pants,2,22,Gear,Footwear
+2809,Martian Astro Clock,3,32,Furniture,Decor
+2810,Martian Bathtub,3,31,Furniture,Living Furniture
+2811,Martian Bed,3,31,Furniture,Living Furniture
+2812,Martian Hover Chair,3,31,Furniture,Living Furniture
+2813,Martian Chandelier,3,32,Furniture,Decor
+2814,Martian Chest,3,31,Furniture,Living Furniture
+2815,Martian Door,3,31,Furniture,Living Furniture
+2816,Martian Dresser,3,31,Furniture,Living Furniture
+2817,Martian Holobookcase,3,32,Furniture,Decor
+2818,Martian Hover Candle,3,32,Furniture,Decor
+2819,Martian Lamppost,3,32,Furniture,Decor
+2820,Martian Lantern,3,32,Furniture,Decor
+2821,Martian Piano,3,31,Furniture,Living Furniture
+2822,Martian Platform,4,40,Item,World Piece
+2823,Martian Sofa,3,31,Furniture,Living Furniture
+2824,Martian Table,3,31,Furniture,Living Furniture
+2825,Martian Table Lamp,3,32,Furniture,Decor
+2826,Martian Work Bench,3,30,Furniture,Crafting Furniture
+2827,Wooden Sink,3,31,Furniture,Living Furniture
+2828,Ebonwood Sink,3,31,Furniture,Living Furniture
+2829,Rich Mahogany Sink,3,31,Furniture,Living Furniture
+2830,Pearlwood Sink,3,31,Furniture,Living Furniture
+2831,Bone Sink,3,31,Furniture,Living Furniture
+2832,Flesh Sink,3,31,Furniture,Living Furniture
+2833,Living Wood Sink,3,31,Furniture,Living Furniture
+2834,Skyware Sink,3,31,Furniture,Living Furniture
+2835,Shadewood Sink,3,31,Furniture,Living Furniture
+2836,Lihzahrd Sink,3,31,Furniture,Living Furniture
+2837,Blue Dungeon Sink,3,31,Furniture,Living Furniture
+2838,Green Dungeon Sink,3,31,Furniture,Living Furniture
+2839,Pink Dungeon Sink,3,31,Furniture,Living Furniture
+2840,Obsidian Sink,3,31,Furniture,Living Furniture
+2841,Metal Sink,3,31,Furniture,Living Furniture
+2842,Glass Sink,3,31,Furniture,Living Furniture
+2843,Golden Sink,3,31,Furniture,Living Furniture
+2844,Honey Sink,3,31,Furniture,Living Furniture
+2845,Steampunk Sink,3,31,Furniture,Living Furniture
+2846,Pumpkin Sink,3,31,Furniture,Living Furniture
+2847,Spooky Sink,3,31,Furniture,Living Furniture
+2848,Frozen Sink,3,31,Furniture,Living Furniture
+2849,Dynasty Sink,3,31,Furniture,Living Furniture
+2850,Palm Wood Sink,3,31,Furniture,Living Furniture
+2851,Mushroom Sink,3,31,Furniture,Living Furniture
+2852,Boreal Wood Sink,3,31,Furniture,Living Furniture
+2853,Slime Sink,3,31,Furniture,Living Furniture
+2854,Cactus Sink,3,31,Furniture,Living Furniture
+2855,Martian Sink,3,31,Furniture,Living Furniture
+2856,Solar Cultist Hood,2,20,Gear,Headgear
+2857,Lunar Cultist Hood,2,20,Gear,Headgear
+2858,Solar Cultist Robe,2,21,Gear,Armor
+2859,Lunar Cultist Robe,2,21,Gear,Armor
+2860,Martian Conduit Plating,4,40,Item,World Piece
+2861,Martian Conduit Wall,4,40,Item,World Piece
+2862,HiTek Sunglasses,2,20,Gear,Headgear
+2863,Martian Hair Dye,4,43,Item,Dye
+2864,Martian Dye,4,43,Item,Dye
+2865,Castle Marsberg,3,34,Furniture,Painting
+2866,Martia Lisa,3,34,Furniture,Painting
+2867,The Truth Is Up There,3,34,Furniture,Painting
+2868,Smoke Block,4,40,Item,World Piece
+2869,Living Flame Dye,4,43,Item,Dye
+2870,Living Rainbow Dye,4,43,Item,Dye
+2871,Shadow Dye,4,43,Item,Dye
+2872,Negative Dye,4,43,Item,Dye
+2873,Living Ocean Dye,4,43,Item,Dye
+2874,Brown Dye,4,43,Item,Dye
+2875,Brown and Black Dye,4,43,Item,Dye
+2876,Bright Brown Dye,4,43,Item,Dye
+2877,Brown and Silver Dye,4,43,Item,Dye
+2878,Wisp Dye,4,43,Item,Dye
+2879,Pixie Dye,4,43,Item,Dye
+2880,Influx Waver,1,11,Implement,Melee
+2881,Phasic Warp Ejector,1,12,Implement,Ranged
+2882,Charged Blaster Cannon,1,12,Implement,Ranged
+2883,Chlorophyte Dye,4,43,Item,Dye
+2884,Unicorn Wisp Dye,4,43,Item,Dye
+2885,Infernal Wisp Dye,4,43,Item,Dye
+2886,Vicious Powder,4,41,Item,Material
+2887,Vicious Mushroom,4,41,Item,Material
+2888,The Bee's Knees,1,12,Implement,Ranged
+2889,Gold Bird,4,44,Item,Critter
+2890,Gold Bunny,4,44,Item,Critter
+2891,Gold Butterfly,4,44,Item,Critter
+2892,Gold Frog,4,44,Item,Critter
+2893,Gold Grasshopper,4,44,Item,Critter
+2894,Gold Mouse,4,44,Item,Critter
+2895,Gold Worm,4,44,Item,Critter
+2896,Sticky Dynamite,1,14,Implement,Projectile
+2897,Angry Trapper Banner,3,33,Furniture,Banner
+2898,Armored Viking Banner,3,33,Furniture,Banner
+2899,Black Slime Banner,3,33,Furniture,Banner
+2900,Blue Armored Bones Banner,3,33,Furniture,Banner
+2901,Blue Cultist Archer Banner,3,33,Furniture,Banner
+2902,Blue Cultist Caster Banner,3,33,Furniture,Banner
+2903,Blue Cultist Fighter Banner,3,33,Furniture,Banner
+2904,Bone Lee Banner,3,33,Furniture,Banner
+2905,Clinger Banner,3,33,Furniture,Banner
+2906,Cochineal Beetle Banner,3,33,Furniture,Banner
+2907,Corrupt Penguin Banner,3,33,Furniture,Banner
+2908,Corrupt Slime Banner,3,33,Furniture,Banner
+2909,Corruptor Banner,3,33,Furniture,Banner
+2910,Crimslime Banner,3,33,Furniture,Banner
+2911,Cursed Skull Banner,3,33,Furniture,Banner
+2912,Cyan Beetle Banner,3,33,Furniture,Banner
+2913,Devourer Banner,3,33,Furniture,Banner
+2914,Diabolist Banner,3,33,Furniture,Banner
+2915,Doctor Bones Banner,3,33,Furniture,Banner
+2916,Dungeon Slime Banner,3,33,Furniture,Banner
+2917,Dungeon Spirit Banner,3,33,Furniture,Banner
+2918,Elf Archer Banner,3,33,Furniture,Banner
+2919,Elf Copter Banner,3,33,Furniture,Banner
+2920,Eyezor Banner,3,33,Furniture,Banner
+2921,Flocko Banner,3,33,Furniture,Banner
+2922,Ghost Banner,3,33,Furniture,Banner
+2923,Giant Bat Banner,3,33,Furniture,Banner
+2924,Giant Cursed Skull Banner,3,33,Furniture,Banner
+2925,Giant Flying Fox Banner,3,33,Furniture,Banner
+2926,Gingerbread Man Banner,3,33,Furniture,Banner
+2927,Goblin Archer Banner,3,33,Furniture,Banner
+2928,Green Slime Banner,3,33,Furniture,Banner
+2929,Headless Horseman Banner,3,33,Furniture,Banner
+2930,Hell Armored Bones Banner,3,33,Furniture,Banner
+2931,Hellhound Banner,3,33,Furniture,Banner
+2932,Hoppin' Jack Banner,3,33,Furniture,Banner
+2933,Ice Bat Banner,3,33,Furniture,Banner
+2934,Ice Golem Banner,3,33,Furniture,Banner
+2935,Ice Slime Banner,3,33,Furniture,Banner
+2936,Ichor Sticker Banner,3,33,Furniture,Banner
+2937,Illuminant Bat Banner,3,33,Furniture,Banner
+2938,Illuminant Slime Banner,3,33,Furniture,Banner
+2939,Jungle Bat Banner,3,33,Furniture,Banner
+2940,Jungle Slime Banner,3,33,Furniture,Banner
+2941,Krampus Banner,3,33,Furniture,Banner
+2942,Lac Beetle Banner,3,33,Furniture,Banner
+2943,Lava Bat Banner,3,33,Furniture,Banner
+2944,Lava Slime Banner,3,33,Furniture,Banner
+2945,Martian Brainscrambler Banner,3,33,Furniture,Banner
+2946,Martian Drone Banner,3,33,Furniture,Banner
+2947,Martian Engineer Banner,3,33,Furniture,Banner
+2948,Martian Gigazapper Banner,3,33,Furniture,Banner
+2949,Martian Gray Grunt Banner,3,33,Furniture,Banner
+2950,Martian Officer Banner,3,33,Furniture,Banner
+2951,Martian Ray Gunner Banner,3,33,Furniture,Banner
+2952,Martian Scutlix Gunner Banner,3,33,Furniture,Banner
+2953,Martian Tesla Turret Banner,3,33,Furniture,Banner
+2954,Mister Stabby Banner,3,33,Furniture,Banner
+2955,Mother Slime Banner,3,33,Furniture,Banner
+2956,Necromancer Banner,3,33,Furniture,Banner
+2957,Nutcracker Banner,3,33,Furniture,Banner
+2958,Paladin Banner,3,33,Furniture,Banner
+2959,Penguin Banner,3,33,Furniture,Banner
+2960,Pinky Banner,3,33,Furniture,Banner
+2961,Poltergeist Banner,3,33,Furniture,Banner
+2962,Possessed Armor Banner,3,33,Furniture,Banner
+2963,Present Mimic Banner,3,33,Furniture,Banner
+2964,Purple Slime Banner,3,33,Furniture,Banner
+2965,Ragged Caster Banner,3,33,Furniture,Banner
+2966,Rainbow Slime Banner,3,33,Furniture,Banner
+2967,Raven Banner,3,33,Furniture,Banner
+2968,Red Slime Banner,3,33,Furniture,Banner
+2969,Rune Wizard Banner,3,33,Furniture,Banner
+2970,Rusty Armored Bones Banner,3,33,Furniture,Banner
+2971,Scarecrow Banner,3,33,Furniture,Banner
+2972,Scutlix Banner,3,33,Furniture,Banner
+2973,Skeleton Archer Banner,3,33,Furniture,Banner
+2974,Skeleton Commando Banner,3,33,Furniture,Banner
+2975,Skeleton Sniper Banner,3,33,Furniture,Banner
+2976,Slimer Banner,3,33,Furniture,Banner
+2977,Snatcher Banner,3,33,Furniture,Banner
+2978,Snow Balla Banner,3,33,Furniture,Banner
+2979,Snowman Gangsta Banner,3,33,Furniture,Banner
+2980,Spiked Ice Slime Banner,3,33,Furniture,Banner
+2981,Spiked Jungle Slime Banner,3,33,Furniture,Banner
+2982,Splinterling Banner,3,33,Furniture,Banner
+2983,Squid Banner,3,33,Furniture,Banner
+2984,Tactical Skeleton Banner,3,33,Furniture,Banner
+2985,The Groom Banner,3,33,Furniture,Banner
+2986,Tim Banner,3,33,Furniture,Banner
+2987,Undead Miner Banner,3,33,Furniture,Banner
+2988,Undead Viking Banner,3,33,Furniture,Banner
+2989,White Cultist Archer Banner,3,33,Furniture,Banner
+2990,White Cultist Caster Banner,3,33,Furniture,Banner
+2991,White Cultist Fighter Banner,3,33,Furniture,Banner
+2992,Yellow Slime Banner,3,33,Furniture,Banner
+2993,Yeti Banner,3,33,Furniture,Banner
+2994,Zombie Elf Banner,3,33,Furniture,Banner
+2995,Sparky,3,34,Furniture,Painting
+2996,Vine Rope,4,41,Item,Material
+2997,Wormhole Potion,4,42,Item,Consumable
+2998,Summoner Emblem,2,23,Gear,Accessory
+2999,Bewitching Table,3,30,Furniture,Crafting Furniture
+3000,Alchemy Table,3,30,Furniture,Crafting Furniture
+3001,Strange Brew,4,42,Item,Consumable
+3002,Spelunker Glowstick,1,14,Implement,Projectile
+3003,Bone Arrow,1,14,Implement,Projectile
+3004,Bone Torch,1,10,Implement,Tool
+3005,Vine Rope Coil,4,42,Item,Consumable
+3006,Life Drain,1,13,Implement,Magic
+3007,Dart Pistol,1,12,Implement,Ranged
+3008,Dart Rifle,1,12,Implement,Ranged
+3009,Crystal Dart,1,14,Implement,Projectile
+3010,Cursed Dart,1,14,Implement,Projectile
+3011,Ichor Dart,1,14,Implement,Projectile
+3012,Chain Guillotines,1,11,Implement,Melee
+3013,Fetid Baghnakhs,1,11,Implement,Melee
+3014,Clinger Staff,1,13,Implement,Magic
+3015,Putrid Scent,2,23,Gear,Accessory
+3016,Flesh Knuckles,2,23,Gear,Accessory
+3017,Flower Boots,2,22,Gear,Footwear
+3018,Seedler,1,11,Implement,Melee
+3019,Hellwing Bow,1,12,Implement,Ranged
+3020,Tendon Hook,1,12,Implement,Ranged
+3021,Thorn Hook,1,12,Implement,Ranged
+3022,Illuminant Hook,1,12,Implement,Ranged
+3023,Worm Hook,1,12,Implement,Ranged
+3024,Skiphs's Blood,4,42,Item,Consumable
+3025,Purple Ooze Dye,4,43,Item,Dye
+3026,Reflective Silver Dye,4,43,Item,Dye
+3027,Reflective Gold Dye,4,43,Item,Dye
+3028,Blue Acid Dye,4,43,Item,Dye
+3029,Daedalus Stormbow,1,12,Implement,Ranged
+3030,Flying Knife,1,14,Implement,Projectile
+3031,Bottomless Water Bucket,1,10,Implement,Tool
+3032,Super Absorbant Sponge,2,23,Gear,Accessory
+3033,Gold Ring,2,23,Gear,Accessory
+3034,Coin Ring,2,23,Gear,Accessory
+3035,Greedy Ring,2,23,Gear,Accessory
+3036,Fish Finder,2,23,Gear,Accessory
+3037,Weather Radio,2,23,Gear,Accessory
+3038,Hades Dye,4,43,Item,Dye
+3039,Twilight Dye,4,43,Item,Dye
+3040,Acid Dye,4,43,Item,Dye
+3041,Glowing Mushroom Dye,4,43,Item,Dye
+3042,Phase Dye,4,43,Item,Dye
+3043,Magic Lantern,3,32,Furniture,Decor
+3044,Music Box (Lunar Boss),3,32,Furniture,Decor
+3045,Rainbow Torch,1,10,Implement,Tool
+3046,Cursed Campfire,3,32,Furniture,Decor
+3047,Demon Campfire,3,32,Furniture,Decor
+3048,Frozen Campfire,3,32,Furniture,Decor
+3049,Ichor Campfire,3,32,Furniture,Decor
+3050,Rainbow Campfire,3,32,Furniture,Decor
+3051,Crystal Vile Shard,4,41,Item,Material
+3052,Shadowflame Bow,1,12,Implement,Ranged
+3053,Shadowflame Hex Doll,4,42,Item,Consumable
+3054,Shadowflame Knife,1,14,Implement,Projectile
+3055,Acorns,3,34,Furniture,Painting
+3056,Cold Snap,3,34,Furniture,Painting
+3057,Cursed Saint,3,34,Furniture,Painting
+3058,Snowfellas,3,34,Furniture,Painting
+3059,The Season,3,34,Furniture,Painting
+3060,Bone Rattle,4,42,Item,Consumable
+3061,Architect Gizmo Pack,4,42,Item,Consumable
+3062,Crimson Heart,4,42,Item,Consumable
+3063,Meowmere,1,11,Implement,Melee
+3064,Enchanted Sundial,3,32,Furniture,Decor
+3065,Star Wrath,1,11,Implement,Melee
+3066,Smooth Marble Block,4,40,Item,World Piece
+3067,Hellstone Brick Wall,4,40,Item,World Piece
+3068,Guide to Plant Fiber Cordage,2,23,Gear,Accessory
+3069,Wand of Sparking,1,13,Implement,Magic
+3070,Gold Bird Cage,3,32,Furniture,Decor
+3071,Gold Bunny Cage,3,32,Furniture,Decor
+3072,Gold Butterfly Jar,3,32,Furniture,Decor
+3073,Gold Frog Cage,3,32,Furniture,Decor
+3074,Gold Grasshopper Cage,3,32,Furniture,Decor
+3075,Gold Mouse Cage,3,32,Furniture,Decor
+3076,Gold Worm Cage,3,32,Furniture,Decor
+3077,Silk Rope,4,41,Item,Material
+3078,Web Rope,4,41,Item,Material
+3079,Silk Rope Coil,4,42,Item,Consumable
+3080,Web Rope Coil,4,42,Item,Consumable
+3081,Marble Block,4,40,Item,World Piece
+3082,Marble Wall,4,40,Item,World Piece
+3083,Smooth Marble Wall,4,40,Item,World Piece
+3084,Radar,2,23,Gear,Accessory
+3085,Golden Lock Box,3,31,Furniture,Living Furniture
+3086,Granite Block,4,40,Item,World Piece
+3087,Smooth Granite Block,4,40,Item,World Piece
+3088,Granite Wall,4,40,Item,World Piece
+3089,Smooth Granite Wall,4,40,Item,World Piece
+3090,Royal Gel,2,23,Gear,Accessory
+3091,Key of Night,4,42,Item,Consumable
+3092,Key of Light,4,42,Item,Consumable
+3093,Herb Bag,4,42,Item,Consumable
+3094,Javelin,1,14,Implement,Projectile
+3095,Tally Counter,2,23,Gear,Accessory
+3096,Sextant,2,23,Gear,Accessory
+3097,Shield of Cthulhu,2,21,Gear,Armor
+3098,Butcher's Chainsaw,1,10,Implement,Tool
+3099,Stopwatch,2,23,Gear,Accessory
+3100,Meteorite Brick,4,40,Item,World Piece
+3101,Meteorite Brick Wall,4,40,Item,World Piece
+3102,Metal Detector,2,23,Gear,Accessory
+3103,Endless Quiver,2,23,Gear,Accessory
+3104,Endless Musket Pouch,2,23,Gear,Accessory
+3105,Toxic Flask,2,23,Gear,Accessory
+3106,Psycho Knife,1,11,Implement,Melee
+3107,Nail Gun,1,12,Implement,Ranged
+3108,Nail,1,14,Implement,Projectile
+3109,Night Vision Helmet,2,20,Gear,Headgear
+3110,Celestial Shell,2,23,Gear,Accessory
+3111,Pink Gel,4,41,Item,Material
+3112,Bouncy Glowstick,1,14,Implement,Projectile
+3113,Pink Slime Block,4,40,Item,World Piece
+3114,Pink Torch,1,10,Implement,Tool
+3115,Bouncy Bomb,1,14,Implement,Projectile
+3116,Bouncy Grenade,1,14,Implement,Projectile
+3117,Peace Candle,3,32,Furniture,Decor
+3118,Lifeform Analyzer,2,23,Gear,Accessory
+3119,DPS Meter,2,23,Gear,Accessory
+3120,Fisherman's Pocket Guide,2,23,Gear,Accessory
+3121,Goblin Tech,2,23,Gear,Accessory
+3122,R.E.K. 3000,2,23,Gear,Accessory
+3123,PDA,2,23,Gear,Accessory
+3124,Cell Phone,2,23,Gear,Accessory
+3125,Granite Chest,3,31,Furniture,Living Furniture
+3126,Meteorite Clock,3,32,Furniture,Decor
+3127,Marble Clock,3,32,Furniture,Decor
+3128,Granite Clock,3,32,Furniture,Decor
+3129,Meteorite Door,3,31,Furniture,Living Furniture
+3130,Marble Door,3,31,Furniture,Living Furniture
+3131,Granite Door,3,31,Furniture,Living Furniture
+3132,Meteorite Dresser,3,31,Furniture,Living Furniture
+3133,Marble Dresser,3,31,Furniture,Living Furniture
+3134,Granite Dresser,3,31,Furniture,Living Furniture
+3135,Meteorite Lamp,3,32,Furniture,Decor
+3136,Marble Lamp,3,32,Furniture,Decor
+3137,Granite Lamp,3,32,Furniture,Decor
+3138,Meteorite Lantern,3,32,Furniture,Decor
+3139,Marble Lantern,3,32,Furniture,Decor
+3140,Granite Lantern,3,32,Furniture,Decor
+3141,Meteorite Piano,3,31,Furniture,Living Furniture
+3142,Marble Piano,3,31,Furniture,Living Furniture
+3143,Granite Piano,3,31,Furniture,Living Furniture
+3144,Meteorite Platform,4,40,Item,World Piece
+3145,Marble Platform,4,40,Item,World Piece
+3146,Granite Platform,4,40,Item,World Piece
+3147,Meteorite Sink,3,31,Furniture,Living Furniture
+3148,Marble Sink,3,31,Furniture,Living Furniture
+3149,Granite Sink,3,31,Furniture,Living Furniture
+3150,Meteorite Sofa,3,31,Furniture,Living Furniture
+3151,Marble Sofa,3,31,Furniture,Living Furniture
+3152,Granite Sofa,3,31,Furniture,Living Furniture
+3153,Meteorite Table,3,31,Furniture,Living Furniture
+3154,Marble Table,3,31,Furniture,Living Furniture
+3155,Granite Table,3,31,Furniture,Living Furniture
+3156,Meteorite Work Bench,3,30,Furniture,Crafting Furniture
+3157,Marble Work Bench,3,30,Furniture,Crafting Furniture
+3158,Granite Work Bench,3,30,Furniture,Crafting Furniture
+3159,Meteorite Bathtub,3,31,Furniture,Living Furniture
+3160,Marble Bathtub,3,31,Furniture,Living Furniture
+3161,Granite Bathtub,3,31,Furniture,Living Furniture
+3162,Meteorite Bed,3,31,Furniture,Living Furniture
+3163,Marble Bed,3,31,Furniture,Living Furniture
+3164,Granite Bed,3,31,Furniture,Living Furniture
+3165,Meteorite Bookcase,3,32,Furniture,Decor
+3166,Marble Bookcase,3,32,Furniture,Decor
+3167,Granite Bookcase,3,32,Furniture,Decor
+3168,Meteorite Candelabra,3,32,Furniture,Decor
+3169,Marble Candelabra,3,32,Furniture,Decor
+3170,Granite Candelabra,3,32,Furniture,Decor
+3171,Meteorite Candle,3,32,Furniture,Decor
+3172,Marble Candle,3,32,Furniture,Decor
+3173,Granite Candle,3,32,Furniture,Decor
+3174,Meteorite Chair,3,31,Furniture,Living Furniture
+3175,Marble Chair,3,31,Furniture,Living Furniture
+3176,Granite Chair,3,31,Furniture,Living Furniture
+3177,Meteorite Chandelier,3,32,Furniture,Decor
+3178,Marble Chandelier,3,32,Furniture,Decor
+3179,Granite Chandelier,3,32,Furniture,Decor
+3180,Meteorite Chest,3,31,Furniture,Living Furniture
+3181,Marble Chest,3,31,Furniture,Living Furniture
+3182,Magic Water Dropper,1,10,Implement,Tool
+3183,Golden Bug Net,1,10,Implement,Tool
+3184,Magic Lava Dropper,1,10,Implement,Tool
+3185,Magic Honey Dropper,1,10,Implement,Tool
+3186,Empty Dropper,4,41,Item,Material
+3187,Gladiator Helmet,2,20,Gear,Headgear
+3188,Gladiator Breastplate,2,21,Gear,Armor
+3189,Gladiator Leggings,2,22,Gear,Footwear
+3190,Reflective Dye,4,43,Item,Dye
+3191,Enchanted Nightcrawler,4,44,Item,Critter
+3192,Grubby,4,44,Item,Critter
+3193,Sluggy,4,44,Item,Critter
+3194,Buggy,4,44,Item,Critter
+3195,Grub Soup,4,42,Item,Consumable
+3196,Bomb Fish,1,14,Implement,Projectile
+3197,Frost Daggerfish,1,14,Implement,Projectile
+3198,Sharpening Station,3,30,Furniture,Crafting Furniture
+3199,Ice Mirror,2,23,Gear,Accessory
+3200,Sailfish Boots,2,22,Gear,Footwear
+3201,Tsunami in a Bottle,2,23,Gear,Accessory
+3202,Target Dummy,3,32,Furniture,Decor
+3203,Corrupt Crate,4,40,Item,World Piece
+3204,Crimson Crate,4,40,Item,World Piece
+3205,Dungeon Crate,4,40,Item,World Piece
+3206,Sky Crate,4,40,Item,World Piece
+3207,Hallowed Crate,4,40,Item,World Piece
+3208,Jungle Crate,4,40,Item,World Piece
+3209,Crystal Serpent,1,13,Implement,Magic
+3210,Toxikarp,1,12,Implement,Ranged
+3211,Bladetongue,1,11,Implement,Melee
+3212,Shark Tooth Necklace,2,23,Gear,Accessory
+3213,Money Trough,4,42,Item,Consumable
+3214,Bubble,4,40,Item,World Piece
+3215,Daybloom Planter Box,3,32,Furniture,Decor
+3216,Moonglow Planter Box,3,32,Furniture,Decor
+3217,Deathweed Planter Box,3,32,Furniture,Decor
+3218,Deathweed Planter Box,3,32,Furniture,Decor
+3219,Blinkroot Planter Box,3,32,Furniture,Decor
+3220,Waterleaf Planter Box,3,32,Furniture,Decor
+3221,Shiverthorn Planter Box,3,32,Furniture,Decor
+3222,Fireblossom Planter Box,3,32,Furniture,Decor
+3223,Brain of Confusion,4,42,Item,Consumable
+3224,Worm Scarf,4,42,Item,Consumable
+3225,Balloon Pufferfish,2,23,Gear,Accessory
+3226,Lazure's Valkyrie Circlet,2,20,Gear,Headgear
+3227,Lazure's Valkyrie Cloak,2,21,Gear,Armor
+3228,Lazure's Barrier Platform,2,23,Gear,Accessory
+3229,Golden Cross Grave Marker,3,32,Furniture,Decor
+3230,Golden Tombstone,3,32,Furniture,Decor
+3231,Golden Grave Marker,3,32,Furniture,Decor
+3232,Golden Gravestone,3,32,Furniture,Decor
+3233,Golden Headstone,3,32,Furniture,Decor
+3234,Crystal Block,4,40,Item,World Piece
+3235,Music Box (Martian Madness),3,32,Furniture,Decor
+3236,Music Box (Pirate Invasion),3,32,Furniture,Decor
+3237,Music Box (Hell),3,32,Furniture,Decor
+3238,Crystal Block Wall,4,40,Item,World Piece
+3239,Trap Door,4,40,Item,World Piece
+3240,Tall Gate,4,40,Item,World Piece
+3241,Sharkron Balloon,2,23,Gear,Accessory
+3242,Tax Collector's Hat,2,20,Gear,Headgear
+3243,Tax Collector's Suit,2,21,Gear,Armor
+3244,Tax Collector's Pants,2,22,Gear,Footwear
+3245,Bone Glove,2,23,Gear,Accessory
+3246,Clothier's Jacket,2,21,Gear,Armor
+3247,Clothier's Pants,2,22,Gear,Footwear
+3248,Dye Trader's Turban,2,20,Gear,Headgear
+3249,Deadly Sphere Staff,1,13,Implement,Magic
+3250,Green Horseshoe Balloon,2,23,Gear,Accessory
+3251,Amber Horseshoe Balloon,2,23,Gear,Accessory
+3252,Pink Horseshoe Balloon,2,23,Gear,Accessory
+3253,Lava Lamp,3,32,Furniture,Decor
+3254,Enchanted Nightcrawler Cage,3,32,Furniture,Decor
+3255,Buggy Cage,3,32,Furniture,Decor
+3256,Grubby Cage,3,32,Furniture,Decor
+3257,Sluggy Cage,3,32,Furniture,Decor
+3258,Slap Hand,1,11,Implement,Melee
+3259,Twilight Hair Dye,4,43,Item,Dye
+3260,Blessed Apple,4,42,Item,Consumable
+3261,Spectre Bar,4,41,Item,Material
+3262,Code 1,1,11,Implement,Melee
+3263,Buccaneer Bandana,2,20,Gear,Headgear
+3264,Buccaneer Tunic,2,21,Gear,Armor
+3265,Buccaneer Pantaloons,2,22,Gear,Footwear
+3266,Obsidian Outlaw Hat,2,20,Gear,Headgear
+3267,Obsidian Longcoat,2,21,Gear,Armor
+3268,Obsidian Pants,2,22,Gear,Footwear
+3269,Medusa Head,2,20,Gear,Headgear
+3270,Item Frame,3,32,Furniture,Decor
+3271,Sandstone Block,4,40,Item,World Piece
+3272,Hardened Sand Block,4,40,Item,World Piece
+3273,Sandstone Wall,4,40,Item,World Piece
+3274,Hardened Ebonsand Block,4,40,Item,World Piece
+3275,Hardened Crimsand Block,4,40,Item,World Piece
+3276,Ebonsandstone Block,4,40,Item,World Piece
+3277,Crimsandstone Block,4,40,Item,World Piece
+3278,Wooden Yoyo,1,11,Implement,Melee
+3279,Malaise,1,11,Implement,Melee
+3280,Artery,1,11,Implement,Melee
+3281,Amazon,1,11,Implement,Melee
+3282,Cascade,1,11,Implement,Melee
+3283,Chik,1,11,Implement,Melee
+3284,Code 2,1,11,Implement,Melee
+3285,Rally,1,11,Implement,Melee
+3286,Yelets,1,11,Implement,Melee
+3287,Red's Throw,1,11,Implement,Melee
+3288,Valkyrie Yoyo,1,11,Implement,Melee
+3289,Amarok,1,11,Implement,Melee
+3290,Hel-Fire,1,11,Implement,Melee
+3291,Kraken,1,11,Implement,Melee
+3292,The Eye of Cthulhu,1,11,Implement,Melee
+3293,Red String,2,23,Gear,Accessory
+3294,Orange String,2,23,Gear,Accessory
+3295,Yellow String,2,23,Gear,Accessory
+3296,Lime String,2,23,Gear,Accessory
+3297,Green String,2,23,Gear,Accessory
+3298,Teal String,2,23,Gear,Accessory
+3299,Cyan String,2,23,Gear,Accessory
+3300,Sky Blue String,2,23,Gear,Accessory
+3301,Blue String,2,23,Gear,Accessory
+3302,Purple String,2,23,Gear,Accessory
+3303,Violet String,2,23,Gear,Accessory
+3304,Pink String,2,23,Gear,Accessory
+3305,Brown String,2,23,Gear,Accessory
+3306,White String,2,23,Gear,Accessory
+3307,Rainbow String,2,23,Gear,Accessory
+3308,Black String,2,23,Gear,Accessory
+3309,Black Counterweight,2,23,Gear,Accessory
+3310,Blue Counterweight,2,23,Gear,Accessory
+3311,Green Counterweight,2,23,Gear,Accessory
+3312,Purple Counterweight,2,23,Gear,Accessory
+3313,Red Counterweight,2,23,Gear,Accessory
+3314,Yellow Counterweight,2,23,Gear,Accessory
+3315,Format:C,1,11,Implement,Melee
+3316,Gradient,1,11,Implement,Melee
+3317,Valor,1,11,Implement,Melee
+3318,Treasure Bag (King Slime),4,42,Item,Consumable
+3319,Treasure Bag (Eye of Cthulhu),4,42,Item,Consumable
+3320,Treasure Bag (Eater of Worlds),4,42,Item,Consumable
+3321,Treasure Bag (Brain of Cthulhu),4,42,Item,Consumable
+3322,Treasure Bag (Queen Bee),4,42,Item,Consumable
+3323,Treasure Bag (Skeletron),4,42,Item,Consumable
+3324,Treasure Bag (Wall of Flesh),4,42,Item,Consumable
+3325,Treasure Bag (The Destroyer),4,42,Item,Consumable
+3326,Treasure Bag (The Twins),4,42,Item,Consumable
+3327,Treasure Bag (Skeletron Prime),4,42,Item,Consumable
+3328,Treasure Bag (Plantera),4,42,Item,Consumable
+3329,Treasure Bag (Golem),4,42,Item,Consumable
+3330,Treasure Bag (Duke Fishron),4,42,Item,Consumable
+3331,Treasure Bag (Lunatic Cultist),4,42,Item,Consumable
+3332,Treasure Bag (Moon Lord),4,42,Item,Consumable
+3333,Hive Pack,2,23,Gear,Accessory
+3334,Yoyo Glove,2,23,Gear,Accessory
+3335,Demon Heart,4,42,Item,Consumable
+3336,Spore Sac,2,23,Gear,Accessory
+3337,Shiny Stone,2,23,Gear,Accessory
+3338,Hardened Pearlsand Block,4,40,Item,World Piece
+3339,Pearlsandstone Block,4,40,Item,World Piece
+3340,Hardened Sand Wall,4,40,Item,World Piece
+3341,Hardened Ebonsand Wall,4,40,Item,World Piece
+3342,Hardened Crimsand Wall,4,40,Item,World Piece
+3343,Hardened Pearlsand Wall,4,40,Item,World Piece
+3344,Ebonsandstone Wall,4,40,Item,World Piece
+3345,Crimsandstone Wall,4,40,Item,World Piece
+3346,Pearlsandstone Wall,4,40,Item,World Piece
+3347,Desert Fossil,4,40,Item,World Piece
+3348,Desert Fossil Wall,4,40,Item,World Piece
+3349,Exotic Scimitar,1,11,Implement,Melee
+3350,Paintball Gun,1,12,Implement,Ranged
+3351,Classy Cane,1,11,Implement,Melee
+3352,Stylish Scissors,1,11,Implement,Melee
+3353,Mechanical Cart,4,40,Item,World Piece
+3354,Mechanical Wheel Piece,4,41,Item,Material
+3355,Mechanical Wagon Piece,4,41,Item,Material
+3356,Mechanical Battery Piece,4,41,Item,Material
+3357,Ancient Cultist Trophy,3,32,Furniture,Decor
+3358,Martian Saucer Trophy,3,32,Furniture,Decor
+3359,Flying Dutchman Trophy,3,32,Furniture,Decor
+3360,Living Mahogany Wand,1,10,Implement,Tool
+3361,Rich Mahogany Leaf Wand,1,10,Implement,Tool
+3362,Fallen Tuxedo Shirt,2,21,Gear,Armor
+3363,Fallen Tuxedo Pants,2,22,Gear,Footwear
+3364,Fireplace,3,31,Furniture,Living Furniture
+3365,Chimney,3,31,Furniture,Living Furniture
+3366,Yoyo Bag,2,23,Gear,Accessory
+3367,Shrimpy Truffle,4,41,Item,Material
+3368,Arkhalis,1,11,Implement,Melee
+3369,Confetti Cannon,1,12,Implement,Ranged
+3370,Music Box (The Towers),3,32,Furniture,Decor
+3371,Music Box (Goblin Invasion),3,32,Furniture,Decor
+3372,Ancient Cultist Mask,2,20,Gear,Headgear
+3373,Moon Lord Mask,2,20,Gear,Headgear
+3374,Fossil Helmet,2,20,Gear,Headgear
+3375,Fossil Plate,2,21,Gear,Armor
+3376,Fossil Greaves,2,22,Gear,Footwear
+3377,Amber Staff,1,13,Implement,Magic
+3378,Bone Javelin,1,14,Implement,Projectile
+3379,Bone Throwing Knife,1,14,Implement,Projectile
+3380,Sturdy Fossil,4,41,Item,Material
+3381,Stardust Helmet,2,20,Gear,Headgear
+3382,Stardust Plate,2,21,Gear,Armor
+3383,Stardust Leggings,2,22,Gear,Footwear
+3384,Portal Gun,1,12,Implement,Ranged
+3385,Strange Plant (purple),4,41,Item,Material
+3386,Strange Plant (orange),4,41,Item,Material
+3387,Strange Plant (green),4,41,Item,Material
+3388,Strange Plant (red),4,41,Item,Material
+3389,Terrarian,1,11,Implement,Melee
+3390,Goblin Summoner Banner,3,33,Furniture,Banner
+3391,Salamander Banner,3,33,Furniture,Banner
+3392,Giant Shelly Banner,3,33,Furniture,Banner
+3393,Crawdad Banner,3,33,Furniture,Banner
+3394,Fritz Banner,3,33,Furniture,Banner
+3395,Creature from the Deep Banner,3,33,Furniture,Banner
+3396,Dr. Man Fly Banner,3,33,Furniture,Banner
+3397,Mothron Banner,3,33,Furniture,Banner
+3398,Severed Hand Banner,3,33,Furniture,Banner
+3399,The Possessed Banner,3,33,Furniture,Banner
+3400,Butcher Banner,3,33,Furniture,Banner
+3401,Psycho Banner,3,33,Furniture,Banner
+3402,Deadly Sphere Banner,3,33,Furniture,Banner
+3403,Nailhead Banner,3,33,Furniture,Banner
+3404,Poisonous Spore Banner,3,33,Furniture,Banner
+3405,Medusa Banner,3,33,Furniture,Banner
+3406,Hoplite Banner,3,33,Furniture,Banner
+3407,Granite Elemental Banner,3,33,Furniture,Banner
+3408,Granite Golem Banner,3,33,Furniture,Banner
+3409,Blood Zombie Banner,3,33,Furniture,Banner
+3410,Drippler Banner,3,33,Furniture,Banner
+3411,Tomb Crawler Banner,3,33,Furniture,Banner
+3412,Dune Splicer Banner,3,33,Furniture,Banner
+3413,Antlion Swarmer Banner,3,33,Furniture,Banner
+3414,Antlion Charger Banner,3,33,Furniture,Banner
+3415,Ghoul Banner,3,33,Furniture,Banner
+3416,Lamia Banner,3,33,Furniture,Banner
+3417,Desert Spirit Banner,3,33,Furniture,Banner
+3418,Basilisk Banner,3,33,Furniture,Banner
+3419,Sand Poacher Banner,3,33,Furniture,Banner
+3420,Stargazer Banner,3,33,Furniture,Banner
+3421,Milkyway Weaver Banner,3,33,Furniture,Banner
+3422,Flow Invader Banner,3,33,Furniture,Banner
+3423,Twinkle Popper Banner,3,33,Furniture,Banner
+3424,Small Star Cell Banner,3,33,Furniture,Banner
+3425,Star Cell Banner,3,33,Furniture,Banner
+3426,Corite Banner,3,33,Furniture,Banner
+3427,Sroller Banner,3,33,Furniture,Banner
+3428,Crawltipede Banner,3,33,Furniture,Banner
+3429,Drakomire Rider Banner,3,33,Furniture,Banner
+3430,Drakomire Banner,3,33,Furniture,Banner
+3431,Selenian Banner,3,33,Furniture,Banner
+3432,Predictor Banner,3,33,Furniture,Banner
+3433,Brain Suckler Banner,3,33,Furniture,Banner
+3434,Nebula Floater Banner,3,33,Furniture,Banner
+3435,Evolution Beast Banner,3,33,Furniture,Banner
+3436,Alien Larva Banner,3,33,Furniture,Banner
+3437,Alien Queen Banner,3,33,Furniture,Banner
+3438,Alien Hornet Banner,3,33,Furniture,Banner
+3439,Vortexian Banner,3,33,Furniture,Banner
+3440,Storm Diver Banner,3,33,Furniture,Banner
+3441,Pirate Captain Banner,3,33,Furniture,Banner
+3442,Pirate Deadeye Banner,3,33,Furniture,Banner
+3443,Pirate Corsair Banner,3,33,Furniture,Banner
+3444,Pirate Crossbower Banner,3,33,Furniture,Banner
+3445,Martian Walker Banner,3,33,Furniture,Banner
+3446,Red Devil Banner,3,33,Furniture,Banner
+3447,Pink Jellyfish Banner,3,33,Furniture,Banner
+3448,Green Jellyfish Banner,3,33,Furniture,Banner
+3449,Dark Mummy Banner,3,33,Furniture,Banner
+3450,Light Mummy Banner,3,33,Furniture,Banner
+3451,Angry Bones Banner,3,33,Furniture,Banner
+3452,Ice Tortoise Banner,3,33,Furniture,Banner
+3453,Damage Booster,4,42,Item,Consumable
+3454,Life Booster,4,42,Item,Consumable
+3455,Mana Booster,4,42,Item,Consumable
+3456,Vortex Fragment,4,41,Item,Material
+3457,Nebula Fragment,4,41,Item,Material
+3458,Solar Fragment,4,41,Item,Material
+3459,Stardust Fragment,4,41,Item,Material
+3460,Luminite,4,41,Item,Material
+3461,Luminite Brick,4,40,Item,World Piece
+3462,Stardust Axe,1,11,Implement,Melee
+3463,Stardust Chainsaw,1,10,Implement,Tool
+3464,Stardust Drill,1,10,Implement,Tool
+3465,Stardust Hammer,1,10,Implement,Tool
+3466,Stardust Pickaxe,1,10,Implement,Tool
+3467,Luminite Bar,4,41,Item,Material
+3468,Solar Wings,2,23,Gear,Accessory
+3469,Vortex Booster,2,23,Gear,Accessory
+3470,Nebula Mantle,2,23,Gear,Accessory
+3471,Stardust Wings,2,23,Gear,Accessory
+3472,Luminite Brick Wall,4,40,Item,World Piece
+3473,Solar Eruption,1,12,Implement,Ranged
+3474,Stardust Cell Staff,1,13,Implement,Magic
+3475,Vortex Beater,1,12,Implement,Ranged
+3476,Nebula Arcanum,1,13,Implement,Magic
+3477,Blood Water,1,14,Implement,Projectile
+3478,Wedding Veil,2,20,Gear,Headgear
+3479,Wedding Dress,2,21,Gear,Armor
+3480,Platinum Bow,1,12,Implement,Ranged
+3481,Platinum Hammer,1,10,Implement,Tool
+3482,Platinum Axe,1,10,Implement,Tool
+3483,Platinum Shortsword,1,11,Implement,Melee
+3484,Platinum Broadsword,1,11,Implement,Melee
+3485,Platinum Pickaxe,1,10,Implement,Tool
+3486,Tungsten Bow,1,12,Implement,Ranged
+3487,Tungsten Hammer,1,10,Implement,Tool
+3488,Tungsten Axe,1,10,Implement,Tool
+3489,Tungsten Shortsword,1,11,Implement,Melee
+3490,Tungsten Broadsword,1,11,Implement,Melee
+3491,Tungsten Pickaxe,1,10,Implement,Tool
+3492,Lead Bow,1,12,Implement,Ranged
+3493,Lead Hammer,1,10,Implement,Tool
+3494,Lead Axe,1,10,Implement,Tool
+3495,Lead Shortsword,1,11,Implement,Melee
+3496,Lead Broadsword,1,11,Implement,Melee
+3497,Lead Pickaxe,1,10,Implement,Tool
+3498,Tin Bow,1,12,Implement,Ranged
+3499,Tin Hammer,1,10,Implement,Tool
+3500,Tin Axe,1,10,Implement,Tool
+3501,Tin Shortsword,1,11,Implement,Melee
+3502,Tin Broadsword,1,11,Implement,Melee
+3503,Tin Pickaxe,1,10,Implement,Tool
+3504,Copper Bow,1,12,Implement,Ranged
+3505,Copper Hammer,1,10,Implement,Tool
+3506,Copper Axe,1,10,Implement,Tool
+3507,Copper Shortsword,1,11,Implement,Melee
+3508,Copper Broadsword,1,11,Implement,Melee
+3509,Copper Pickaxe,1,10,Implement,Tool
+3510,Silver Bow,1,12,Implement,Ranged
+3511,Silver Hammer,1,10,Implement,Tool
+3512,Silver Axe,1,10,Implement,Tool
+3513,Silver Shortsword,1,11,Implement,Melee
+3514,Silver Broadsword,1,11,Implement,Melee
+3515,Silver Pickaxe,1,10,Implement,Tool
+3516,Gold Bow,1,12,Implement,Ranged
+3517,Gold Hammer,1,10,Implement,Tool
+3518,Gold Axe,1,10,Implement,Tool
+3519,Gold Shortsword,1,11,Implement,Melee
+3520,Gold Broadsword,1,11,Implement,Melee
+3521,Gold Pickaxe,1,10,Implement,Tool
+3522,Solar Flare Hamaxe,1,11,Implement,Melee
+3523,Vortex Hamaxe,1,11,Implement,Melee
+3524,Nebula Hamaxe,1,11,Implement,Melee
+3525,Stardust Hamaxe,1,11,Implement,Melee
+3526,Solar Dye,4,43,Item,Dye
+3527,Nebula Dye,4,43,Item,Dye
+3528,Vortex Dye,4,43,Item,Dye
+3529,Stardust Dye,4,43,Item,Dye
+3530,Void Dye,4,43,Item,Dye
+3531,Stardust Dragon Staff,1,13,Implement,Magic
+3532,Bacon,4,42,Item,Consumable
+3533,Shifting Sands Dye,4,43,Item,Dye
+3534,Mirage Dye,4,43,Item,Dye
+3535,Shifting Pearlsands Dye,4,43,Item,Dye
+3536,Vortex Monolith,3,32,Furniture,Decor
+3537,Nebula Monolith,3,32,Furniture,Decor
+3538,Stardust Monolith,3,32,Furniture,Decor
+3539,Solar Monolith,3,32,Furniture,Decor
+3540,Phantasm,1,12,Implement,Ranged
+3541,Last Prism,1,13,Implement,Magic
+3542,Nebula Blaze,1,13,Implement,Magic
+3543,Daybreak,1,11,Implement,Melee
+3544,Super Healing Potion,4,42,Item,Consumable
+3545,Detonator,4,40,Item,World Piece
+3546,Celebration,1,12,Implement,Ranged
+3547,Bouncy Dynamite,1,14,Implement,Projectile
+3548,Happy Grenade,1,14,Implement,Projectile
+3549,Ancient Manipulator,3,30,Furniture,Crafting Furniture
+3550,Flame and Silver Dye,4,43,Item,Dye
+3551,Green Flame and Silver Dye,4,43,Item,Dye
+3552,Blue Flame and Silver Dye,4,43,Item,Dye
+3553,Reflective Copper Dye,4,43,Item,Dye
+3554,Reflective Obsidian Dye,4,43,Item,Dye
+3555,Reflective Metal Dye,4,43,Item,Dye
+3556,Midnight Rainbow Dye,4,43,Item,Dye
+3557,Black and White Dye,4,43,Item,Dye
+3558,Bright Silver Dye,4,43,Item,Dye
+3559,Silver and Black Dye,4,43,Item,Dye
+3560,Red Acid Dye,4,43,Item,Dye
+3561,Gel Dye,4,43,Item,Dye
+3562,Pink Gel Dye,4,43,Item,Dye
+3563,Red Squirrel,4,44,Item,Critter
+3564,Gold Squirrel,4,44,Item,Critter
+3565,Red Squirrel Cage,3,32,Furniture,Decor
+3566,Gold Squirrel Cage,3,32,Furniture,Decor
+3567,Luminite Bullet,1,14,Implement,Projectile
+3568,Luminite Arrow,1,14,Implement,Projectile
+3569,Lunar Portal Staff,1,13,Implement,Magic
+3570,Lunar Flare,1,13,Implement,Magic
+3571,Rainbow Crystal Staff,1,13,Implement,Magic
+3572,Lunar Hook,1,12,Implement,Ranged
+3573,Solar Fragment Block,4,40,Item,World Piece
+3574,Vortex Fragment Block,4,40,Item,World Piece
+3575,Nebula Fragment Block,4,40,Item,World Piece
+3576,Stardust Fragment Block,4,40,Item,World Piece
+3577,Suspicious Looking Tentacle,4,42,Item,Consumable
+3578,Yoraiz0r's Uniform,2,21,Gear,Armor
+3579,Yoraiz0r's Skirt,2,22,Gear,Footwear
+3580,Yoraiz0r's Spell,2,23,Gear,Accessory
+3581,Yoraiz0r's Scowl,2,23,Gear,Accessory
+3582,Jim's Wings,2,23,Gear,Accessory
+3583,Yoraiz0r's Recolored Goggles,2,20,Gear,Headgear
+3584,Living Leaf Wall,4,40,Item,World Piece
+3585,Skiphs's Mask,2,20,Gear,Headgear
+3586,Skiphs's Skin,2,21,Gear,Armor
+3587,Skiphs's Bear Butt,2,22,Gear,Footwear
+3588,Skiphs's Paws,2,23,Gear,Accessory
+3589,Loki's Helmet,2,20,Gear,Headgear
+3590,Loki's Breastplate,2,21,Gear,Armor
+3591,Loki's Greaves,2,22,Gear,Footwear
+3592,Loki's Wings,2,23,Gear,Accessory
+3593,Sand Slime Banner,3,33,Furniture,Banner
+3594,Sea Snail Banner,3,33,Furniture,Banner
+3595,Moon Lord Trophy,3,32,Furniture,Decor
+3596,"Not a Kid, nor a Squid",3,34,Furniture,Painting
+3597,Burning Hades Dye,4,43,Item,Dye
+3598,Grim Dye,4,43,Item,Dye
+3599,Loki's Dye,4,43,Item,Dye
+3600,Shadowflame Hades Dye,4,43,Item,Dye
+3601,Celestial Sigil,2,23,Gear,Accessory
+3602,Logic Gate Lamp (Off),4,40,Item,World Piece
+3603,Logic Gate (AND),4,40,Item,World Piece
+3604,Logic Gate (OR),4,40,Item,World Piece
+3605,Logic Gate (NAND),4,40,Item,World Piece
+3606,Logic Gate (NOR),4,40,Item,World Piece
+3607,Logic Gate (XOR),4,40,Item,World Piece
+3608,Logic Gate (XNOR),4,40,Item,World Piece
+3609,Conveyor Belt (Clockwise),4,40,Item,World Piece
+3610,Conveyor Belt (Counter Clockwise),4,40,Item,World Piece
+3611,The Grand Design,1,10,Implement,Tool
+3612,Yellow Wrench,1,10,Implement,Tool
+3613,Logic Sensor (Day),4,40,Item,World Piece
+3614,Logic Sensor (Night),4,40,Item,World Piece
+3615,Logic Sensor (Player Above),4,40,Item,World Piece
+3616,Junction Box,4,40,Item,World Piece
+3617,Announcement Box,3,32,Furniture,Decor
+3618,Logic Gate Lamp (On),4,40,Item,World Piece
+3619,Mechanical Lens,2,23,Gear,Accessory
+3620,Actuation Rod,1,10,Implement,Tool
+3621,Red Team Block,4,40,Item,World Piece
+3622,Red Team Platform,4,40,Item,World Piece
+3623,Static Hook,1,12,Implement,Ranged
+3624,Presserator,2,23,Gear,Accessory
+3625,Multicolor Wrench,1,10,Implement,Tool
+3626,Pink Weighted Pressure Plate,4,40,Item,World Piece
+3627,Engineering Helmet,2,20,Gear,Headgear
+3628,Companion Cube,4,42,Item,Consumable
+3629,Wire Bulb,4,40,Item,World Piece
+3630,Orange Weighted Pressure Plate,4,40,Item,World Piece
+3631,Purple Weighted Pressure Plate,4,40,Item,World Piece
+3632,Cyan Weighted Pressure Plate,4,40,Item,World Piece
+3633,Green Team Block,4,40,Item,World Piece
+3634,Blue Team Block,4,40,Item,World Piece
+3635,Yellow Team Block,4,40,Item,World Piece
+3636,Pink Team Block,4,40,Item,World Piece
+3637,White Team Block,4,40,Item,World Piece
+3638,Green Team Platform,4,40,Item,World Piece
+3639,Blue Team Platform,4,40,Item,World Piece
+3640,Yellow Team Platform,4,40,Item,World Piece
+3641,Pink Team Platform,4,40,Item,World Piece
+3642,White Team Platform,4,40,Item,World Piece
+3643,Large Amber,4,40,Item,World Piece
+3644,Ruby Gem Lock,4,40,Item,World Piece
+3645,Sapphire Gem Lock,4,40,Item,World Piece
+3646,Emerald Gem Lock,4,40,Item,World Piece
+3647,Topaz Gem Lock,4,40,Item,World Piece
+3648,Amethyst Gem Lock,4,40,Item,World Piece
+3649,Diamond Gem Lock,4,40,Item,World Piece
+3650,Amber Gem Lock,4,40,Item,World Piece
+3651,Squirrel Statue,3,35,Furniture,Statue
+3652,Butterfly Statue,3,35,Furniture,Statue
+3653,Worm Statue,3,35,Furniture,Statue
+3654,Firefly Statue,3,35,Furniture,Statue
+3655,Scorpion Statue,3,35,Furniture,Statue
+3656,Snail Statue,3,35,Furniture,Statue
+3657,Grasshopper Statue,3,35,Furniture,Statue
+3658,Mouse Statue,3,35,Furniture,Statue
+3659,Duck Statue,3,35,Furniture,Statue
+3660,Penguin Statue,3,35,Furniture,Statue
+3661,Frog Statue,3,35,Furniture,Statue
+3662,Buggy Statue,3,35,Furniture,Statue
+3663,Logic Gate Lamp (Faulty),3,32,Furniture,Decor
+3664,Portal Gun Station,3,31,Furniture,Living Furniture
+3665,Trapped Chest,3,31,Furniture,Living Furniture
+3666,Trapped Gold Chest,3,31,Furniture,Living Furniture
+3667,Trapped Shadow Chest,3,31,Furniture,Living Furniture
+3668,Trapped Ebonwood Chest,3,31,Furniture,Living Furniture
+3669,Trapped Rich Mahogany Chest,3,31,Furniture,Living Furniture
+3670,Trapped Pearlwood Chest,3,31,Furniture,Living Furniture
+3671,Trapped Ivy Chest,3,31,Furniture,Living Furniture
+3672,Trapped Ice Chest,3,31,Furniture,Living Furniture
+3673,Trapped Living Wood Chest,3,31,Furniture,Living Furniture
+3674,Trapped Skyware Chest,3,31,Furniture,Living Furniture
+3675,Trapped Shadewood Chest,3,31,Furniture,Living Furniture
+3676,Trapped Web Covered Chest,3,31,Furniture,Living Furniture
+3677,Trapped Lihzahrd Chest,3,31,Furniture,Living Furniture
+3678,Trapped Water Chest,3,31,Furniture,Living Furniture
+3679,Trapped Jungle Chest,3,31,Furniture,Living Furniture
+3680,Trapped Corruption Chest,3,31,Furniture,Living Furniture
+3681,Trapped Crimson Chest,3,31,Furniture,Living Furniture
+3682,Trapped Hallowed Chest,3,31,Furniture,Living Furniture
+3683,Trapped Frozen Chest,3,31,Furniture,Living Furniture
+3684,Trapped Dynasty Chest,3,31,Furniture,Living Furniture
+3685,Trapped Honey Chest,3,31,Furniture,Living Furniture
+3686,Trapped Steampunk Chest,3,31,Furniture,Living Furniture
+3687,Trapped Palm Wood Chest,3,31,Furniture,Living Furniture
+3688,Trapped Mushroom Chest,3,31,Furniture,Living Furniture
+3689,Trapped Boreal Wood Chest,3,31,Furniture,Living Furniture
+3690,Trapped Slime Chest,3,31,Furniture,Living Furniture
+3691,Trapped Green Dungeon Chest,3,31,Furniture,Living Furniture
+3692,Trapped Pink Dungeon Chest,3,31,Furniture,Living Furniture
+3693,Trapped Blue Dungeon Chest,3,31,Furniture,Living Furniture
+3694,Trapped Bone Chest,3,31,Furniture,Living Furniture
+3695,Trapped Cactus Chest,3,31,Furniture,Living Furniture
+3696,Trapped Flesh Chest,3,31,Furniture,Living Furniture
+3697,Trapped Obsidian Chest,3,31,Furniture,Living Furniture
+3698,Trapped Pumpkin Chest,3,31,Furniture,Living Furniture
+3699,Trapped Spooky Chest,3,31,Furniture,Living Furniture
+3700,Trapped Glass Chest,3,31,Furniture,Living Furniture
+3701,Trapped Martian Chest,3,31,Furniture,Living Furniture
+3702,Trapped Meteorite Chest,3,31,Furniture,Living Furniture
+3703,Trapped Granite Chest,3,31,Furniture,Living Furniture
+3704,Trapped Marble Chest,3,31,Furniture,Living Furniture
+3705,Fake_newchest1,3,31,Furniture,Living Furniture
+3706,Fake_newchest2,3,31,Furniture,Living Furniture
+3707,Teal Pressure Pad,4,40,Item,World Piece
+3708,Wall Creeper Statue,3,35,Furniture,Statue
+3709,Unicorn Statue,3,35,Furniture,Statue
+3710,Drippler Statue,3,35,Furniture,Statue
+3711,Wraith Statue,3,35,Furniture,Statue
+3712,Bone Skeleton Statue,3,35,Furniture,Statue
+3713,Undead Viking Statue,3,35,Furniture,Statue
+3714,Medusa Statue,3,35,Furniture,Statue
+3715,Harpy Statue,3,35,Furniture,Statue
+3716,Pigron Statue,3,35,Furniture,Statue
+3717,Hoplite Statue,3,35,Furniture,Statue
+3718,Granite Golem Statue,3,35,Furniture,Statue
+3719,Armed Zombie Statue,3,35,Furniture,Statue
+3720,Blood Zombie Statue,3,35,Furniture,Statue
+3721,Angler Tackle Bag,4,42,Item,Consumable
+3722,Geyser,3,32,Furniture,Decor
+3723,Ultra Bright Campfire,3,32,Furniture,Decor
+3724,Bone Campfire,3,32,Furniture,Decor
+3725,Pixel Box,4,40,Item,World Piece
+3726,Liquid Sensor (Water),4,40,Item,World Piece
+3727,Liquid Sensor (Lava),4,40,Item,World Piece
+3728,Liquid Sensor (Honey),4,40,Item,World Piece
+3729,Liquid Sensor (Any),4,40,Item,World Piece
+3730,Bundled Party Balloons,3,32,Furniture,Decor
+3731,Balloon Animal,3,32,Furniture,Decor
+3732,Party Hat,2,20,Gear,Headgear
+3733,Silly Sunflower Petals,2,23,Gear,Accessory
+3734,Silly Sunflower Tops,2,21,Gear,Armor
+3735,Silly Sunflower Bottoms,2,21,Gear,Armor
+3736,Silly Pink Balloon,3,32,Furniture,Decor
+3737,Silly Purple Balloon,3,32,Furniture,Decor
+3738,Silly Green Balloon,3,32,Furniture,Decor
+3739,Blue Streamer,3,32,Furniture,Decor
+3740,Green Streamer,3,32,Furniture,Decor
+3741,Pink Streamer,3,32,Furniture,Decor
+3742,Silly Balloon Machine,3,30,Furniture,Crafting Furniture
+3743,Silly Tied Balloon (Pink),3,32,Furniture,Decor
+3744,Silly Tied Balloon (Purple),3,32,Furniture,Decor
+3745,Silly Tied Balloon (Green),3,32,Furniture,Decor
+3746,Pigronata,3,32,Furniture,Decor
+3747,Party Center,3,30,Furniture,Crafting Furniture
+3748,Silly Tied Bundle of Balloons,3,32,Furniture,Decor
+3749,Party Present,4,42,Item,Consumable
+3750,Slice of Cake,4,42,Item,Consumable
+3751,Cog Wall,4,40,Item,World Piece
+3752,Sandfall Wall,4,40,Item,World Piece
+3753,Snowfall Wall,4,40,Item,World Piece
+3754,Sandfall Block,4,40,Item,World Piece
+3755,Snowfall Block,4,40,Item,World Piece
+3756,Snow Cloud,4,40,Item,World Piece
+3757,Pedguin's Hood,2,20,Gear,Headgear
+3758,Pedguin's Jacket,2,21,Gear,Armor
+3759,Pedguin's Trousers,2,22,Gear,Footwear
+3760,Silly Pink Balloon Wall,4,40,Item,World Piece
+3761,Silly Purple Balloon Wall,4,40,Item,World Piece
+3762,Silly Green Balloon Wall,4,40,Item,World Piece
+3763,0x33's Aviators,2,20,Gear,Headgear
+3764,Blue Phasesaber,1,11,Implement,Melee
+3765,Red Phasesaber,1,11,Implement,Melee
+3766,Green Phasesaber,1,11,Implement,Melee
+3767,Purple Phasesaber,1,11,Implement,Melee
+3768,White Phasesaber,1,11,Implement,Melee
+3769,Yellow Phasesaber,1,11,Implement,Melee
+3770,Djinn's Curse,2,23,Gear,Accessory
+3771,Ancient Horn,2,23,Gear,Accessory
+3772,Mandible Blade,1,11,Implement,Melee
+3773,Ancient Headdress,2,20,Gear,Headgear
+3774,Ancient Garments,2,21,Gear,Armor
+3775,Ancient Slacks,2,22,Gear,Footwear
+3776,Forbidden Mask,2,20,Gear,Headgear
+3777,Forbidden Robes,2,21,Gear,Armor
+3778,Forbidden Treads,2,22,Gear,Footwear
+3779,Spirit Flame,3,32,Furniture,Decor
+3780,Sand Elemental Banner,3,33,Furniture,Banner
+3781,Pocket Mirror,2,20,Gear,Headgear
+3782,Magic Sand Dropper,1,10,Implement,Tool
+3783,Forbidden Fragment,4,41,Item,Material
+3784,Lamia Tail,2,22,Gear,Footwear
+3785,Lamia Wraps,2,21,Gear,Armor
+3786,Lamia Mask,2,20,Gear,Headgear
+3787,Sky Fracture,1,11,Implement,Melee
+3788,Onyx Blaster,1,12,Implement,Ranged
+3789,Sand Shark Banner,3,33,Furniture,Banner
+3790,Bone Biter Banner,3,33,Furniture,Banner
+3791,Flesh Reaver Banner,3,33,Furniture,Banner
+3792,Crystal Thresher Banner,3,33,Furniture,Banner
+3793,Angry Tumbler Banner,3,33,Furniture,Banner
+3794,Ancient Cloth,4,41,Item,Material
+3795,Desert Spirit Lamp,3,32,Furniture,Decor
+3796,Music Box (Sandstorm),3,32,Furniture,Decor
+3797,Apprentice's Hat,2,20,Gear,Headgear
+3798,Apprentice's Robe,2,21,Gear,Armor
+3799,Apprentice's Trousers,2,22,Gear,Footwear
+3800,Squire's Great Helm,2,20,Gear,Headgear
+3801,Squire's Plating,2,21,Gear,Armor
+3802,Squire's Greaves,2,22,Gear,Footwear
+3803,Huntress's Wig,2,20,Gear,Headgear
+3804,Huntress's Jerkin,2,21,Gear,Armor
+3805,Huntress's Pants,2,22,Gear,Footwear
+3806,Monk's Bushy Brow Bald Cap,2,20,Gear,Headgear
+3807,Monk's Shirt,2,21,Gear,Armor
+3808,Monk's Pants,2,22,Gear,Footwear
+3809,Apprentice's Scarf,2,23,Gear,Accessory
+3810,Squire's Shield,2,21,Gear,Armor
+3811,Huntress's Buckler,2,21,Gear,Armor
+3812,Monk's Belt,2,23,Gear,Accessory
+3813,Defender's Forge,3,30,Furniture,Crafting Furniture
+3814,War Table,3,30,Furniture,Crafting Furniture
+3815,War Table Banner,3,33,Furniture,Banner
+3816,Eternia Crystal Stand,3,32,Furniture,Decor
+3817,Defender Medal,2,23,Gear,Accessory
+3818,Flameburst Rod,1,13,Implement,Magic
+3819,Flameburst Cane,1,13,Implement,Magic
+3820,Flameburst Staff,1,13,Implement,Magic
+3821,Ale Tosser,1,12,Implement,Ranged
+3822,Etherian Mana,4,42,Item,Consumable
+3823,Brand of the Inferno,1,11,Implement,Melee
+3824,Ballista Rod,1,13,Implement,Magic
+3825,Ballista Cane,1,13,Implement,Magic
+3826,Ballista Staff,1,13,Implement,Magic
+3827,Flying Dragon,1,11,Implement,Melee
+3828,Eternia Crystal,4,42,Item,Consumable
+3829,Lightning Aura Rod,1,13,Implement,Magic
+3830,Lightning Aura Cane,1,13,Implement,Magic
+3831,Lightning Aura Staff,1,13,Implement,Magic
+3832,Explosive Trap Rod,1,13,Implement,Magic
+3833,Explosive Trap Cane,1,13,Implement,Magic
+3834,Explosive Trap Staff,1,13,Implement,Magic
+3835,Sleepy Octopod,1,13,Implement,Magic
+3836,Ghastly Glaive,1,11,Implement,Melee
+3837,Etherian Goblin Bomber Banner,3,33,Furniture,Banner
+3838,Etherian Goblin Banner,3,33,Furniture,Banner
+3839,Old One's Skeleton Banner,3,33,Furniture,Banner
+3840,Drakin Banner,3,33,Furniture,Banner
+3841,Kobold Glider Banner,3,33,Furniture,Banner
+3842,Kobold Banner,3,33,Furniture,Banner
+3843,Wither Beast Banner,3,33,Furniture,Banner
+3844,Etherian Wyvern Banner,3,33,Furniture,Banner
+3845,Etherian Javelin Thrower Banner,3,33,Furniture,Banner
+3846,Etherian Lightning Bug Banner,3,33,Furniture,Banner
+3847,Ogre Mask,2,20,Gear,Headgear
+3848,Goblin Mask,2,20,Gear,Headgear
+3849,Goblin Bomber Cap,2,20,Gear,Headgear
+3850,Etherian Javelin,1,14,Implement,Projectile
+3851,Kobold Dynamite Backpack,2,23,Gear,Accessory
+3852,Tome of Infinite Wisdom,1,13,Implement,Magic
+3853,Boring Bow,1,12,Implement,Ranged
+3854,Phantom Phoenix,1,12,Implement,Ranged
+3855,Gato Egg,4,42,Item,Consumable
+3856,Creeper Egg,4,42,Item,Consumable
+3857,Dragon Egg,4,42,Item,Consumable
+3858,Sky Dragon's Fury,1,11,Implement,Melee
+3859,Aerial Bane,1,12,Implement,Ranged
+3860,Treasure Bag (Betsy),4,42,Item,Consumable
+3861,Treasure Bag (Ogre),4,42,Item,Consumable
+3862,Treasure Bag (Dark Mage),4,42,Item,Consumable
+3863,Betsy Mask,2,20,Gear,Headgear
+3864,Dark Mage Mask,2,20,Gear,Headgear
+3865,Ogre Mask,2,20,Gear,Headgear
+3866,Betsy Trophy,3,32,Furniture,Decor
+3867,Dark Mage Trophy,3,32,Furniture,Decor
+3868,Ogre Trophy,3,32,Furniture,Decor
+3869,Music Box (Old One's Army),3,32,Furniture,Decor
+3870,Betsy's Wrath,1,13,Implement,Magic
+3871,Valhalla Knight's Helm,2,20,Gear,Headgear
+3872,Valhalla Knight's Breastplate,2,21,Gear,Armor
+3873,Valhalla Knight's Greaves,2,22,Gear,Footwear
+3874,Dark Artist's Hat,2,20,Gear,Headgear
+3875,Dark Artist's Robes,2,21,Gear,Armor
+3876,Dark Artist's Leggings,2,22,Gear,Footwear
+3877,Red Riding Hood,2,20,Gear,Headgear
+3878,Red Riding Dress,2,21,Gear,Armor
+3879,Red Riding Leggings,2,22,Gear,Footwear
+3880,Shinobi Infiltrator's Helmet,2,20,Gear,Headgear
+3881,Shinobi Infiltrator's Torso,2,21,Gear,Armor
+3882,Shinobi Infiltrator's Pants,2,22,Gear,Footwear
+3883,Betsy's Wings,2,23,Gear,Accessory
+3884,Crystal Chest,3,31,Furniture,Living Furniture
+3885,Golden Chest,3,31,Furniture,Living Furniture
+3886,Trapped Crystal Chest,3,31,Furniture,Living Furniture
+3887,Trapped Golden Chest,3,31,Furniture,Living Furniture
+3888,Crystal Door,3,31,Furniture,Living Furniture
+3889,Crystal Chair,3,31,Furniture,Living Furniture
+3890,Crystal Candle,3,32,Furniture,Decor
+3891,Crystal Lantern,3,32,Furniture,Decor
+3892,Crystal Lamp,3,32,Furniture,Decor
+3893,Crystal Candelabra,3,32,Furniture,Decor
+3894,Crystal Chandelier,3,32,Furniture,Decor
+3895,Crystal Bathtub,3,31,Furniture,Living Furniture
+3896,Crystal Sink,3,31,Furniture,Living Furniture
+3897,Crystal Bed,3,31,Furniture,Living Furniture
+3898,Crystal Clock,3,32,Furniture,Decor
+3899,Sunplate Clock,3,32,Furniture,Decor
+3900,Blue Dungeon Clock,3,32,Furniture,Decor
+3901,Green Dungeon Clock,3,32,Furniture,Decor
+3902,Pink Dungeon Clock,3,32,Furniture,Decor
+3903,Crystal Platform,4,40,Item,World Piece
+3904,Golden Platform,4,40,Item,World Piece
+3905,Dynasty Platform,4,40,Item,World Piece
+3906,Lihzahrd Platform,4,40,Item,World Piece
+3907,Flesh Platform,4,40,Item,World Piece
+3908,Frozen Platform,4,40,Item,World Piece
+3909,Crystal Work Bench,3,30,Furniture,Crafting Furniture
+3910,Golden Work Bench,3,30,Furniture,Crafting Furniture
+3911,Crystal Dresser,3,31,Furniture,Living Furniture
+3912,Dynasty Dresser,3,31,Furniture,Living Furniture
+3913,Frozen Dresser,3,31,Furniture,Living Furniture
+3914,Living Wood Dresser,3,31,Furniture,Living Furniture
+3915,Crystal Piano,3,31,Furniture,Living Furniture
+3916,Dynasty Piano,3,31,Furniture,Living Furniture
+3917,Crystal Bookcase,3,32,Furniture,Decor
+3918,Crystal Sofa,3,31,Furniture,Living Furniture
+3919,Dynasty Sofa,3,31,Furniture,Living Furniture
+3920,Crystal Table,3,31,Furniture,Living Furniture
+3921,Arkhalis's Hood,2,20,Gear,Headgear
+3922,Arkhalis's Bodice,2,21,Gear,Armor
+3923,Arkhalis's Tights,2,22,Gear,Footwear
+3924,Arkhalis's Lightwings,2,23,Gear,Accessory
+3925,Leinfors' Hair Protector,2,20,Gear,Headgear
+3926,Leinfors' Excessive Style,2,21,Gear,Armor
+3927,Leinfors' Fancypants,2,22,Gear,Footwear
+3928,Leinfors' Prehensile Cloak,2,21,Gear,Armor
+3929,Leinfors' Luxury Shampoo,4,42,Item,Consumable
+5001,Dragon Mask,2,20,Gear,Headgear
+5002,Titan Helmet,2,20,Gear,Headgear
+5003,Spectral Headgear,2,20,Gear,Headgear
+5004,Dragon Breastplate,2,21,Gear,Armor
+5005,Titan Mail,2,21,Gear,Armor
+5006,Spectral Armor,2,21,Gear,Armor
+5007,Dragon Greaves,2,22,Gear,Footwear
+5008,Titan Leggings,2,22,Gear,Footwear
+5009,Spectral Subligar,2,22,Gear,Footwear
+5010,Tizona,1,11,Implement,Melee
+5011,Tonbogiri,1,14,Implement,Projectile
+5012,Sharanga,1,12,Implement,Ranged
+5013,Spectral Arrow,1,14,Implement,Projectile
+5014,Vulcan Repeater,1,12,Implement,Ranged
+5015,Vulcan Bolt,1,14,Implement,Projectile
+5016,Suspicious Looking Skull,4,42,Item,Consumable
+5017,Soul of Blight,4,41,Item,Material
+5018,Petri Dish,4,42,Item,Consumable
+5019,Beeswax,4,42,Item,Consumable
+5020,Vial of Blood,4,42,Item,Consumable
+5021,Wolf Fang,4,42,Item,Consumable
+5022,Brain,4,42,Item,Consumable
+5029,Fabulous Ribbon,2,23,Gear,Accessory
+5030,George's Hat,2,20,Gear,Headgear
+5031,Fabulous Dress,2,21,Gear,Armor
+5032,George's Suit,2,21,Gear,Armor
+5033,Fabulous Slippers,2,22,Gear,Footwear
+5034,George's Pants,2,22,Gear,Footwear
+5035,Sparkly Wings,2,23,Gear,Accessory
+5036,Ocram Trophy,3,32,Furniture,Decor
+5037,Albino Antlion Banner,3,33,Furniture,Banner
+5038,Orca Banner,3,33,Furniture,Banner
+5039,Vampire Miner Banner,3,33,Furniture,Banner
+5040,Shadow Hammer Banner,3,33,Furniture,Banner
+5041,Shadow Mummy Banner,3,33,Furniture,Banner
+5042,Spectral Gastropod Banner,3,33,Furniture,Banner
+5043,Spectral Elemental Banner,3,33,Furniture,Banner
+5044,Dragon Snatcher Banner,3,33,Furniture,Banner
+5045,Arch Wyvern Banner,3,33,Furniture,Banner
+5046,Arch Demon Banner,3,33,Furniture,Banner
+5047,Holiday Bauble,4,42,Item,Consumable
+5048,Shiny Black Slab,4,42,Item,Consumable
+5049,Heart Arrow,1,14,Implement,Projectile
+5050,Broken Heart,4,42,Item,Consumable
+5051,Valentine Ring,2,23,Gear,Accessory
+5052,Rainbow Piece,4,40,Item,World Piece
+5053,Pot o' Gold,3,32,Furniture,Decor
+5055,Golden Seaweed,4,40,Item,World Piece
+5056,Suspicious Looking Egg,4,42,Item,Consumable
+5057,Boots of Ostara,2,22,Gear,Footwear
+5058,Egg Cannon,1,12,Implement,Ranged
+5059,Suspicious Looking Apple,4,42,Item,Consumable
+5060,Old Walking Stick,4,42,Item,Consumable
+5061,Holy Hand Grenade,1,14,Implement,Projectile
+5062,Strange Looking Tombstone,3,32,Furniture,Decor
+5063,Turkey Feather,4,41,Item,Material
+5064,Cursed stuffing,4,42,Item,Consumable
+5065,Horn o' plenty,4,42,Item,Consumable
+5066,Roman candle,1,13,Implement,Magic
+5067,Festive top hat,2,20,Gear,Headgear
+5068,Alpine Hat,2,20,Gear,Headgear
+5069,Lederweste,2,21,Gear,Armor
+5070,Lederhosen,2,22,Gear,Footwear
+5071,Oktober Locks,2,20,Gear,Headgear
+5072,Dirndl Blouse,2,21,Gear,Armor
+5073,Dirndl Skirt,2,22,Gear,Footwear
+5074,WiesnbrÃ¤u,4,42,Item,Consumable
+5075,Firecracker,1,14,Implement,Projectile
+5076,Red Envelope,4,42,Item,Consumable
+5077,Mythical Robe,2,21,Gear,Armor
+5078,Mythical Lion Mask,2,20,Gear,Headgear

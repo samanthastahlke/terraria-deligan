@@ -1,0 +1,22 @@
+﻿BC,BCID,BCCount,Group,NC,NCID,NCCount,NCFlippable
+Implement,1,630,Implement,Tool,10,150,0
+Gear,2,796,,Melee,11,160,0
+Furniture,3,1482,,Ranged,12,145,0
+Item,4,1091,,Magic,13,80,0
+,,,,Projectile,14,96,1
+,,,Gear,Headgear,20,228,0
+,,,,Armor,21,173,0
+,,,,Footwear,22,143,0
+,,,,Accessory,23,251,0
+,,,Furniture,Crafting,30,72,0
+,,,,Living,31,413,0
+,,,,Décor,32,518,0
+,,,,Banner,33,294,1
+,,,,Painting,34,77,1
+,,,,Statue,35,108,0
+,,,Item,World Piece,40,404,1
+,,,,Material,41,216,1
+,,,,Consumable,42,238,0
+,,,,Dye,43,128,0
+,,,,Critter,44,105,0
+Total,,3999,,,,3999,
