@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/PyRipper.iml" filepath="$PROJECT_DIR$/.idea/PyRipper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../SpriteGAN/.idea/SpriteGAN.iml" filepath="$PROJECT_DIR$/../../SpriteGAN/.idea/SpriteGAN.iml" />
     </modules>
   </component>
 </project>
