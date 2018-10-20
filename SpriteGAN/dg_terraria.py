@@ -1,9 +1,7 @@
-# This is the code for experiments performed on the CIFAR-10  dataset for the DeLiGAN model. Minor adjustments 
-# in the code as suggested in the comments can be done to test GAN. Corresponding details about these experiments 
-# can be found in section 5.4 of the paper and the results showing the outputs can be seen in Fig 5 and Table 1.
+# DeLiGAN implementation for the Terraria dataset.
+# Based heavily on the code from Gurumurthy, Sarvadevabhatla, and Babu (2017).
 
 import argparse
-import _pickle as cPickle
 import time
 import numpy as np
 import theano as th
@@ -16,7 +14,7 @@ from lasagne.layers import dnn
 import nn
 import sys
 import plotting
-import cifar10_data
+import terraria_data
 import params
 import os
 
@@ -26,30 +24,42 @@ parser.add_argument('--seed', default=1)
 parser.add_argument('--batch_size', default=100)
 parser.add_argument('--unlabeled_weight', type=float, default=1.)
 parser.add_argument('--learning_rate', type=float, default=0.0003)
-parser.add_argument('--data_dir', type=str, default=os.getcwd()+'\\dataset')
-parser.add_argument('--results_dir', type=str, default=os.getcwd()+'\\results')
+parser.add_argument('--data_dir', type=str, default=os.path.join(os.getcwd(), os.pardir, 'Data Collection\\Dataset\\'))
+parser.add_argument('--results_dir', type=str, default=os.getcwd()+'\\results\\')
 parser.add_argument('--count', type=int, default=400)
 args = parser.parse_args()
 print(args)
+
+if not os.path.exists(args.results_dir):
+    os.makedirs(args.results_dir)
+
+train_results_dir = os.path.join(args.results_dir, 'train\\')
+
+if not os.path.exists(train_results_dir):
+    os.makedirs(train_results_dir)
 
 # fixed random seeds
 rng = np.random.RandomState(args.seed)
 theano_rng = MRG_RandomStreams(rng.randint(2 ** 15))
 lasagne.random.set_rng(np.random.RandomState(rng.randint(2 ** 15)))
 
-# load CIFAR-10 and sample 2000 random images
+# load Terraria dataset
 print("Loading and sampling Terraria data...")
-trainx, trainy = cifar10_data.load(args.data_dir, subset='train')
+trainx, trainy = terraria_data.load(args.data_dir, subset='train')
 ind = rng.permutation(trainx.shape[0])
 trainx = trainx[ind]
 trainy = trainy[ind]
 trainx = trainx[:2000]
 trainy = trainy[:2000]
 trainx_unl = trainx.copy()
-testx, testy = cifar10_data.load(args.data_dir, subset='test')
-nr_batches_train = int(trainx.shape[0]/args.batch_size)
-nr_batches_test = int(testx.shape[0]/args.batch_size)
-print("Loaded and sampled CIFAR data.")
+testx, testy = terraria_data.load(args.data_dir, subset='test')
+print('Train data shape: ', trainx.shape, 'Train label shape: ', trainy.shape, 'Test data shape: ', testx.shape, 'Test label shape: ', testy.shape, 'Unlabeled shape: ', trainx_unl.shape)
+#print(trainy, testy)
+# Compatibility - change division to integer division
+nr_batches_train = int(trainx.shape[0]//args.batch_size)
+nr_batches_test = int(testx.shape[0]//args.batch_size)
+print('Train batches: ', nr_batches_train, 'Test batches: ', nr_batches_test)
+print("Loaded and sampled Terraria data.")
 
 # specify generative model
 print("Constructing generator...")
@@ -89,7 +99,8 @@ disc_layers.append(nn.weight_norm(ll.NINLayer(disc_layers[-1], num_units=192, W=
 disc_layers.append(nn.weight_norm(ll.NINLayer(disc_layers[-1], num_units=192, W=Normal(0.05), nonlinearity=nn.lrelu)))
 disc_layers.append(ll.GlobalPoolLayer(disc_layers[-1]))
 disc_layers.append(nn.MinibatchLayer(disc_layers[-1], num_kernels=100))
-disc_layers.append(nn.weight_norm(ll.DenseLayer(disc_layers[-1], num_units=10, W=Normal(0.05), nonlinearity=None), train_g=True, init_stdv=0.1))
+#Number of units should match the number of classes.
+disc_layers.append(nn.weight_norm(ll.DenseLayer(disc_layers[-1], num_units=4, W=Normal(0.05), nonlinearity=None), train_g=True, init_stdv=0.1))
 print("Finished constructing discriminator.")
 
 # costs
@@ -126,17 +137,24 @@ lr = T.scalar()
 disc_params = ll.get_all_params(disc_layers, trainable=True)
 disc_param_updates = nn.adam_updates(disc_params, loss_lab + args.unlabeled_weight*loss_unl, lr=lr, mom1=0.5)
 disc_param_avg = [th.shared(np.cast[th.config.floatX](0.*p.get_value())) for p in disc_params]
+print("Set up discriminator parameters...")
 disc_avg_updates = [(a,a+0.0001*(p-a)) for p,a in zip(disc_params,disc_param_avg)]
+print("Set up discriminator updates...")
 disc_avg_givens = [(p,a) for p,a in zip(disc_params,disc_param_avg)]
+print("Set up discriminator averages...")
 init_param = th.function(inputs=[x_lab], outputs=None, updates=init_updates)
+print("Initialized discriminator updates...")
 train_batch_disc = th.function(inputs=[x_lab,labels,x_unl,lr], outputs=[loss_lab, loss_unl, train_err], updates=disc_param_updates+disc_avg_updates)
+print("Initialized discriminator training batch...")
 test_batch = th.function(inputs=[x_lab,labels], outputs=test_err, givens=disc_avg_givens)
+print("Initialized discriminator test batch...")
 samplefun = th.function(inputs=[],outputs=gen_dat)
-
+print("Set up Theano training for discriminator. Setting up for generator...")
 # Theano functions for training the gen net
 loss_gen = -T.mean(T.nnet.softplus(l_gen))
 gen_params = ll.get_all_params(gen_layers[-1], trainable=True)
 gen_param_updates = nn.adam_updates(gen_params, loss_gen, lr=lr, mom1=0.5)
+print("Set up generator parameters...")
 train_batch_gen = th.function(inputs=[lr], outputs=[sig1,sigloss,loss_gen], updates=gen_param_updates)
 print("Set up Theano training functions.")
 
@@ -232,15 +250,15 @@ for epoch in range(1200):
     sample_x = samplefun()
     img_bhwc = np.transpose(sample_x[:100,], (0, 2, 3, 1))
     img_tile = plotting.img_tile(img_bhwc, aspect_ratio=1.0, border_color=1.0, stretch=True)
-    img = plotting.plot_img(img_tile, title='CIFAR10 samples')
-    plotting.plt.savefig(args.results_dir + '/dg_cifar10_sample_minibatch.png')
+    img = plotting.plot_img(img_tile, title='Terraria samples')
+    plotting.plt.savefig(args.results_dir + '/dg_terraria_sample_minibatch.png')
     if epoch%20==0:
         NNdiff = np.sum(np.sum(np.sum(np.square(np.expand_dims(sample_x,axis=1)-np.expand_dims(trainx,axis=0)),axis=2),axis=2),axis=2)
         NN = trainx[np.argmin(NNdiff,axis=1)]
         NN = np.transpose(NN[:100], (0, 2, 3, 1))
         NN_tile = plotting.img_tile(NN, aspect_ratio=1.0,border_color=1.0,stretch=True)
         img_tile = np.concatenate((img_tile,NN_tile),axis=1)
-        img = plotting.plot_img(img_tile, title='CIFAR10 samples')
+        img = plotting.plot_img(img_tile, title='Terraria samples')
         plotting.plt.savefig(args.results_dir + '/'+str(epoch)+'.png')
         # save params
         np.savez(args.results_dir + '/disc_params'+str(epoch)+'.npz',*[p.get_value() for p in disc_params])

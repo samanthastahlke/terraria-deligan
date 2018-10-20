@@ -6,9 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
-# Raw data
+# Raw data and training results
 Sprites/
 Dataset/
+results/
 
 # Distribution / packaging
 .Python

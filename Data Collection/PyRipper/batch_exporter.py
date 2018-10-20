@@ -215,7 +215,7 @@ for bcid in bcid_list:
 
 for batch in batch_list:
 
-    shuffle(exportdata[batch]['data'], exportdata[batch]['labels'], random_state=0)
+    shuffle(exportdata[batch]['data'], exportdata[batch]['labels'], random_state=42)
 
     print('Batch ', batch, ' data array shape ', np.shape(exportdata[batch]['data']),
           ', label array shape ', np.shape(exportdata[batch]['labels']))
