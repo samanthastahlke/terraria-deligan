@@ -18,6 +18,12 @@ import terraria_data
 import params
 import os
 
+tdg_load = True
+tdg_train = False
+
+load_gen_param = 'gen_params1180.npz'
+load_disc_param = 'disc_params1180.npz'
+
 # settings
 parser = argparse.ArgumentParser()
 parser.add_argument('--seed', default=1)
@@ -26,6 +32,7 @@ parser.add_argument('--unlabeled_weight', type=float, default=1.)
 parser.add_argument('--learning_rate', type=float, default=0.0003)
 parser.add_argument('--data_dir', type=str, default=os.path.join(os.getcwd(), os.pardir, 'Data Collection\\Dataset\\'))
 parser.add_argument('--results_dir', type=str, default=os.getcwd()+'\\results\\')
+parser.add_argument('--load_dir', type=str, default=os.getcwd()+'\\load\\')
 parser.add_argument('--count', type=int, default=400)
 args = parser.parse_args()
 print(args)
@@ -38,42 +45,47 @@ train_results_dir = os.path.join(args.results_dir, 'train\\')
 if not os.path.exists(train_results_dir):
     os.makedirs(train_results_dir)
 
+load_results_dir = os.path.join(args.results_dir, 'load\\')
+
+if not os.path.exists(load_results_dir):
+    os.makedirs(load_results_dir)
+
 # fixed random seeds
 rng = np.random.RandomState(args.seed)
 theano_rng = MRG_RandomStreams(rng.randint(2 ** 15))
 lasagne.random.set_rng(np.random.RandomState(rng.randint(2 ** 15)))
 
 # load Terraria dataset
-print("Loading and sampling Terraria data...")
-trainx, trainy = terraria_data.load(args.data_dir, subset='train')
-ind = rng.permutation(trainx.shape[0])
-trainx = trainx[ind]
-trainy = trainy[ind]
-trainx = trainx[:2000]
-trainy = trainy[:2000]
-trainx_unl = trainx.copy()
-testx, testy = terraria_data.load(args.data_dir, subset='test')
-print('Train data shape: ', trainx.shape, 'Train label shape: ', trainy.shape, 'Test data shape: ', testx.shape, 'Test label shape: ', testy.shape, 'Unlabeled shape: ', trainx_unl.shape)
-#print(trainy, testy)
-# Compatibility - change division to integer division
-nr_batches_train = int(trainx.shape[0]//args.batch_size)
-nr_batches_test = int(testx.shape[0]//args.batch_size)
-print('Train batches: ', nr_batches_train, 'Test batches: ', nr_batches_test)
-print("Loaded and sampled Terraria data.")
+if tdg_train:
+    print("Loading and sampling Terraria data...")
+    trainx, trainy = terraria_data.load(args.data_dir, subset='train')
+    ind = rng.permutation(trainx.shape[0])
+    trainx = trainx[ind]
+    trainy = trainy[ind]
+    trainx = trainx[:2000]
+    trainy = trainy[:2000]
+    trainx_unl = trainx.copy()
+    testx, testy = terraria_data.load(args.data_dir, subset='test')
+    print('Train data shape: ', trainx.shape, 'Train label shape: ', trainy.shape, 'Test data shape: ', testx.shape, 'Test label shape: ', testy.shape, 'Unlabeled shape: ', trainx_unl.shape)
+    #print(trainy, testy)
+    # Compatibility - change division to integer division
+    nr_batches_train = int(trainx.shape[0]//args.batch_size)
+    nr_batches_test = int(testx.shape[0]//args.batch_size)
+    print('Train batches: ', nr_batches_train, 'Test batches: ', nr_batches_test)
+    print("Loaded and sampled Terraria data.")
 
 # specify generative model
 print("Constructing generator...")
+print("Building latent space mixture model...")
 noise_dim = (args.batch_size, 100)
 Z = th.shared(value=rng.uniform(-1.0,1.0,noise_dim).astype(np.float32), name='Z', borrow=True)
 sig = th.shared(value=rng.uniform(-0.2, 0.2,noise_dim).astype(np.float32), name='sig', borrow=True)
 noise = theano_rng.normal(size=noise_dim)
-#one_hot = T.eye(args.batch_size)  								# Uncomment this line for training/testing MoE-GAN
-#noise = T.concatenate([noise, one_hot], axis=1) 						# Uncomment this line for training/testing MoE-GAN
-#gen_layers = [ll.InputLayer(shape=(args.batch_size,100 + args.batch_size), input_var=noise)] 	# Uncomment this line for training/testing MoE-GAN
+print(noise)
+sys.exit()
+print("Adding layers to generator...")
 gen_layers = [ll.InputLayer(shape=noise_dim, input_var=noise)]
-gen_layers.append(nn.MoGLayer(gen_layers[-1], noise_dim=noise_dim, z=Z,sig=sig))  # Comment this line for training/testing baseline GAN models like GAN, GAN++, MoE-GAN
-#gen_layers.append(ll.DenseLayer(gen_layers[-1], num_units=args.batch_size, W=Normal(0.05), nonlinearity=nn.relu)) # Uncomment this line when testing GAN++
-print("Adding layers to generator...") 
+gen_layers.append(nn.MoGLayer(gen_layers[-1], noise_dim=noise_dim, z=Z,sig=sig))  
 gen_layers.append(nn.batch_norm(ll.DenseLayer(gen_layers[-1], num_units=4*4*512, W=Normal(0.05), nonlinearity=nn.relu), g=None))
 gen_layers.append(ll.ReshapeLayer(gen_layers[-1], (args.batch_size,512,4,4)))
 gen_layers.append(nn.batch_norm(nn.Deconv2DLayer(gen_layers[-1], (args.batch_size,256,8,8), (5,5), W=Normal(0.05), nonlinearity=nn.relu), g=None))
@@ -116,14 +128,13 @@ output_before_softmax_lab = ll.get_output(disc_layers[-1], x_lab, deterministic=
 output_before_softmax_unl = ll.get_output(disc_layers[-1], x_unl, deterministic=False)
 output_before_softmax_gen = ll.get_output(disc_layers[-1], gen_dat, deterministic=False)
 sig1 = gen_layers[1].get_sig()     # Comment this line for training/testing baseline GAN models
-#sig1 = sig                        # Uncomment this line for training/testing baseline GAN models
 sigloss =T.mean((1-sig1)*(1-sig1))*.05
 l_lab = output_before_softmax_lab[T.arange(args.batch_size),labels]
 l_unl = nn.log_sum_exp(output_before_softmax_unl)
 l_gen = nn.log_sum_exp(output_before_softmax_gen)
 loss_lab = -T.mean(l_lab) + T.mean(T.mean(nn.log_sum_exp(output_before_softmax_lab)))
 loss_unl = -0.5*T.mean(l_unl) + 0.5*T.mean(T.nnet.softplus(l_unl)) + 0.5*T.mean(T.nnet.softplus(l_gen))
-
+loss_gen = -T.mean(T.nnet.softplus(l_gen))
 train_err = T.mean(T.neq(T.argmax(output_before_softmax_lab,axis=1),labels))
 
 # test error
@@ -132,55 +143,63 @@ test_err = T.mean(T.neq(T.argmax(output_before_softmax,axis=1),labels))
 print("Finished setting up cost functions.")
 
 # Theano functions for training the disc net
-print("Setting up Theano training...")
-lr = T.scalar()
+print("Setting up Theano...")
 disc_params = ll.get_all_params(disc_layers, trainable=True)
-disc_param_updates = nn.adam_updates(disc_params, loss_lab + args.unlabeled_weight*loss_unl, lr=lr, mom1=0.5)
-disc_param_avg = [th.shared(np.cast[th.config.floatX](0.*p.get_value())) for p in disc_params]
 print("Set up discriminator parameters...")
-disc_avg_updates = [(a,a+0.0001*(p-a)) for p,a in zip(disc_params,disc_param_avg)]
-print("Set up discriminator updates...")
-disc_avg_givens = [(p,a) for p,a in zip(disc_params,disc_param_avg)]
-print("Set up discriminator averages...")
-init_param = th.function(inputs=[x_lab], outputs=None, updates=init_updates)
-print("Initialized discriminator updates...")
-train_batch_disc = th.function(inputs=[x_lab,labels,x_unl,lr], outputs=[loss_lab, loss_unl, train_err], updates=disc_param_updates+disc_avg_updates)
-print("Initialized discriminator training batch...")
-test_batch = th.function(inputs=[x_lab,labels], outputs=test_err, givens=disc_avg_givens)
-print("Initialized discriminator test batch...")
 samplefun = th.function(inputs=[],outputs=gen_dat)
-print("Set up Theano training for discriminator. Setting up for generator...")
-# Theano functions for training the gen net
-loss_gen = -T.mean(T.nnet.softplus(l_gen))
+print("Set up sampling function...")
 gen_params = ll.get_all_params(gen_layers[-1], trainable=True)
-gen_param_updates = nn.adam_updates(gen_params, loss_gen, lr=lr, mom1=0.5)
 print("Set up generator parameters...")
-train_batch_gen = th.function(inputs=[lr], outputs=[sig1,sigloss,loss_gen], updates=gen_param_updates)
-print("Set up Theano training functions.")
 
-#Uncomment this block for generating GAN samples from given model
-'''
-f = np.load(args.results_dir + '/disc_params1180.npz')
-param_values = [f['arr_%d' % i] for i in range(len(f.files))]
-for i,p in enumerate(disc_params):
-    p.set_value(param_values[i])
-print("disc_params fed")
-f = np.load(args.results_dir + '/gen_params1180.npz')
-param_values = [f['arr_%d' % i] for i in range(len(f.files))]
-for i,p in enumerate(gen_params):
-    p.set_value(param_values[i])
-print("gen_params fed")
-samples=[]
-for i in range(50):
+if tdg_train:
+    lr = T.scalar()
+    disc_param_updates = nn.adam_updates(disc_params, loss_lab + args.unlabeled_weight*loss_unl, lr=lr, mom1=0.5)
+    disc_param_avg = [th.shared(np.cast[th.config.floatX](0.*p.get_value())) for p in disc_params]
+    disc_avg_updates = [(a,a+0.0001*(p-a)) for p,a in zip(disc_params,disc_param_avg)]
+    disc_avg_givens = [(p,a) for p,a in zip(disc_params,disc_param_avg)]
+    init_param = th.function(inputs=[x_lab], outputs=None, updates=init_updates)
+    print("Initialized discriminator updates...")
+    train_batch_disc = th.function(inputs=[x_lab,labels,x_unl,lr], outputs=[loss_lab, loss_unl, train_err], updates=disc_param_updates+disc_avg_updates)
+    print("Initialized discriminator training batch...")
+    test_batch = th .function(inputs=[x_lab,labels], outputs=test_err, givens=disc_avg_givens)
+    print("Initialized discriminator test batch...")
+    print("Set up Theano for discriminator. Setting up for generator...")
+    gen_param_updates = nn.adam_updates(gen_params, loss_gen, lr=lr, mom1=0.5)
+    print("Set up generator parameters...")
+    train_batch_gen = th.function(inputs=[lr], outputs=[sig1,sigloss,loss_gen], updates=gen_param_updates)
+    print("Set up Theano training functions.")
+
+#Generating GAN samples from a previously trained model
+if tdg_load:
+    f = np.load(args.load_dir + load_disc_param)
+    param_values = [f['arr_%d' % i] for i in range(len(f.files))]
+    for i,p in enumerate(disc_params):
+        p.set_value(param_values[i])
+    print("disc_params fed")
+    f = np.load(args.load_dir + load_gen_param)
+    param_values = [f['arr_%d' % i] for i in range(len(f.files))]
+    for i,p in enumerate(gen_params):
+        p.set_value(param_values[i])
+    print("gen_params fed")
+    '''
+    samples=[]
+    for i in range(50):
+        sample_x = samplefun()
+        samples.append(sample_x)
+    samples = np.concatenate(samples,0)
+    
+    print(samples)
+    #sys.exit()
+    np.save(args.results_dir + '/samples50k.npy', samples)
+    '''
     sample_x = samplefun()
-    samples.append(sample_x)
-samples = np.concatenate(samples,0)
-print(samples)
-#sys.exit()
-np.save(args.results_dir + '/samples50k.npy', samples)
-print("samples saved")
-sys.exit()
-'''
+    img_bhwc = np.transpose(sample_x[:100, ], (0, 2, 3, 1))
+    img_tile = plotting.img_tile(img_bhwc, aspect_ratio=1.0, border_color=1.0, stretch=True)
+    img = plotting.plot_img(img_tile, title='Terraria samples')
+    plotting.plt.savefig(load_results_dir + '/dg_terraria_sample_minibatch.png')
+    print("samples saved")
+    sys.exit()
+
 
 
 inds = rng.permutation(trainx.shape[0])
