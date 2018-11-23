@@ -10,6 +10,7 @@ __pycache__/
 Sprites/
 Dataset/
 results/
+load/
 
 # Distribution / packaging
 .Python

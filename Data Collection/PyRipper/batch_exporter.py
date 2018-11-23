@@ -96,7 +96,7 @@ def add_image(img, bcid, ncid):
 
     if(bcid_sample_indices[bcid] < len(bcid_test_sample_set[bcid])
             and bcid_process_totals[bcid] == bcid_test_sample_set[bcid][bcid_sample_indices[bcid]]):
-        index_label =  'test'
+        index_label = 'test'
         bcid_sample_indices[bcid] += 1
 
     index = bcid_indices[index_label]

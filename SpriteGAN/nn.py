@@ -173,13 +173,28 @@ class MinibatchLayer(lasagne.layers.Layer):
 class MoGLayer(lasagne.layers.Layer):
     def __init__(self, incoming, noise_dim, z=lasagne.init.Normal(0.05), sig=lasagne.init.Constant(-1.), **kwargs):
         super(MoGLayer, self).__init__(incoming, **kwargs)
-        self.z = self.add_param(z, noise_dim,name="z")
+        self.z = self.add_param(z, noise_dim, name="z")
         self.sig = self.add_param(sig, noise_dim, name="sig")
-        
+        #self.sample_z = th.shared(value=np.zeros((100, 100)).astype(np.float32), name='sample_z', borrow=False)
+        #self.sample_sig = th.shared(value=np.zeros((100, 100)).astype(np.float32), name='sample_sig', borrow=False)
+
     def get_output_shape_for(self, input_shape):
         return input_shape
 
     def get_output_for(self, input, **kwargs):
+        '''
+        test_sample = True
+
+        if test_sample:
+            mog_index = 0
+            z_val = self.z.get_value(borrow=False)
+            sig_val = self.sig.get_value(borrow=False)
+            #self.sample_z.set_value(np.vstack([z_val[mog_index] for i in range(100)]).astype(np.float32))
+            #self.sample_sig.set_value(np.vstack([sig_val[mog_index] for i in range(100)]).astype(np.float32))
+            self.sample_z.set_value(z_val.astype(np.float32))
+            self.sample_sig.set_value(sig_val.astype(np.float32))
+            return self.sample_z + input*self.sample_sig
+        '''
         return self.z + input*self.sig
 
     def get_sig(self):
