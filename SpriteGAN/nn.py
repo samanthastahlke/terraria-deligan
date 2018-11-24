@@ -183,20 +183,28 @@ class MoGLayer(lasagne.layers.Layer):
         return input_shape
 
     def get_output_for(self, input, **kwargs):
+        #Comment the entire block before the final return statement if training!
         #Uncomment this block when loading a previous model for manipulating minibatch generation.
-
         test_sample = True
 
         if test_sample:
-            mog_index = 0
             z_val = self.z.get_value(borrow=False)
             sig_val = self.sig.get_value(borrow=False)
-            #self.sample_z.set_value(np.vstack([z_val[mog_index] for i in range(100)]).astype(np.float32))
-            #self.sample_sig.set_value(np.vstack([sig_val[mog_index] for i in range(100)]).astype(np.float32))
+
+            sig_list_mul = [-50, -20, -10, -5, 0, 0, 5, 10, 20, 50]
+            sig_val_base = []
+
+            for i in range(10):
+                sig_val_base.append(np.copy(sig_val[i * 10]))
+
+            for i in range(100):
+                z_val[i] = np.copy(z_val[i // 10 * 10])
+                sig_val[i] = np.copy(sig_list_mul[i % 10] * sig_val_base[i // 10])
+
             self.sample_z.set_value(z_val.astype(np.float32))
             self.sample_sig.set_value(sig_val.astype(np.float32))
-            return input * self.sample_z
-
+            return self.sample_z + self.sample_sig
+        #(Block end)
         return self.z + input*self.sig
 
     def get_sig(self):

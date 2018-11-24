@@ -1,0 +1,44 @@
+Used Coarse + noted epochs
+
+Row-Interp
+- First row of the image interpolates between z-values of the previous first and last elements
+
+z_val = self.z.get_value(borrow=False)
+sig_val = self.sig.get_value(borrow=False)
+
+z_val_first = np.copy(z_val[0])
+z_val_last = np.copy(z_val[9])
+interp_interval = 1.0/9.0
+
+for i in range(10):
+    t_val = float(i) * interp_interval
+    z_val[i] = (1.0 - t_val) * np.copy(z_val_first) + t_val * np.copy(z_val_last)
+
+self.sample_z.set_value(z_val.astype(np.float32))
+self.sample_sig.set_value(sig_val.astype(np.float32))
+
+return self.sample_z
+
+Row-Interp All
+- Procedure above repeated across all rows
+
+z_val = self.z.get_value(borrow=False)
+sig_val = self.sig.get_value(borrow=False)
+
+z_val_first = []
+z_val_last = []
+
+for i in range(10):
+    z_val_first.append(np.copy(z_val[10 * i]))
+    z_val_last.append(np.copy(z_val[10 * i + 9]))
+
+interp_interval = 1.0/9.0
+
+for i in range(100):
+    t_val = float(i % 10) * interp_interval
+    z_val[i] = (1.0 - t_val) * np.copy(z_val_first[i // 10]) + t_val * np.copy(z_val_last[i // 10])
+
+self.sample_z.set_value(z_val.astype(np.float32))
+self.sample_sig.set_value(sig_val.astype(np.float32))
+
+return self.sample_z

@@ -22,10 +22,11 @@ import os
 tdg_load = True
 tdg_train = False
 
-load_gen_param = 'gen_params1180.npz'
-load_disc_param = 'disc_params1180.npz'
+load_gen_param = 'gen_params'
+load_disc_param = 'disc_params'
 
-param_list = ['280, 580, 880, 1180']
+param_flist = ['280', '580', '880', '1180']
+param_dict = {}
 
 labels_fine = False
 num_labels_fine = 20
@@ -39,7 +40,7 @@ parser.add_argument('--unlabeled_weight', type=float, default=1.)
 parser.add_argument('--learning_rate', type=float, default=0.0003)
 parser.add_argument('--data_dir', type=str, default=os.path.join(os.getcwd(), os.pardir, 'Data Collection\\Dataset\\'))
 parser.add_argument('--results_dir', type=str, default=os.getcwd() + '\\results\\')
-parser.add_argument('--load_dir', type=str, default=os.getcwd() + '\\load\\')
+parser.add_argument('--load_dir', type=str, default=os.getcwd() + '\\load\\bcid\\')
 parser.add_argument('--count', type=int, default=400)
 args = parser.parse_args()
 
@@ -54,7 +55,7 @@ train_results_dir = os.path.join(args.results_dir, 'train\\')
 if not os.path.exists(train_results_dir):
     os.makedirs(train_results_dir)
 
-load_results_dir = os.path.join(args.results_dir, 'paper\\input-switch\\')
+load_results_dir = os.path.join(args.results_dir, 'paper\\epoch-variation\\')
 
 if not os.path.exists(load_results_dir):
     os.makedirs(load_results_dir)
@@ -207,32 +208,25 @@ if tdg_load:
     gen_params = ll.get_all_params(gen_layers[-1], trainable=True)
     print("Set up generator parameters...")
 
-    f = np.load(args.load_dir + load_disc_param)
-    param_values = [f['arr_%d' % i] for i in range(len(f.files))]
-    for i, p in enumerate(disc_params):
-        p.set_value(param_values[i])
-    print("Loaded discriminator parameters.")
+    #f = np.load(args.load_dir + load_disc_param + '1180.npz')
+    #param_values = [f['arr_%d' % i] for i in range(len(f.files))]
+    #for i, p in enumerate(disc_params):
+    #    p.set_value(param_values[i])
+    #print("Loaded discriminator parameters.")
 
-    f = np.load(args.load_dir + load_gen_param)
-    param_values = [f['arr_%d' % i] for i in range(len(f.files))]
-    #For experimentation - loading another model variant for recombination.
-    fprime = np.load(args.load_dir + 'gen_params800.npz')
-    param_values_prime = [fprime['arr_%d' % i] for i in range(len(fprime.files))]
-    for i, p in enumerate(gen_params):
-        p.set_value(param_values[i])
-    print("Loaded generator parameters.")
+    for fepoch in param_flist:
+        f = np.load(args.load_dir + load_gen_param + fepoch + '.npz')
+        param_dict[fepoch] = [f['arr_%d' % i] for i in range(len(f.files))]
 
-    sample_input = th.tensor.zeros(noise_dim)
+        for i, p in enumerate(gen_params):
+            p.set_value(param_dict[fepoch][i])
 
-    for i in range(2):
-        print("Setting up sampling...")
+        print("Loaded generator parameters.")
+
         noise = theano_rng.normal(size=noise_dim)
+        sample_input = th.tensor.zeros(noise_dim)
 
-        if i == 1:
-            sample_input = th.tensor.ones(noise_dim)
-
-        print(noise.eval())
-        print(sample_input.eval())
+        print("Setting up sampling...")
         gen_layers[0].input_var = sample_input
         gen_dat = ll.get_output(gen_layers[-1], deterministic=False)
         samplefun = th.function(inputs=[], outputs=gen_dat)
@@ -242,8 +236,9 @@ if tdg_load:
         img_bhwc = np.transpose(sample_x[:100, ], (0, 2, 3, 1))
         img_tile = plotting.img_tile(img_bhwc, aspect_ratio=1.0, border_color=1.0, stretch=True)
         img = plotting.plot_img(img_tile, title='Terraria samples')
-        plotting.plt.savefig(load_results_dir + '/dg_terraria_sample_minibatch' + '_input_switch_' + str(i) + '.png')
+        plotting.plt.savefig(load_results_dir + '/dg_terraria_sample_minibatch_sigma_rows_all_' + fepoch + '.png')
         print("Saved samples to ", load_results_dir)
+
     sys.exit()
 
 inds = rng.permutation(trainx.shape[0])

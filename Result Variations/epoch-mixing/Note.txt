@@ -1,0 +1,14 @@
+Used Coarse + noted epochs
+- Used z value (raw mean, no sigma) for all
+
+Average
+- Equally weighted of all noted epochs
+
+Sum
+- Added all noted epochs
+
+XSum
+- All four epochs at 0.5 weight (2.0 total)
+
+Interp
+- Interpolated towards 1180 from 880 at given t-value
