@@ -175,14 +175,16 @@ class MoGLayer(lasagne.layers.Layer):
         super(MoGLayer, self).__init__(incoming, **kwargs)
         self.z = self.add_param(z, noise_dim, name="z")
         self.sig = self.add_param(sig, noise_dim, name="sig")
-        #self.sample_z = th.shared(value=np.zeros((100, 100)).astype(np.float32), name='sample_z', borrow=False)
-        #self.sample_sig = th.shared(value=np.zeros((100, 100)).astype(np.float32), name='sample_sig', borrow=False)
+        #Uncomment these lines when loading a previous model for manipulating minibatch generation.
+        self.sample_z = th.shared(value=np.zeros((100, 100)).astype(np.float32), name='sample_z', borrow=False)
+        self.sample_sig = th.shared(value=np.zeros((100, 100)).astype(np.float32), name='sample_sig', borrow=False)
 
     def get_output_shape_for(self, input_shape):
         return input_shape
 
     def get_output_for(self, input, **kwargs):
-        '''
+        #Uncomment this block when loading a previous model for manipulating minibatch generation.
+
         test_sample = True
 
         if test_sample:
@@ -193,8 +195,8 @@ class MoGLayer(lasagne.layers.Layer):
             #self.sample_sig.set_value(np.vstack([sig_val[mog_index] for i in range(100)]).astype(np.float32))
             self.sample_z.set_value(z_val.astype(np.float32))
             self.sample_sig.set_value(sig_val.astype(np.float32))
-            return self.sample_z + input*self.sample_sig
-        '''
+            return input * self.sample_z
+
         return self.z + input*self.sig
 
     def get_sig(self):

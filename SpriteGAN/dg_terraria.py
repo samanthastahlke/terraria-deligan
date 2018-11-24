@@ -19,13 +19,15 @@ import params
 import os
 
 #Settings.
-tdg_load = False
-tdg_train = True
+tdg_load = True
+tdg_train = False
 
 load_gen_param = 'gen_params1180.npz'
 load_disc_param = 'disc_params1180.npz'
 
-labels_fine = True
+param_list = ['280, 580, 880, 1180']
+
+labels_fine = False
 num_labels_fine = 20
 num_labels_coarse = 4
 num_disc_class_units = num_labels_fine if labels_fine else num_labels_coarse
@@ -52,7 +54,7 @@ train_results_dir = os.path.join(args.results_dir, 'train\\')
 if not os.path.exists(train_results_dir):
     os.makedirs(train_results_dir)
 
-load_results_dir = os.path.join(args.results_dir, 'load\\')
+load_results_dir = os.path.join(args.results_dir, 'paper\\input-switch\\')
 
 if not os.path.exists(load_results_dir):
     os.makedirs(load_results_dir)
@@ -220,19 +222,28 @@ if tdg_load:
         p.set_value(param_values[i])
     print("Loaded generator parameters.")
 
-    print("Setting up sampling...")
-    noise = theano_rng.normal(size=noise_dim)
-    gen_layers[0].input_var = noise
-    gen_dat = ll.get_output(gen_layers[-1], deterministic=False)
-    samplefun = th.function(inputs=[], outputs=gen_dat)
+    sample_input = th.tensor.zeros(noise_dim)
 
-    print("Generating samples...")
-    sample_x = samplefun()
-    img_bhwc = np.transpose(sample_x[:100, ], (0, 2, 3, 1))
-    img_tile = plotting.img_tile(img_bhwc, aspect_ratio=1.0, border_color=1.0, stretch=True)
-    img = plotting.plot_img(img_tile, title='Terraria samples')
-    plotting.plt.savefig(load_results_dir + '/dg_terraria_sample_minibatch' + '_TESTING_NAME' + '.png')
-    print("Saved samples to ", load_results_dir)
+    for i in range(2):
+        print("Setting up sampling...")
+        noise = theano_rng.normal(size=noise_dim)
+
+        if i == 1:
+            sample_input = th.tensor.ones(noise_dim)
+
+        print(noise.eval())
+        print(sample_input.eval())
+        gen_layers[0].input_var = sample_input
+        gen_dat = ll.get_output(gen_layers[-1], deterministic=False)
+        samplefun = th.function(inputs=[], outputs=gen_dat)
+
+        print("Generating samples...")
+        sample_x = samplefun()
+        img_bhwc = np.transpose(sample_x[:100, ], (0, 2, 3, 1))
+        img_tile = plotting.img_tile(img_bhwc, aspect_ratio=1.0, border_color=1.0, stretch=True)
+        img = plotting.plot_img(img_tile, title='Terraria samples')
+        plotting.plt.savefig(load_results_dir + '/dg_terraria_sample_minibatch' + '_input_switch_' + str(i) + '.png')
+        print("Saved samples to ", load_results_dir)
     sys.exit()
 
 inds = rng.permutation(trainx.shape[0])
