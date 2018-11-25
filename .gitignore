@@ -8,9 +8,9 @@ __pycache__/
 
 # Raw data and training results
 Sprites/
-Dataset/
 results/
 load/
+cifar-10-batches-py/
 
 # Distribution / packaging
 .Python
