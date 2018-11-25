@@ -254,6 +254,7 @@ for j in range(10):
 txs = np.concatenate(txs, axis=0)
 tys = np.concatenate(tys, axis=0)
 '''
+#(Block End)
 a = []
 
 #Training.
@@ -274,6 +275,7 @@ for epoch in range(1200):
     trainy = np.concatenate(trainy, axis=0)
     trainx_unl = trainx_unl[rng.permutation(trainx_unl.shape[0])]
     '''
+    #(Block End)
     if epoch == 0:
         init_param(trainx[:500])  # data based initialization
 

@@ -185,6 +185,7 @@ class MoGLayer(lasagne.layers.Layer):
     def get_output_for(self, input, **kwargs):
         #Comment the entire block before the final return statement if training!
         #Uncomment this block when loading a previous model for manipulating minibatch generation.
+        #'''
         test_sample = True
 
         if test_sample:
@@ -205,6 +206,7 @@ class MoGLayer(lasagne.layers.Layer):
             self.sample_sig.set_value(sig_val.astype(np.float32))
             return self.sample_z + self.sample_sig
         #(Block end)
+        #'''
         return self.z + input*self.sig
 
     def get_sig(self):
